@@ -1,7 +1,6 @@
 import duckdb
 import os
 
-
 def create_agregate_tables():
     db_path = "data/duckdb/mobility_analysis.duckdb"
     db_dir = os.path.dirname(db_path)
