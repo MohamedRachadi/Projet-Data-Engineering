@@ -129,3 +129,5 @@ def consolidate_station_statement_data():
     }, inplace=True)
 
     con.execute("INSERT OR REPLACE INTO CONSOLIDATE_STATION_STATEMENT SELECT * FROM paris_station_statement_data_df;")
+
+# Consolidate station statement data for Nantes
