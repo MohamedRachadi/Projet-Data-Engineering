@@ -4,26 +4,46 @@ from datetime import datetime, date
 import duckdb
 import pandas as pd
 
+import os
+
 today_date = datetime.now().strftime("%Y-%m-%d")
 PARIS_CITY_CODE = 1
 
+import os
+
+
 def create_consolidate_tables():
-    con = duckdb.connect(database = "data/duckdb/mobility_analysis.duckdb", read_only = False)
-    with open("data/sql_statements/create_consolidate_tables.sql") as fd:
+    db_path = "data/duckdb/mobility_analysis.duckdb"
+    db_dir = os.path.dirname(db_path)
+
+    # Ensure the directory exists
+    if not os.path.exists(db_dir):
+        os.makedirs(db_dir)
+
+    con = duckdb.connect(database=db_path, read_only=False)
+
+    sql_file_path = "C:/Users/HP/Downloads/polytech-de-101-2024-tp-subject-main/polytech-de-101-2024-tp-subject-main/data/sql_statements/create_consolidate_tables.sql"
+
+    # Check if the file exists and is readable
+    if not os.path.isfile(sql_file_path):
+        raise FileNotFoundError(f"SQL file not found: {sql_file_path}")
+
+    with open(sql_file_path, "r") as fd:
         statements = fd.read()
         for statement in statements.split(";"):
-            print(statement)
-            con.execute(statement)
+            if statement.strip():
+                print(statement)
+                con.execute(statement)
+
 
 def consolidate_station_data():
-
-    con = duckdb.connect(database = "data/duckdb/mobility_analysis.duckdb", read_only = False)
+    con = duckdb.connect(database="data/duckdb/mobility_analysis.duckdb", read_only=False)
     data = {}
-    
+
     # Consolidation logic for Paris Bicycle data
     with open(f"data/raw_data/{today_date}/paris_realtime_bicycle_data.json") as fd:
         data = json.load(fd)
-    
+
     paris_raw_data_df = pd.json_normalize(data)
     paris_raw_data_df["id"] = paris_raw_data_df["stationcode"].apply(lambda x: f"{PARIS_CITY_CODE}-{x}")
     paris_raw_data_df["address"] = None
@@ -57,8 +77,7 @@ def consolidate_station_data():
 
 
 def consolidate_city_data():
-
-    con = duckdb.connect(database = "data/duckdb/mobility_analysis.duckdb", read_only = False)
+    con = duckdb.connect(database="data/duckdb/mobility_analysis.duckdb", read_only=False)
     data = {}
 
     with open(f"data/raw_data/{today_date}/paris_realtime_bicycle_data.json") as fd:
@@ -76,17 +95,16 @@ def consolidate_city_data():
         "code_insee_commune": "id",
         "nom_arrondissement_communes": "name"
     }, inplace=True)
-    city_data_df.drop_duplicates(inplace = True)
+    city_data_df.drop_duplicates(inplace=True)
 
     city_data_df["created_date"] = date.today()
     print(city_data_df)
-    
+
     con.execute("INSERT OR REPLACE INTO CONSOLIDATE_CITY SELECT * FROM city_data_df;")
 
 
 def consolidate_station_statement_data():
-
-    con = duckdb.connect(database = "data/duckdb/mobility_analysis.duckdb", read_only = False)
+    con = duckdb.connect(database="data/duckdb/mobility_analysis.duckdb", read_only=False)
     data = {}
 
     # Consolidate station statement data for Paris
@@ -103,7 +121,7 @@ def consolidate_station_statement_data():
         "duedate",
         "created_date"
     ]]
-    
+
     paris_station_statement_data_df.rename(columns={
         "numdocksavailable": "bicycle_docks_available",
         "numbikesavailable": "bicycle_available",
