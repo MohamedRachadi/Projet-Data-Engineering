@@ -1,19 +1,33 @@
-
 import duckdb
-
+import os
 
 def create_agregate_tables():
-    con = duckdb.connect(database = "data/duckdb/mobility_analysis.duckdb", read_only = False)
-    with open("data/sql_statements/create_agregate_tables.sql") as fd:
+    db_path = "data/duckdb/mobility_analysis.duckdb"
+    db_dir = os.path.dirname(db_path)
+
+    # Ensure the directory exists
+    if not os.path.exists(db_dir):
+        os.makedirs(db_dir)
+
+    con = duckdb.connect(database=db_path, read_only=False)
+
+    sql_file_path = "C:/Users/HP/Downloads/polytech-de-101-2024-tp-subject-main/polytech-de-101-2024-tp-subject-main/data/sql_statements/create_agregate_tables.sql"
+
+    # Check if the file exists and is readable
+    if not os.path.isfile(sql_file_path):
+        raise FileNotFoundError(f"SQL file not found: {sql_file_path}")
+
+    with open(sql_file_path, "r") as fd:
         statements = fd.read()
         for statement in statements.split(";"):
-            print(statement)
-            con.execute(statement)
+            if statement.strip():
+                print(statement)
+                con.execute(statement)
 
 
 def agregate_dim_station():
-    con = duckdb.connect(database = "data/duckdb/mobility_analysis.duckdb", read_only = False)
-    
+    con = duckdb.connect(database="data/duckdb/mobility_analysis.duckdb", read_only=False)
+
     sql_statement = """
     INSERT OR REPLACE INTO DIM_STATION
     SELECT 
@@ -33,8 +47,8 @@ def agregate_dim_station():
 
 
 def agregate_dim_city():
-    con = duckdb.connect(database = "data/duckdb/mobility_analysis.duckdb", read_only = False)
-    
+    con = duckdb.connect(database="data/duckdb/mobility_analysis.duckdb", read_only=False)
+
     sql_statement = """
     INSERT OR REPLACE INTO DIM_CITY
     SELECT 
@@ -49,7 +63,7 @@ def agregate_dim_city():
 
 
 def agregate_fact_station_statements():
-    con = duckdb.connect(database = "data/duckdb/mobility_analysis.duckdb", read_only = False)
+    con = duckdb.connect(database="data/duckdb/mobility_analysis.duckdb", read_only=False)
 
     # First we agregate the Paris station statement data
     sql_statement = """
@@ -63,5 +77,5 @@ def agregate_fact_station_statements():
         AND CONSOLIDATE_STATION.CREATED_DATE = (SELECT MAX(CREATED_DATE) FROM CONSOLIDATE_STATION)
         AND cc.CREATED_DATE = (SELECT MAX(CREATED_DATE) FROM CONSOLIDATE_CITY);
     """
-    
+
     con.execute(sql_statement)
