@@ -3,6 +3,9 @@ from datetime import datetime, date
 
 import duckdb
 import pandas as pd
+import requests
+import time
+
 
 
 
@@ -22,11 +25,11 @@ def consolidate_station_data():
 
     con = duckdb.connect(database = "data/duckdb/mobility_analysis.duckdb", read_only = False)
     data = {}
-    
+
     # Consolidation logic for Paris Bicycle data
     with open(f"data/raw_data/{today_date}/paris_realtime_bicycle_data.json") as fd:
         data = json.load(fd)
-    
+
     paris_raw_data_df = pd.json_normalize(data)
     paris_raw_data_df["id"] = paris_raw_data_df["stationcode"].apply(lambda x: f"{PARIS_CITY_CODE}-{x}")
     paris_raw_data_df["address"] = None
@@ -83,7 +86,7 @@ def consolidate_city_data():
 
     city_data_df["created_date"] = date.today()
     print(city_data_df)
-    
+
     con.execute("INSERT OR REPLACE INTO CONSOLIDATE_CITY SELECT * FROM city_data_df;")
 
 ## Paris
@@ -106,7 +109,7 @@ def consolidate_station_statement_data():
         "duedate",
         "created_date"
     ]]
-    
+
     paris_station_statement_data_df.rename(columns={
         "numdocksavailable": "bicycle_docks_available",
         "numbikesavailable": "bicycle_available",
@@ -115,25 +118,64 @@ def consolidate_station_statement_data():
 
     con.execute("INSERT OR REPLACE INTO CONSOLIDATE_STATION_STATEMENT SELECT * FROM paris_station_statement_data_df;")
 
+#################################################################################
+
+##NANTES
+
+def get_city_code_from_coordinates(lat, lon):
+    base_url = "https://nominatim.openstreetmap.org/reverse"
+    params = {
+        'lat': lat,
+        'lon': lon,
+        'format': 'json',
+        'addressdetails': 1,
+        'countrycodes': 'fr'
+    }
+    response = requests.get(base_url, params=params)
+    if response.status_code == 200:
+        data = response.json()
+        if 'address' in data and 'city' in data['address']:
+            return data['address'].get('city', None)
+    return None
+
+
 
 
 
 def consolidate_nantes_station_data():
     # Connect to the DuckDB database
     con = duckdb.connect(database="data/duckdb/mobility_analysis.duckdb", read_only=False)
-    
+
     # Load the Nantes data from the JSON file
     today_date = date.today().strftime("%Y-%m-%d")
     with open(f"data/raw_data/{today_date}/nantes_realtime_bicycle_data.json") as fd:
         data = json.load(fd)
-    
+
+
     # Normalize JSON data into a Pandas DataFrame
     nantes_raw_data_df = pd.json_normalize(data)
-    
+
     # Add or modify columns to match the CONSOLIDATE_STATION table structure
     nantes_raw_data_df["id"] = nantes_raw_data_df["number"].apply(lambda x: f"{NANTES_CITY_CODE}-{x}")
     nantes_raw_data_df["created_date"] = date.today()
-    nantes_raw_data_df["city_code"] = 0  # This can be updated with actual city code if available
+    nantes_raw_data_df["city_code"] = 0  # Set this to actual city code if needed
+
+     # Update call to use latitude and longitude if address doesn't work
+    nantes_raw_data_df['city_code'] = nantes_raw_data_df.apply(
+        lambda row: get_city_code_from_coordinates(row['position.lat'], row['position.lon']) if pd.notna(row['position.lat']) and pd.notna(row['position.lon']) else 0,
+        axis=1
+    )
+    CITY_NAME_TO_CODE = {
+    'Nantes': 44000,  # Replace with the actual city code for Nantes
+    # Add other city mappings as needed
+}
+
+    nantes_raw_data_df['city_code'] = nantes_raw_data_df['city_code'].apply(
+        lambda x: CITY_NAME_TO_CODE.get(x, 0) if isinstance(x, str) else x
+    )
+
+    time.sleep(1)
+
 
     # Select and rename columns to match the schema in the CONSOLIDATE_STATION table
     nantes_station_data_df = nantes_raw_data_df[[
@@ -147,23 +189,21 @@ def consolidate_nantes_station_data():
         "contract_name": "city_name",
         "position.lon": "longitude",
         "position.lat": "latitude",
-        "bike_stands": "capacitty"  # Align with the schema (spelling kept as in table)
+        "bike_stands": "capacity"
     }, inplace=True)
 
-    # Ensure the columns are in the correct order
+    # Ensure columns are in the correct order
     expected_columns = [
         "id", "code", "name", "city_name", "city_code", "address", "longitude",
-        "latitude", "status", "created_date", "capacitty"
+        "latitude", "status", "created_date", "capacity"
     ]
-    nantes_station_data_df = nantes_station_data_df[expected_columns]
-    """"
-    # Check the columns before inserting
-    print("Columns in DataFrame:", nantes_station_data_df.columns)
-    print("Number of columns:", len(nantes_station_data_df.columns))
-    """
+    nantes_station_data_df = nantes_station_data_df[expected_columns].copy()
+
+    # Standardize the 'status' column: change 'OPEN' to 'OUI' and others to 'NON'
+    nantes_station_data_df["status"] = nantes_station_data_df["status"].apply(lambda x: "OUI" if x == "OPEN" else "NON")
 
     # Insert data into the DuckDB table
     con.execute("INSERT OR REPLACE INTO CONSOLIDATE_STATION SELECT * FROM nantes_station_data_df;")
-    print("Nantes data has been consolidated successfully.")
+    print("Nantes station data has been consolidated successfully.")
 
 
