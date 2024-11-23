@@ -122,25 +122,6 @@ def consolidate_station_statement_data():
 
 ##NANTES
 
-def get_city_code_from_coordinates(lat, lon):
-    base_url = "https://nominatim.openstreetmap.org/reverse"
-    params = {
-        'lat': lat,
-        'lon': lon,
-        'format': 'json',
-        'addressdetails': 1,
-        'countrycodes': 'fr'
-    }
-    response = requests.get(base_url, params=params)
-    if response.status_code == 200:
-        data = response.json()
-        if 'address' in data and 'city' in data['address']:
-            return data['address'].get('city', None)
-    return None
-
-
-
-
 
 def consolidate_nantes_station_data():
     # Connect to the DuckDB database
