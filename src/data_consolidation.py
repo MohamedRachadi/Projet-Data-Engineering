@@ -177,32 +177,49 @@ def consolidate_nantes_station_data():
 ##COMMUNES
 
 def consolidate_communes_data():
+    # Connexion à DuckDB
     con = duckdb.connect(database="data/duckdb/mobility_analysis.duckdb", read_only=False)
     today_date = datetime.now().strftime("%Y-%m-%d")
-    
+
     # Charger les données JSON des communes
     with open(f"data/raw_data/{today_date}/communes_realtime_data.json") as fd:
         data = json.load(fd)
-    
-    # Convertir en DataFrame
-    communes_df = pd.json_normalize(data)
-    
-    # Ajouter des colonnes nécessaires et ajuster les noms
-    communes_df["created_date"] = datetime.now().date()
-    communes_df.rename(columns={
-        "nom": "name",
-        "code": "id",
-        "codeDepartement": "department_code",
-        "codeRegion": "region_code",
-        "codesPostaux": "postal_codes",
-        "population": "population"
-    }, inplace=True)
 
-    # Colonnes finales à insérer dans CONSOLIDATE_CITY
-    communes_df = communes_df[[
-        "id", "name", "department_code", "region_code", "postal_codes", "population", "created_date"
-    ]]
+    # Vérifier si les données sont sous forme de liste
+    if isinstance(data, list):
+        # Convertir les données JSON en DataFrame Pandas
+        communes_df = pd.json_normalize(data)
 
-    # Insérer les données dans la table DuckDB
-    con.execute("INSERT OR REPLACE INTO CONSOLIDATE_CITY SELECT * FROM communes_df;")
-    print("Communes data has been consolidated successfully.")
+        # Ajouter une colonne de date de création
+        communes_df["created_date"] = datetime.now().date()
+
+        # Renommer les colonnes pour correspondre au schéma de CONSOLIDATE_COMMUNES
+        communes_df.rename(columns={
+            "nom": "name",
+            "code": "id",
+            "codeDepartement": "department_code",
+            "codeRegion": "region_code",
+            "codesPostaux": "postal_codes",
+            "population": "population"
+        }, inplace=True)
+
+        # Si `postal_codes` est une liste, vous pouvez la convertir en chaîne de caractères
+        communes_df["postal_codes"] = communes_df["postal_codes"].apply(lambda x: ",".join(x) if isinstance(x, list) else x)
+
+        # Filtrer uniquement les colonnes nécessaires
+        communes_df = communes_df[[
+            "id", "name", "department_code", "region_code", "postal_codes", "population", "created_date"
+        ]]
+
+        # Charger les données dans DuckDB
+        con.execute("CREATE OR REPLACE TEMPORARY TABLE tmp_communes AS SELECT * FROM communes_df;")
+
+        # Insérer ou remplacer dans la table finale CONSOLIDATE_COMMUNES
+        con.execute("""
+            INSERT OR REPLACE INTO CONSOLIDATE_COMMUNES
+            SELECT * FROM tmp_communes
+        """)
+
+        print("Communes data has been consolidated successfully.")
+    else:
+        print("Erreur : les données chargées ne sont pas sous forme de liste.")

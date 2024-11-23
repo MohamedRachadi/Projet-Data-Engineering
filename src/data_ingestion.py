@@ -1,6 +1,6 @@
 import os
 from datetime import datetime
-
+import json
 import requests
 
 
@@ -33,11 +33,13 @@ def get_toulouse_realtime_bicycle_data():
         print(f"Failed to fetch data for Toulouse. Status code: {response.status_code}")
 
 def get_communes_realtime_data():
-    # Replace this with the actual Nantes API URL
-    url = "https://geo.api.gouv.fr/communes/exports/json"
-    response = requests.request("GET", url)
+    url = "https://geo.api.gouv.fr/communes"
+    response = requests.get(url)
     if response.status_code == 200:
-        serialize_data(response.text, "communes_realtime_data.json")
+        # Convertir la réponse JSON en chaîne de caractères
+        json_data = json.dumps(response.json(), ensure_ascii=False, indent=4)
+        serialize_data(json_data, "communes_realtime_data.json")
+        print("Données des communes récupérées et sauvegardées.")
     else:
         print(f"Failed to fetch data for Communes. Status code: {response.status_code}")
 

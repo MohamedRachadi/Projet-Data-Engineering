@@ -46,6 +46,26 @@ def agregate_dim_city():
 
     con.execute(sql_statement)
 
+def aggregate_dim_commune():
+    con = duckdb.connect(database="data/duckdb/mobility_analysis.duckdb", read_only=False)
+
+    sql_statement = """
+    INSERT OR REPLACE INTO DIM_COMMUNE
+    SELECT
+        ID,
+        NAME,
+        DEPARTMENT_CODE,
+        REGION_CODE,
+        POSTAL_CODES,
+        POPULATION
+    FROM CONSOLIDATE_COMMUNES
+    WHERE CREATED_DATE = (SELECT MAX(CREATED_DATE) FROM CONSOLIDATE_COMMUNES);
+    """
+    
+    print("Exécution de l'agrégation pour la table DIM_COMMUNE")
+    con.execute(sql_statement)
+
+
 def agregate_fact_station_statements():
     con = duckdb.connect(database="data/duckdb/mobility_analysis.duckdb", read_only=False)
 
