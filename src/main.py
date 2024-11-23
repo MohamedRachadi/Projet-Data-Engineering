@@ -7,9 +7,11 @@ from data_agregation import (
 )
 from data_consolidation import (
     create_consolidate_tables,
-    consolidate_city_data,
+    paris_consolidate_city_data,
+    nantes_consolidate_city_data,
     consolidate_station_data,
-    consolidate_station_statement_data,
+    paris_consolidate_station_statement_data,
+    nantes_consolidate_station_statement_data,
     consolidate_nantes_station_data,
     consolidate_communes_data
 
@@ -36,10 +38,11 @@ def main():
     # data consolidation
     print("Consolidation data started.")
     create_consolidate_tables()
-    consolidate_city_data("paris")
-    consolidate_city_data("nantes")
+    paris_consolidate_city_data()
+    nantes_consolidate_city_data()
     consolidate_station_data()
-    consolidate_station_statement_data()
+    paris_consolidate_station_statement_data()
+    nantes_consolidate_station_statement_data()
     consolidate_nantes_station_data()
     consolidate_communes_data()
     print("Consolidation data ended.")
