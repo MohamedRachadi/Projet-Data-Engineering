@@ -122,25 +122,6 @@ def consolidate_station_statement_data():
 
 ##NANTES
 
-def get_city_code_from_coordinates(lat, lon):
-    base_url = "https://nominatim.openstreetmap.org/reverse"
-    params = {
-        'lat': lat,
-        'lon': lon,
-        'format': 'json',
-        'addressdetails': 1,
-        'countrycodes': 'fr'
-    }
-    response = requests.get(base_url, params=params)
-    if response.status_code == 200:
-        data = response.json()
-        if 'address' in data and 'city' in data['address']:
-            return data['address'].get('city', None)
-    return None
-
-
-
-
 
 def consolidate_nantes_station_data():
     # Connect to the DuckDB database
@@ -160,21 +141,11 @@ def consolidate_nantes_station_data():
     nantes_raw_data_df["created_date"] = date.today()
     nantes_raw_data_df["city_code"] = 0  # Set this to actual city code if needed
 
-     # Update call to use latitude and longitude if address doesn't work
-    nantes_raw_data_df['city_code'] = nantes_raw_data_df.apply(
-        lambda row: get_city_code_from_coordinates(row['position.lat'], row['position.lon']) if pd.notna(row['position.lat']) and pd.notna(row['position.lon']) else 0,
-        axis=1
-    )
     CITY_NAME_TO_CODE = {
     'Nantes': 44000,  # Replace with the actual city code for Nantes
     # Add other city mappings as needed
 }
 
-    nantes_raw_data_df['city_code'] = nantes_raw_data_df['city_code'].apply(
-        lambda x: CITY_NAME_TO_CODE.get(x, 0) if isinstance(x, str) else x
-    )
-
-    time.sleep(1)
 
 
     # Select and rename columns to match the schema in the CONSOLIDATE_STATION table
