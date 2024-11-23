@@ -139,23 +139,7 @@ def consolidate_nantes_station_data():
     # Add or modify columns to match the CONSOLIDATE_STATION table structure
     nantes_raw_data_df["id"] = nantes_raw_data_df["number"].apply(lambda x: f"{NANTES_CITY_CODE}-{x}")
     nantes_raw_data_df["created_date"] = date.today()
-    nantes_raw_data_df["city_code"] = 0  # Set this to actual city code if needed
-
-     # Update call to use latitude and longitude if address doesn't work
-    nantes_raw_data_df['city_code'] = nantes_raw_data_df.apply(
-        lambda row: get_city_code_from_coordinates(row['position.lat'], row['position.lon']) if pd.notna(row['position.lat']) and pd.notna(row['position.lon']) else 0,
-        axis=1
-    )
-    CITY_NAME_TO_CODE = {
-    'Nantes': 44000,  # Replace with the actual city code for Nantes
-    # Add other city mappings as needed
-    }
-
-    nantes_raw_data_df['city_code'] = nantes_raw_data_df['city_code'].apply(
-        lambda x: CITY_NAME_TO_CODE.get(x, 0) if isinstance(x, str) else x
-    )
-
-    time.sleep(1)
+    nantes_raw_data_df["city_code"] = 44000  # Set this to actual city code if needed
 
 
     # Select and rename columns to match the schema in the CONSOLIDATE_STATION table
