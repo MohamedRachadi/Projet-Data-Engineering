@@ -32,7 +32,14 @@ def get_toulouse_realtime_bicycle_data():
     else:
         print(f"Failed to fetch data for Toulouse. Status code: {response.status_code}")
 
-
+def get_communes_realtime_data():
+    # Replace this with the actual Nantes API URL
+    url = "https://geo.api.gouv.fr/communes/exports/json"
+    response = requests.request("GET", url)
+    if response.status_code == 200:
+        serialize_data(response.text, "communes_realtime_data.json")
+    else:
+        print(f"Failed to fetch data for Communes. Status code: {response.status_code}")
 
 def serialize_data(raw_json: str, file_name: str):
     today_date = datetime.now().strftime("%Y-%m-%d")

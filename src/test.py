@@ -8,8 +8,8 @@ con = duckdb.connect(database="data/duckdb/mobility_analysis.duckdb", read_only=
 result = con.execute("SELECT * FROM CONSOLIDATE_STATION").fetchdf()
 
 
-result.to_excel("consolidate_station_full.xlsx", index=False)
-print("Table exported to 'consolidate_station_full.xlsx'")
+#result.to_excel("consolidate_station_full.xlsx", index=False)
+#print("Table exported to 'consolidate_station_full.xlsx'")
 
-# # Print the result
-# print(result)
+# Print the result
+print(result)

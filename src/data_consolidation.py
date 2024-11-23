@@ -168,7 +168,7 @@ def consolidate_nantes_station_data():
     CITY_NAME_TO_CODE = {
     'Nantes': 44000,  # Replace with the actual city code for Nantes
     # Add other city mappings as needed
-}
+    }
 
     nantes_raw_data_df['city_code'] = nantes_raw_data_df['city_code'].apply(
         lambda x: CITY_NAME_TO_CODE.get(x, 0) if isinstance(x, str) else x
@@ -207,3 +207,37 @@ def consolidate_nantes_station_data():
     print("Nantes station data has been consolidated successfully.")
 
 
+#################################################################################
+
+##COMMUNES
+
+def consolidate_communes_data():
+    con = duckdb.connect(database="data/duckdb/mobility_analysis.duckdb", read_only=False)
+    today_date = datetime.now().strftime("%Y-%m-%d")
+    
+    # Charger les données JSON des communes
+    with open(f"data/raw_data/{today_date}/communes_realtime_data.json") as fd:
+        data = json.load(fd)
+    
+    # Convertir en DataFrame
+    communes_df = pd.json_normalize(data)
+    
+    # Ajouter des colonnes nécessaires et ajuster les noms
+    communes_df["created_date"] = datetime.now().date()
+    communes_df.rename(columns={
+        "nom": "name",
+        "code": "id",
+        "codeDepartement": "department_code",
+        "codeRegion": "region_code",
+        "codesPostaux": "postal_codes",
+        "population": "population"
+    }, inplace=True)
+
+    # Colonnes finales à insérer dans CONSOLIDATE_CITY
+    communes_df = communes_df[[
+        "id", "name", "department_code", "region_code", "postal_codes", "population", "created_date"
+    ]]
+
+    # Insérer les données dans la table DuckDB
+    con.execute("INSERT OR REPLACE INTO CONSOLIDATE_CITY SELECT * FROM communes_df;")
+    print("Communes data has been consolidated successfully.")
