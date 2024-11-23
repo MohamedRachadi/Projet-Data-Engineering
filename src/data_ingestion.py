@@ -43,14 +43,31 @@ def get_communes_realtime_data():
     else:
         print(f"Failed to fetch data for Communes. Status code: {response.status_code}")
 
+
 def serialize_data(raw_json: str, file_name: str):
     today_date = datetime.now().strftime("%Y-%m-%d")
+    folder_path = f"data/raw_data/{today_date}"
+    
+    if not os.path.exists(folder_path):
+        os.makedirs(folder_path)
+    
+    try:
+        # Validate JSON before saving
+        parsed_json = json.loads(raw_json)  # Parse to ensure valid JSON
+        with open(f"{folder_path}/{file_name}", "w") as fd:
+            json.dump(parsed_json, fd, indent=4)  # Write formatted JSON
+    except json.JSONDecodeError as e:
+        print(f"Error in JSON structure: {e}")
 
-    if not os.path.exists(f"data/raw_data/{today_date}"):
-        os.makedirs(f"data/raw_data/{today_date}")
 
-    with open(f"data/raw_data/{today_date}/{file_name}", "w") as fd:
-        fd.write(raw_json)
+# def serialize_data(raw_json: str, file_name: str):
+#     today_date = datetime.now().strftime("%Y-%m-%d")
+
+#     if not os.path.exists(f"data/raw_data/{today_date}"):
+#         os.makedirs(f"data/raw_data/{today_date}")
+
+#     with open(f"data/raw_data/{today_date}/{file_name}", "w") as fd:
+#         fd.write(raw_json)
 
 
 

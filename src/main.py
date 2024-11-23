@@ -36,7 +36,8 @@ def main():
     # data consolidation
     print("Consolidation data started.")
     create_consolidate_tables()
-    consolidate_city_data()
+    consolidate_city_data("paris")
+    consolidate_city_data("nantes")
     consolidate_station_data()
     consolidate_station_statement_data()
     consolidate_nantes_station_data()
@@ -50,6 +51,7 @@ def main():
     agregate_dim_station()
     agregate_fact_station_statements()
     aggregate_dim_commune()
+
     print("Agregate data ended.")
 
 if __name__ == "__main__":

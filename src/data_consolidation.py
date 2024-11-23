@@ -5,6 +5,7 @@ import duckdb
 import pandas as pd
 import requests
 import time
+import os
 
 
 
@@ -61,16 +62,27 @@ def consolidate_station_data():
 
     con.execute("INSERT OR REPLACE INTO CONSOLIDATE_STATION SELECT * FROM paris_station_data_df;")
 
+def consolidate_city_data(city_name):
+    con = duckdb.connect(database="data/duckdb/mobility_analysis.duckdb", read_only=False)
+    file_path = f"data/raw_data/{today_date}/{city_name.lower()}_realtime_bicycle_data.json"
 
-def consolidate_city_data():
+    # Check if file exists
+    if not os.path.exists(file_path):
+        print(f"File not found: {file_path}")
+        return
 
-    con = duckdb.connect(database = "data/duckdb/mobility_analysis.duckdb", read_only = False)
-    data = {}
+    # Validate and load JSON data
+    try:
+        with open(file_path, "r") as fd:
+            data = json.load(fd)  # Load JSON safely
+    except json.JSONDecodeError as e:
+        print(f"Error decoding JSON from {file_path}: {e}")
+        return
 
-    with open(f"data/raw_data/{today_date}/paris_realtime_bicycle_data.json") as fd:
-        data = json.load(fd)
-
+    # Process JSON data into a DataFrame
     raw_data_df = pd.json_normalize(data)
+
+    # Add a placeholder for inhabitants, as needed
     raw_data_df["nb_inhabitants"] = None
 
     city_data_df = raw_data_df[[
@@ -78,16 +90,47 @@ def consolidate_city_data():
         "nom_arrondissement_communes",
         "nb_inhabitants"
     ]]
+
     city_data_df.rename(columns={
         "code_insee_commune": "id",
         "nom_arrondissement_communes": "name"
     }, inplace=True)
-    city_data_df.drop_duplicates(inplace = True)
+
+    city_data_df.drop_duplicates(inplace=True)
 
     city_data_df["created_date"] = date.today()
-    print(city_data_df)
-
+    
+    # Insert or replace into the CONSOLIDATE_CITY table
     con.execute("INSERT OR REPLACE INTO CONSOLIDATE_CITY SELECT * FROM city_data_df;")
+    print(f"City data for {city_name} consolidated successfully.")
+
+
+# def consolidate_city_data():
+
+#     con = duckdb.connect(database = "data/duckdb/mobility_analysis.duckdb", read_only = False)
+#     data = {}
+
+#     with open(f"data/raw_data/{today_date}/paris_realtime_bicycle_data.json") as fd:
+#         data = json.load(fd)
+
+#     raw_data_df = pd.json_normalize(data)
+#     raw_data_df["nb_inhabitants"] = None
+
+#     city_data_df = raw_data_df[[
+#         "code_insee_commune",
+#         "nom_arrondissement_communes",
+#         "nb_inhabitants"
+#     ]]
+#     city_data_df.rename(columns={
+#         "code_insee_commune": "id",
+#         "nom_arrondissement_communes": "name"
+#     }, inplace=True)
+#     city_data_df.drop_duplicates(inplace = True)
+
+#     city_data_df["created_date"] = date.today()
+#     print(city_data_df)
+
+#     con.execute("INSERT OR REPLACE INTO CONSOLIDATE_CITY SELECT * FROM city_data_df;")
 
 ## Paris
 def consolidate_station_statement_data():
@@ -169,6 +212,7 @@ def consolidate_nantes_station_data():
 
     # Insert data into the DuckDB table
     con.execute("INSERT OR REPLACE INTO CONSOLIDATE_STATION SELECT * FROM nantes_station_data_df;")
+    con.execute("INSERT OR REPLACE INTO CONSOLIDATE_STATION_STATEMENT SELECT * FROM nantes_station_statement_data_df;")
     print("Nantes station data has been consolidated successfully.")
 
 
