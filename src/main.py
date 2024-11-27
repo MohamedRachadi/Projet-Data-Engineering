@@ -13,8 +13,11 @@ from data_consolidation import (
     paris_consolidate_station_statement_data,
     nantes_consolidate_station_statement_data,
     consolidate_nantes_station_data,
+    toulouse_consolidate_station_statement_data,
+    consolidate_toulouse_station_data,
     consolidate_communes_data,
-    update_consolidate_station
+    update_consolidate_station,
+    toulouse_consolidate_city_data
 
 )
 from data_ingestion import (
@@ -41,10 +44,13 @@ def main():
     create_consolidate_tables()
     paris_consolidate_city_data()
     nantes_consolidate_city_data()
+    toulouse_consolidate_city_data()
     consolidate_station_data()
     paris_consolidate_station_statement_data()
     nantes_consolidate_station_statement_data()
     consolidate_nantes_station_data()
+    toulouse_consolidate_station_statement_data()
+    consolidate_toulouse_station_data()
     consolidate_communes_data()
     update_consolidate_station()
     print("Consolidation data ended.")
