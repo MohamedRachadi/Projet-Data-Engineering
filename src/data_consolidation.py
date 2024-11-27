@@ -87,7 +87,6 @@ def paris_consolidate_city_data():
         "code_insee_commune": "id",
         "nom_arrondissement_communes": "name"
     })
-    print(city_data_df.columns)
     city_data_df = city_data_df.drop_duplicates()
     city_data_df.loc[:, "created_date"] = date.today()
     # Insertion des données consolidées dans la table cible
@@ -222,7 +221,6 @@ def toulouse_consolidate_city_data():
     # Insertion des données consolidées dans la table cible
     con.execute("""INSERT OR REPLACE INTO CONSOLIDATE_CITY 
                 SELECT * FROM city_data_df;""")
-    print("Toulouse City data consolidated successfully.")
 
 
 def consolidate_toulouse_station_data():
@@ -345,15 +343,32 @@ def update_consolidate_city():
     # Requête SQL pour mettre à jour le champ ID dans la table CONSOLIDATE_CITY
     con.execute("""
         UPDATE CONSOLIDATE_CITY
-        SET ID = (
-            SELECT COMMUNES.id
-            FROM CONSOLIDATE_COMMUNES AS COMMUNES
-            WHERE lower(COMMUNES.name) = lower(CONSOLIDATE_CITY.name)
-            AND COMMUNES.CREATED_DATE = (
-                SELECT MAX(CREATED_DATE)
-                FROM CONSOLIDATE_COMMUNES
-                WHERE lower(name) = lower(CONSOLIDATE_CITY.name)
+            SET ID = (
+                SELECT COMMUNES.id
+                FROM CONSOLIDATE_COMMUNES AS COMMUNES
+                WHERE lower(COMMUNES.name) = lower(CONSOLIDATE_CITY.NAME)
+                AND COMMUNES.CREATED_DATE = (
+                    SELECT MAX(CREATED_DATE)
+                    FROM CONSOLIDATE_COMMUNES
+                    WHERE lower(name) = lower(CONSOLIDATE_CITY.NAME)
+                )
+                LIMIT 1
             )
-        )
-        WHERE lower(NAME) = 'toulouse';  
+            WHERE lower(NAME) IN ('nantes', 'toulouse')
+            AND NOT EXISTS (
+                SELECT 1
+                FROM CONSOLIDATE_CITY AS existing
+                WHERE existing.ID = (
+                    SELECT COMMUNES.id
+                    FROM CONSOLIDATE_COMMUNES AS COMMUNES
+                    WHERE lower(COMMUNES.name) = lower(CONSOLIDATE_CITY.NAME)
+                    AND COMMUNES.CREATED_DATE = (
+                        SELECT MAX(CREATED_DATE)
+                        FROM CONSOLIDATE_COMMUNES
+                        WHERE lower(name) = lower(CONSOLIDATE_CITY.NAME)
+                    )
+                    LIMIT 1
+                )
+                AND existing.CREATED_DATE = CONSOLIDATE_CITY.CREATED_DATE
+            );
     """)
