@@ -32,17 +32,18 @@ def agregate_dim_station():
 
 
 def agregate_dim_city():
-    con = duckdb.connect(database = "data/duckdb/mobility_analysis.duckdb", read_only = False)
+    con = duckdb.connect(database="data/duckdb/mobility_analysis.duckdb", read_only=False)
 
     sql_statement = """
     INSERT OR REPLACE INTO DIM_CITY
     SELECT
         CC.ID,
         CC.NAME,
-        DC.population AS NB_INHABITANTS
+        MAX(DC.population) AS NB_INHABITANTS
     FROM CONSOLIDATE_CITY AS CC
-    LEFT JOIN CONSOLIDATE_COMMUNES AS DC ON CC.ID=DC.id 
+    LEFT JOIN CONSOLIDATE_COMMUNES AS DC ON CC.ID = DC.id
     WHERE CC.CREATED_DATE = (SELECT MAX(CREATED_DATE) FROM CONSOLIDATE_CITY)
+    GROUP BY CC.ID, CC.NAME
     ;
     """
 

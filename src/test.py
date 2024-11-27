@@ -15,11 +15,22 @@ result = con.execute("SELECT dm.NAME, tmp.SUM_BICYCLE_DOCKS_AVAILABLE FROM DIM_C
 print(result.head())
 
 
-result = con.execute("SELECT ds.name, ds.code, ds.address, tmp.avg_dock_available FROM DIM_STATION ds JOIN ( SELECT station_id, AVG(BICYCLE_AVAILABLE) AS avg_dock_available FROM FACT_STATION_STATEMENT GROUP BY station_id) AS tmp ON ds.id = tmp.station_id WHERE ds.ID like '1-%';").fetchdf()
+result = con.execute("SELECT ds.name, ds.code, ds.address, tmp.avg_dock_available FROM DIM_STATION ds JOIN ( SELECT station_id, AVG(BICYCLE_AVAILABLE) AS avg_dock_available FROM FACT_STATION_STATEMENT GROUP BY station_id) AS tmp ON ds.id = tmp.station_id WHERE ds.ID like '2-%';").fetchdf()
 print(result.head())
 
 
-result = con.execute("SELECT * FROM CONSOLIDATE_STATION_STATEMENT where STATION_ID like '1-%';").fetchdf()
+result = con.execute("SELECT * FROM CONSOLIDATE_STATION_STATEMENT where STATION_ID like '2-%';").fetchdf()
 print(result.head())
-result = con.execute("SELECT * FROM DIM_CITY;").fetchdf()
+
+result = con.execute("SELECT * FROM CONSOLIDATE_STATION where ID like '2-%';").fetchdf()
 print(result.head())
+
+result = con.execute("SELECT * FROM DIM_CITY where ID=44109;").fetchdf()
+print(result.head())
+
+result = con.execute("SELECT * FROM FACT_STATION_STATEMENT where STATION_ID like '2-%';").fetchdf()
+print(result.head())
+
+result = con.execute("SELECT * FROM CONSOLIDATE_STATION where lower(CITY_NAME) like 'nantes';").fetchdf()
+print(result.head())
+

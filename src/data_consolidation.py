@@ -13,6 +13,7 @@ import os
 today_date = datetime.now().strftime("%Y-%m-%d")
 PARIS_CITY_CODE = 1
 NANTES_CITY_CODE = 2
+TOULOUSE_CITY_CODE = 3
 
 def create_consolidate_tables():
     con = duckdb.connect(database = "data/duckdb/mobility_analysis.duckdb", read_only = False)
@@ -21,6 +22,8 @@ def create_consolidate_tables():
         for statement in statements.split(";"):
             print(statement)
             con.execute(statement)
+
+
 ## Paris
 def consolidate_station_data():
 
@@ -138,7 +141,7 @@ def paris_consolidate_station_statement_data():
 
     paris_raw_data_df = pd.json_normalize(data)
     paris_raw_data_df["station_id"] = paris_raw_data_df["stationcode"].apply(lambda x: f"{PARIS_CITY_CODE}-{x}")
-    paris_raw_data_df["created_date"] = datetime.fromisoformat('2024-10-21')
+    paris_raw_data_df["created_date"] =date.today()
     paris_station_statement_data_df = paris_raw_data_df[[
         "station_id",
         "numdocksavailable",
@@ -161,7 +164,7 @@ def paris_consolidate_station_statement_data():
 def nantes_consolidate_city_data():
     con = duckdb.connect(database="data/duckdb/mobility_analysis.duckdb", read_only=False)
     city_data_df = pd.DataFrame({
-        "city_code": [44109],
+        "city_code": 1,
         "name": ["Nantes"],
         "nb_inhabitants": [np.nan]
     })
@@ -173,7 +176,8 @@ def nantes_consolidate_city_data():
 
     city_data_df.loc[:, "created_date"] = date.today()
 
-    con.execute("INSERT OR REPLACE INTO CONSOLIDATE_CITY SELECT * FROM city_data_df;")
+    con.execute("""INSERT OR REPLACE INTO CONSOLIDATE_CITY 
+                SELECT * FROM city_data_df;""")
     print("Nantes City data consolidated successfully.")
 
 def consolidate_nantes_station_data():
@@ -192,7 +196,7 @@ def consolidate_nantes_station_data():
     # Add or modify columns to match the CONSOLIDATE_STATION table structure
     nantes_raw_data_df["id"] = nantes_raw_data_df["number"].apply(lambda x: f"{NANTES_CITY_CODE}-{x}")
     nantes_raw_data_df["created_date"] = date.today()
-    nantes_raw_data_df["city_code"] = 44000  # Set this to actual city code if needed
+    nantes_raw_data_df["city_code"] = 1  # np.nan Set this to actual city code if needed
 
 
     # Select and rename columns to match the schema in the CONSOLIDATE_STATION table
@@ -221,7 +225,8 @@ def consolidate_nantes_station_data():
     nantes_station_data_df["status"] = nantes_station_data_df["status"].apply(lambda x: "OUI" if x == "OPEN" else "NON")
 
     # Insert data into the DuckDB table
-    con.execute("INSERT OR REPLACE INTO CONSOLIDATE_STATION SELECT * FROM nantes_station_data_df;")
+    con.execute("""INSERT OR REPLACE INTO CONSOLIDATE_STATION 
+                SELECT * FROM nantes_station_data_df;""")
     print("Nantes station data has been consolidated successfully.")
 
 def nantes_consolidate_station_statement_data():
@@ -229,13 +234,13 @@ def nantes_consolidate_station_statement_data():
     con = duckdb.connect(database = "data/duckdb/mobility_analysis.duckdb", read_only = False)
     data = {}
 
-    # Consolidate station statement data for Paris
+    # Consolidate station statement data for nantes
     with open(f"data/raw_data/{today_date}/nantes_realtime_bicycle_data.json") as fd:
         data = json.load(fd)
 
     nantes_raw_data_df = pd.json_normalize(data)
     nantes_raw_data_df["station_id"] = nantes_raw_data_df["number"].apply(lambda x: f"{NANTES_CITY_CODE}-{x}")
-    nantes_raw_data_df["created_date"] = datetime.fromisoformat('2024-10-21')
+    nantes_raw_data_df["created_date"] = date.today()
     nantes_station_statement_data_df = nantes_raw_data_df[[
         "station_id",
         "available_bike_stands",
@@ -253,6 +258,15 @@ def nantes_consolidate_station_statement_data():
     con.execute("INSERT OR REPLACE INTO CONSOLIDATE_STATION_STATEMENT SELECT * FROM nantes_station_statement_data_df;")
 
 #################################################################################
+
+##TOULOUSE
+
+
+
+
+
+#################################################################################
+
 
 ##COMMUNES
 
@@ -303,3 +317,21 @@ def consolidate_communes_data():
         print("Communes data has been consolidated successfully.")
     else:
         print("Erreur : les données chargées ne sont pas sous forme de liste.")
+
+
+def update_consolidate_station():
+    con = duckdb.connect(database="data/duckdb/mobility_analysis.duckdb", read_only=False)
+    con.execute("""
+        UPDATE CONSOLIDATE_STATION
+        SET CITY_CODE = (
+            SELECT id
+            FROM CONSOLIDATE_COMMUNES AS COMMUNES
+            WHERE lower(COMMUNES.name) = lower(CONSOLIDATE_STATION.CITY_NAME)
+            AND COMMUNES.CREATED_DATE = (
+                SELECT MAX(CREATED_DATE)
+                FROM CONSOLIDATE_COMMUNES
+                WHERE lower(name) = lower(CONSOLIDATE_STATION.CITY_NAME)
+            )
+        )
+        WHERE lower(CITY_NAME) IN ('nantes', 'toulouse');
+    """)
