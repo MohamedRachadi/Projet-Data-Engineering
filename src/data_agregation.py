@@ -12,7 +12,7 @@ def create_agregate_tables():
 
 def agregate_dim_station():
     con = duckdb.connect(database = "data/duckdb/mobility_analysis.duckdb", read_only = False)
-
+    # Instruction SQL pour insérer ou mettre à jour les données dans DIM_STATION
     sql_statement = """
     INSERT OR REPLACE INTO DIM_STATION
     SELECT
@@ -27,13 +27,13 @@ def agregate_dim_station():
     FROM CONSOLIDATE_STATION
     WHERE CREATED_DATE = (SELECT MAX(CREATED_DATE) FROM CONSOLIDATE_STATION);
     """
-
+    # Exécution de l'instruction SQL
     con.execute(sql_statement)
 
 
 def agregate_dim_city():
     con = duckdb.connect(database="data/duckdb/mobility_analysis.duckdb", read_only=False)
-
+    # Instruction SQL pour insérer ou mettre à jour les données dans DIM_CITY
     sql_statement = """
     INSERT OR REPLACE INTO DIM_CITY
     SELECT
@@ -46,12 +46,13 @@ def agregate_dim_city():
     GROUP BY CC.ID, CC.NAME
     ;
     """
-
+    # Exécution de l'instruction SQL
     con.execute(sql_statement)
+
 
 def aggregate_dim_commune():
     con = duckdb.connect(database="data/duckdb/mobility_analysis.duckdb", read_only=False)
-
+    # Instruction SQL pour insérer ou mettre à jour les données dans DIM_COMMUNE
     sql_statement = """
     INSERT OR REPLACE INTO DIM_COMMUNE
     SELECT 
@@ -65,16 +66,13 @@ def aggregate_dim_commune():
     FROM CONSOLIDATE_COMMUNES
     WHERE created_date = (SELECT MAX(created_date) FROM CONSOLIDATE_COMMUNES);
     """
-
+    # Exécution de l'instruction SQL
     con.execute(sql_statement)
-    print("DIM_COMMUNE table aggregated successfully.")
-
 
 
 def agregate_fact_station_statements():
     con = duckdb.connect(database = "data/duckdb/mobility_analysis.duckdb", read_only = False)
-
-#      First we agregate the Paris station statement data
+    # Instruction SQL pour insérer ou mettre à jour les données dans FACT_STATION_STATEMENT
     sql_statement = """
             INSERT OR REPLACE INTO FACT_STATION_STATEMENT
             SELECT STATION_ID, cc.ID as CITY_ID, BICYCLE_DOCKS_AVAILABLE, BICYCLE_AVAILABLE, LAST_STATEMENT_DATE, current_date as CREATED_DATE
@@ -86,7 +84,7 @@ def agregate_fact_station_statements():
                 AND CONSOLIDATE_STATION.CREATED_DATE = (SELECT MAX(CREATED_DATE) FROM CONSOLIDATE_STATION)
                 AND cc.CREATED_DATE = (SELECT MAX(CREATED_DATE) FROM CONSOLIDATE_CITY);
             """
-
+    # Exécution de l'instruction SQL
     con.execute(sql_statement)
 
 
