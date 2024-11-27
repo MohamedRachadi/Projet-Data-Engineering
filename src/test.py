@@ -22,4 +22,4 @@ print(result.head())
 result = con.execute("SELECT * FROM CONSOLIDATE_STATION_STATEMENT where STATION_ID like '1-%';").fetchdf()
 print(result.head())
 result = con.execute("SELECT * FROM DIM_CITY;").fetchdf()
-print(result.head())s
+print(result.head())
