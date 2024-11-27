@@ -148,9 +148,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 8,
-        "available_bikes": 5,
-        "last_update": "2024-11-27T10:59:55+00:00"
+        "available_bike_stands": 7,
+        "available_bikes": 6,
+        "last_update": "2024-11-27T12:58:53+00:00"
     },
     {
         "number": 156,
@@ -165,9 +165,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 5,
-        "available_bikes": 10,
-        "last_update": "2024-11-27T10:57:12+00:00"
+        "available_bike_stands": 10,
+        "available_bikes": 5,
+        "last_update": "2024-11-27T12:58:15+00:00"
     },
     {
         "number": 373,
@@ -182,9 +182,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 0,
-        "available_bikes": 11,
-        "last_update": "2024-11-27T10:55:22+00:00"
+        "available_bike_stands": 4,
+        "available_bikes": 7,
+        "last_update": "2024-11-27T12:54:23+00:00"
     },
     {
         "number": 339,
@@ -201,7 +201,7 @@
         "bike_stands": 13,
         "available_bike_stands": 10,
         "available_bikes": 2,
-        "last_update": "2024-11-27T10:59:25+00:00"
+        "last_update": "2024-11-27T12:53:46+00:00"
     },
     {
         "number": 385,
@@ -216,9 +216,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 9,
-        "available_bikes": 4,
-        "last_update": "2024-11-27T11:00:00+00:00"
+        "available_bike_stands": 5,
+        "available_bikes": 8,
+        "last_update": "2024-11-27T12:54:46+00:00"
     },
     {
         "number": 200,
@@ -250,9 +250,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 27,
-        "available_bike_stands": 26,
-        "available_bikes": 1,
-        "last_update": "2024-11-27T10:55:39+00:00"
+        "available_bike_stands": 22,
+        "available_bikes": 4,
+        "last_update": "2024-11-27T12:57:08+00:00"
     },
     {
         "number": 195,
@@ -267,9 +267,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 17,
-        "available_bikes": 0,
-        "last_update": "2024-11-27T10:53:48+00:00"
+        "available_bike_stands": 15,
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:58:00+00:00"
     },
     {
         "number": 280,
@@ -284,9 +284,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 17,
-        "available_bikes": 1,
-        "last_update": "2024-11-27T10:58:56+00:00"
+        "available_bike_stands": 14,
+        "available_bikes": 4,
+        "last_update": "2024-11-27T12:58:50+00:00"
     },
     {
         "number": 224,
@@ -301,9 +301,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 4,
-        "available_bikes": 14,
-        "last_update": "2024-11-27T10:57:36+00:00"
+        "available_bike_stands": 0,
+        "available_bikes": 18,
+        "last_update": "2024-11-27T12:56:37+00:00"
     },
     {
         "number": 174,
@@ -318,9 +318,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 19,
-        "available_bike_stands": 11,
-        "available_bikes": 8,
-        "last_update": "2024-11-27T10:54:04+00:00"
+        "available_bike_stands": 10,
+        "available_bikes": 9,
+        "last_update": "2024-11-27T12:58:44+00:00"
     },
     {
         "number": 295,
@@ -337,7 +337,7 @@
         "bike_stands": 13,
         "available_bike_stands": 12,
         "available_bikes": 1,
-        "last_update": "2024-11-27T10:53:44+00:00"
+        "last_update": "2024-11-27T12:54:41+00:00"
     },
     {
         "number": 236,
@@ -352,9 +352,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 7,
-        "available_bikes": 10,
-        "last_update": "2024-11-27T10:59:41+00:00"
+        "available_bike_stands": 9,
+        "available_bikes": 8,
+        "last_update": "2024-11-27T12:58:46+00:00"
     },
     {
         "number": 315,
@@ -369,9 +369,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 1,
-        "available_bikes": 12,
-        "last_update": "2024-11-27T10:55:08+00:00"
+        "available_bike_stands": 2,
+        "available_bikes": 10,
+        "last_update": "2024-11-27T12:58:22+00:00"
     },
     {
         "number": 371,
@@ -386,9 +386,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 9,
-        "available_bikes": 4,
-        "last_update": "2024-11-27T10:57:58+00:00"
+        "available_bike_stands": 1,
+        "available_bikes": 12,
+        "last_update": "2024-11-27T12:57:13+00:00"
     },
     {
         "number": 64,
@@ -403,9 +403,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 24,
-        "available_bike_stands": 19,
-        "available_bikes": 4,
-        "last_update": "2024-11-27T10:59:53+00:00"
+        "available_bike_stands": 18,
+        "available_bikes": 5,
+        "last_update": "2024-11-27T12:57:53+00:00"
     },
     {
         "number": 3,
@@ -420,9 +420,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 0,
-        "available_bikes": 16,
-        "last_update": "2024-11-27T10:56:38+00:00"
+        "available_bike_stands": 4,
+        "available_bikes": 12,
+        "last_update": "2024-11-27T12:57:37+00:00"
     },
     {
         "number": 334,
@@ -437,9 +437,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 13,
-        "available_bikes": 0,
-        "last_update": "2024-11-27T10:55:27+00:00"
+        "available_bike_stands": 11,
+        "available_bikes": 2,
+        "last_update": "2024-11-27T12:54:29+00:00"
     },
     {
         "number": 298,
@@ -454,9 +454,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 9,
-        "available_bikes": 2,
-        "last_update": "2024-11-27T10:57:43+00:00"
+        "available_bike_stands": 7,
+        "available_bikes": 5,
+        "last_update": "2024-11-27T12:58:43+00:00"
     },
     {
         "number": 227,
@@ -471,9 +471,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 32,
-        "available_bike_stands": 9,
-        "available_bikes": 22,
-        "last_update": "2024-11-27T10:59:21+00:00"
+        "available_bike_stands": 23,
+        "available_bikes": 7,
+        "last_update": "2024-11-27T12:58:22+00:00"
     },
     {
         "number": 77,
@@ -490,7 +490,7 @@
         "bike_stands": 13,
         "available_bike_stands": 3,
         "available_bikes": 10,
-        "last_update": "2024-11-27T10:59:19+00:00"
+        "last_update": "2024-11-27T12:58:38+00:00"
     },
     {
         "number": 55,
@@ -505,9 +505,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 15,
-        "available_bike_stands": 10,
-        "available_bikes": 2,
-        "last_update": "2024-11-27T10:59:43+00:00"
+        "available_bike_stands": 13,
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:57:01+00:00"
     },
     {
         "number": 379,
@@ -522,9 +522,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 2,
-        "available_bikes": 11,
-        "last_update": "2024-11-27T10:58:05+00:00"
+        "available_bike_stands": 1,
+        "available_bikes": 12,
+        "last_update": "2024-11-27T12:58:28+00:00"
     },
     {
         "number": 348,
@@ -539,9 +539,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 5,
-        "available_bikes": 6,
-        "last_update": "2024-11-27T11:00:03+00:00"
+        "available_bike_stands": 9,
+        "available_bikes": 3,
+        "last_update": "2024-11-27T12:58:54+00:00"
     },
     {
         "number": 305,
@@ -556,9 +556,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 8,
-        "available_bikes": 4,
-        "last_update": "2024-11-27T10:58:20+00:00"
+        "available_bike_stands": 2,
+        "available_bikes": 10,
+        "last_update": "2024-11-27T12:58:00+00:00"
     },
     {
         "number": 29,
@@ -573,9 +573,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 21,
-        "available_bike_stands": 0,
-        "available_bikes": 19,
-        "last_update": "2024-11-27T10:59:00+00:00"
+        "available_bike_stands": 15,
+        "available_bikes": 5,
+        "last_update": "2024-11-27T12:58:59+00:00"
     },
     {
         "number": 225,
@@ -590,9 +590,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 4,
-        "available_bikes": 15,
-        "last_update": "2024-11-27T10:59:29+00:00"
+        "available_bike_stands": 2,
+        "available_bikes": 17,
+        "last_update": "2024-11-27T12:56:34+00:00"
     },
     {
         "number": 381,
@@ -607,9 +607,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 6,
-        "available_bikes": 7,
-        "last_update": "2024-11-27T10:50:43+00:00"
+        "available_bike_stands": 7,
+        "available_bikes": 6,
+        "last_update": "2024-11-27T12:52:00+00:00"
     },
     {
         "number": 71,
@@ -624,9 +624,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 22,
-        "available_bike_stands": 16,
-        "available_bikes": 4,
-        "last_update": "2024-11-27T10:50:49+00:00"
+        "available_bike_stands": 15,
+        "available_bikes": 5,
+        "last_update": "2024-11-27T12:53:11+00:00"
     },
     {
         "number": 242,
@@ -641,9 +641,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 16,
-        "available_bike_stands": 7,
-        "available_bikes": 7,
-        "last_update": "2024-11-27T10:57:57+00:00"
+        "available_bike_stands": 10,
+        "available_bikes": 4,
+        "last_update": "2024-11-27T12:58:23+00:00"
     },
     {
         "number": 329,
@@ -658,9 +658,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 10,
-        "available_bikes": 3,
-        "last_update": "2024-11-27T10:58:38+00:00"
+        "available_bike_stands": 11,
+        "available_bikes": 2,
+        "last_update": "2024-11-27T12:58:44+00:00"
     },
     {
         "number": 368,
@@ -675,9 +675,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 6,
-        "available_bikes": 5,
-        "last_update": "2024-11-27T10:58:19+00:00"
+        "available_bike_stands": 5,
+        "available_bikes": 6,
+        "last_update": "2024-11-27T12:58:45+00:00"
     },
     {
         "number": 229,
@@ -692,9 +692,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 9,
-        "available_bikes": 7,
-        "last_update": "2024-11-27T11:00:00+00:00"
+        "available_bike_stands": 1,
+        "available_bikes": 15,
+        "last_update": "2024-11-27T12:58:44+00:00"
     },
     {
         "number": 93,
@@ -709,9 +709,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 17,
-        "available_bike_stands": 13,
-        "available_bikes": 4,
-        "last_update": "2024-11-27T10:59:49+00:00"
+        "available_bike_stands": 14,
+        "available_bikes": 3,
+        "last_update": "2024-11-27T12:58:44+00:00"
     },
     {
         "number": 1,
@@ -726,9 +726,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 19,
-        "available_bike_stands": 0,
-        "available_bikes": 19,
-        "last_update": "2024-11-27T10:56:52+00:00"
+        "available_bike_stands": 9,
+        "available_bikes": 10,
+        "last_update": "2024-11-27T12:57:33+00:00"
     },
     {
         "number": 36,
@@ -745,7 +745,7 @@
         "bike_stands": 19,
         "available_bike_stands": 17,
         "available_bikes": 2,
-        "last_update": "2024-11-27T10:58:38+00:00"
+        "last_update": "2024-11-27T12:57:44+00:00"
     },
     {
         "number": 154,
@@ -760,9 +760,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 19,
-        "available_bike_stands": 17,
-        "available_bikes": 0,
-        "last_update": "2024-11-27T10:58:11+00:00"
+        "available_bike_stands": 10,
+        "available_bikes": 8,
+        "last_update": "2024-11-27T12:57:13+00:00"
     },
     {
         "number": 96,
@@ -777,9 +777,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 25,
-        "available_bike_stands": 22,
-        "available_bikes": 3,
-        "last_update": "2024-11-27T10:59:35+00:00"
+        "available_bike_stands": 23,
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:59:01+00:00"
     },
     {
         "number": 87,
@@ -794,9 +794,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 25,
-        "available_bike_stands": 5,
-        "available_bikes": 18,
-        "last_update": "2024-11-27T10:59:54+00:00"
+        "available_bike_stands": 15,
+        "available_bikes": 7,
+        "last_update": "2024-11-27T12:57:03+00:00"
     },
     {
         "number": 192,
@@ -811,9 +811,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 8,
-        "available_bikes": 12,
-        "last_update": "2024-11-27T10:52:00+00:00"
+        "available_bike_stands": 9,
+        "available_bikes": 11,
+        "last_update": "2024-11-27T12:57:45+00:00"
     },
     {
         "number": 22,
@@ -828,9 +828,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 18,
-        "available_bikes": 1,
-        "last_update": "2024-11-27T10:55:47+00:00"
+        "available_bike_stands": 13,
+        "available_bikes": 6,
+        "last_update": "2024-11-27T12:57:15+00:00"
     },
     {
         "number": 48,
@@ -845,9 +845,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 32,
-        "available_bike_stands": 19,
-        "available_bikes": 11,
-        "last_update": "2024-11-27T10:58:15+00:00"
+        "available_bike_stands": 21,
+        "available_bikes": 9,
+        "last_update": "2024-11-27T12:58:51+00:00"
     },
     {
         "number": 346,
@@ -862,9 +862,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 10,
-        "available_bikes": 3,
-        "last_update": "2024-11-27T10:55:18+00:00"
+        "available_bike_stands": 9,
+        "available_bikes": 4,
+        "last_update": "2024-11-27T12:56:27+00:00"
     },
     {
         "number": 121,
@@ -879,9 +879,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 17,
-        "available_bike_stands": 15,
-        "available_bikes": 2,
-        "last_update": "2024-11-27T10:51:41+00:00"
+        "available_bike_stands": 13,
+        "available_bikes": 4,
+        "last_update": "2024-11-27T12:57:31+00:00"
     },
     {
         "number": 111,
@@ -896,9 +896,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 27,
-        "available_bike_stands": 26,
-        "available_bikes": 0,
-        "last_update": "2024-11-27T10:51:02+00:00"
+        "available_bike_stands": 25,
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:54:34+00:00"
     },
     {
         "number": 84,
@@ -913,9 +913,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 24,
-        "available_bike_stands": 13,
-        "available_bikes": 10,
-        "last_update": "2024-11-27T10:57:41+00:00"
+        "available_bike_stands": 9,
+        "available_bikes": 14,
+        "last_update": "2024-11-27T12:59:02+00:00"
     },
     {
         "number": 152,
@@ -930,9 +930,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 18,
-        "available_bikes": 1,
-        "last_update": "2024-11-27T10:53:17+00:00"
+        "available_bike_stands": 15,
+        "available_bikes": 4,
+        "last_update": "2024-11-27T12:54:57+00:00"
     },
     {
         "number": 239,
@@ -947,9 +947,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 25,
-        "available_bike_stands": 15,
+        "available_bike_stands": 19,
         "available_bikes": 1,
-        "last_update": "2024-11-27T10:58:24+00:00"
+        "last_update": "2024-11-27T12:58:37+00:00"
     },
     {
         "number": 243,
@@ -964,9 +964,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 17,
-        "available_bike_stands": 8,
-        "available_bikes": 9,
-        "last_update": "2024-11-27T10:59:38+00:00"
+        "available_bike_stands": 10,
+        "available_bikes": 7,
+        "last_update": "2024-11-27T12:54:05+00:00"
     },
     {
         "number": 259,
@@ -981,9 +981,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 6,
-        "available_bikes": 14,
-        "last_update": "2024-11-27T10:59:17+00:00"
+        "available_bike_stands": 5,
+        "available_bikes": 15,
+        "last_update": "2024-11-27T12:50:16+00:00"
     },
     {
         "number": 367,
@@ -998,9 +998,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 6,
-        "available_bikes": 6,
-        "last_update": "2024-11-27T10:56:53+00:00"
+        "available_bike_stands": 7,
+        "available_bikes": 5,
+        "last_update": "2024-11-27T12:58:08+00:00"
     },
     {
         "number": 384,
@@ -1015,9 +1015,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 1,
-        "available_bikes": 12,
-        "last_update": "2024-11-27T10:56:47+00:00"
+        "available_bike_stands": 0,
+        "available_bikes": 8,
+        "last_update": "2024-11-27T12:57:58+00:00"
     },
     {
         "number": 79,
@@ -1032,9 +1032,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 14,
-        "available_bikes": 6,
-        "last_update": "2024-11-27T10:58:29+00:00"
+        "available_bike_stands": 13,
+        "available_bikes": 7,
+        "last_update": "2024-11-27T12:49:31+00:00"
     },
     {
         "number": 210,
@@ -1049,9 +1049,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 15,
-        "available_bikes": 2,
-        "last_update": "2024-11-27T10:59:50+00:00"
+        "available_bike_stands": 16,
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:53:36+00:00"
     },
     {
         "number": 276,
@@ -1066,9 +1066,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 7,
-        "available_bikes": 10,
-        "last_update": "2024-11-27T10:57:26+00:00"
+        "available_bike_stands": 8,
+        "available_bikes": 9,
+        "last_update": "2024-11-27T12:57:17+00:00"
     },
     {
         "number": 137,
@@ -1083,9 +1083,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 15,
-        "available_bike_stands": 10,
-        "available_bikes": 5,
-        "last_update": "2024-11-27T10:56:42+00:00"
+        "available_bike_stands": 14,
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:58:08+00:00"
     },
     {
         "number": 221,
@@ -1102,7 +1102,7 @@
         "bike_stands": 20,
         "available_bike_stands": 1,
         "available_bikes": 19,
-        "last_update": "2024-11-27T10:55:07+00:00"
+        "last_update": "2024-11-27T12:58:26+00:00"
     },
     {
         "number": 386,
@@ -1117,9 +1117,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 10,
-        "available_bikes": 3,
-        "last_update": "2024-11-27T10:55:30+00:00"
+        "available_bike_stands": 8,
+        "available_bikes": 4,
+        "last_update": "2024-11-27T12:56:51+00:00"
     },
     {
         "number": 67,
@@ -1134,9 +1134,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 22,
-        "available_bike_stands": 19,
-        "available_bikes": 3,
-        "last_update": "2024-11-27T10:59:09+00:00"
+        "available_bike_stands": 22,
+        "available_bikes": 0,
+        "last_update": "2024-11-27T12:56:54+00:00"
     },
     {
         "number": 144,
@@ -1151,9 +1151,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 22,
-        "available_bike_stands": 15,
-        "available_bikes": 6,
-        "last_update": "2024-11-27T10:59:41+00:00"
+        "available_bike_stands": 13,
+        "available_bikes": 8,
+        "last_update": "2024-11-27T12:58:20+00:00"
     },
     {
         "number": 40,
@@ -1170,7 +1170,7 @@
         "bike_stands": 16,
         "available_bike_stands": 11,
         "available_bikes": 4,
-        "last_update": "2024-11-27T10:59:46+00:00"
+        "last_update": "2024-11-27T12:58:10+00:00"
     },
     {
         "number": 25,
@@ -1185,9 +1185,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 8,
-        "available_bikes": 9,
-        "last_update": "2024-11-27T10:58:53+00:00"
+        "available_bike_stands": 6,
+        "available_bikes": 11,
+        "last_update": "2024-11-27T12:59:02+00:00"
     },
     {
         "number": 75,
@@ -1202,9 +1202,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 21,
-        "available_bike_stands": 10,
-        "available_bikes": 10,
-        "last_update": "2024-11-27T10:58:25+00:00"
+        "available_bike_stands": 11,
+        "available_bikes": 9,
+        "last_update": "2024-11-27T12:56:55+00:00"
     },
     {
         "number": 74,
@@ -1219,9 +1219,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 15,
-        "available_bikes": 3,
-        "last_update": "2024-11-27T10:57:47+00:00"
+        "available_bike_stands": 11,
+        "available_bikes": 7,
+        "last_update": "2024-11-27T12:55:02+00:00"
     },
     {
         "number": 118,
@@ -1236,9 +1236,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 16,
-        "available_bike_stands": 12,
-        "available_bikes": 4,
-        "last_update": "2024-11-27T10:58:32+00:00"
+        "available_bike_stands": 16,
+        "available_bikes": 0,
+        "last_update": "2024-11-27T12:49:52+00:00"
     },
     {
         "number": 115,
@@ -1255,7 +1255,7 @@
         "bike_stands": 18,
         "available_bike_stands": 17,
         "available_bikes": 0,
-        "last_update": "2024-11-27T10:53:59+00:00"
+        "last_update": "2024-11-27T12:55:22+00:00"
     },
     {
         "number": 41,
@@ -1270,9 +1270,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 21,
-        "available_bike_stands": 5,
-        "available_bikes": 16,
-        "last_update": "2024-11-27T10:59:35+00:00"
+        "available_bike_stands": 8,
+        "available_bikes": 13,
+        "last_update": "2024-11-27T12:58:59+00:00"
     },
     {
         "number": 105,
@@ -1287,9 +1287,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 12,
-        "available_bikes": 4,
-        "last_update": "2024-11-27T10:59:02+00:00"
+        "available_bike_stands": 14,
+        "available_bikes": 2,
+        "last_update": "2024-11-27T12:55:10+00:00"
     },
     {
         "number": 375,
@@ -1304,9 +1304,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 9,
-        "available_bikes": 4,
-        "last_update": "2024-11-27T10:55:16+00:00"
+        "available_bike_stands": 4,
+        "available_bikes": 9,
+        "last_update": "2024-11-27T12:56:30+00:00"
     },
     {
         "number": 139,
@@ -1321,9 +1321,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 25,
-        "available_bike_stands": 17,
-        "available_bikes": 6,
-        "last_update": "2024-11-27T10:57:38+00:00"
+        "available_bike_stands": 20,
+        "available_bikes": 3,
+        "last_update": "2024-11-27T12:50:59+00:00"
     },
     {
         "number": 81,
@@ -1338,9 +1338,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 33,
-        "available_bike_stands": 25,
-        "available_bikes": 8,
-        "last_update": "2024-11-27T10:51:10+00:00"
+        "available_bike_stands": 24,
+        "available_bikes": 9,
+        "last_update": "2024-11-27T12:57:12+00:00"
     },
     {
         "number": 188,
@@ -1355,9 +1355,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 4,
-        "available_bikes": 11,
-        "last_update": "2024-11-27T10:57:56+00:00"
+        "available_bike_stands": 15,
+        "available_bikes": 2,
+        "last_update": "2024-11-27T12:57:21+00:00"
     },
     {
         "number": 60,
@@ -1372,9 +1372,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 24,
-        "available_bike_stands": 16,
-        "available_bikes": 6,
-        "last_update": "2024-11-27T10:55:57+00:00"
+        "available_bike_stands": 22,
+        "available_bikes": 0,
+        "last_update": "2024-11-27T12:58:43+00:00"
     },
     {
         "number": 354,
@@ -1389,9 +1389,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 5,
-        "available_bikes": 7,
-        "last_update": "2024-11-27T10:55:00+00:00"
+        "available_bike_stands": 3,
+        "available_bikes": 9,
+        "last_update": "2024-11-27T12:56:19+00:00"
     },
     {
         "number": 153,
@@ -1406,9 +1406,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 17,
-        "available_bikes": 1,
-        "last_update": "2024-11-27T10:52:43+00:00"
+        "available_bike_stands": 11,
+        "available_bikes": 7,
+        "last_update": "2024-11-27T12:56:52+00:00"
     },
     {
         "number": 178,
@@ -1423,9 +1423,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 17,
+        "available_bike_stands": 16,
         "available_bikes": 2,
-        "last_update": "2024-11-27T10:58:17+00:00"
+        "last_update": "2024-11-27T12:56:06+00:00"
     },
     {
         "number": 68,
@@ -1440,9 +1440,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 16,
-        "available_bike_stands": 13,
-        "available_bikes": 1,
-        "last_update": "2024-11-27T11:00:04+00:00"
+        "available_bike_stands": 8,
+        "available_bikes": 5,
+        "last_update": "2024-11-27T12:57:41+00:00"
     },
     {
         "number": 390,
@@ -1457,9 +1457,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 6,
-        "available_bikes": 7,
-        "last_update": "2024-11-27T10:59:35+00:00"
+        "available_bike_stands": 8,
+        "available_bikes": 5,
+        "last_update": "2024-11-27T12:57:38+00:00"
     },
     {
         "number": 248,
@@ -1474,9 +1474,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 7,
-        "available_bikes": 10,
-        "last_update": "2024-11-27T10:56:30+00:00"
+        "available_bike_stands": 10,
+        "available_bikes": 7,
+        "last_update": "2024-11-27T12:57:14+00:00"
     },
     {
         "number": 147,
@@ -1491,9 +1491,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 19,
-        "available_bike_stands": 10,
-        "available_bikes": 7,
-        "last_update": "2024-11-27T10:57:19+00:00"
+        "available_bike_stands": 6,
+        "available_bikes": 12,
+        "last_update": "2024-11-27T12:58:38+00:00"
     },
     {
         "number": 53,
@@ -1508,9 +1508,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 25,
-        "available_bike_stands": 1,
-        "available_bikes": 21,
-        "last_update": "2024-11-27T10:59:18+00:00"
+        "available_bike_stands": 5,
+        "available_bikes": 15,
+        "last_update": "2024-11-27T12:57:39+00:00"
     },
     {
         "number": 343,
@@ -1525,9 +1525,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 13,
-        "available_bikes": 0,
-        "last_update": "2024-11-27T10:53:12+00:00"
+        "available_bike_stands": 12,
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:54:30+00:00"
     },
     {
         "number": 187,
@@ -1544,7 +1544,7 @@
         "bike_stands": 17,
         "available_bike_stands": 13,
         "available_bikes": 4,
-        "last_update": "2024-11-27T10:56:56+00:00"
+        "last_update": "2024-11-27T12:58:17+00:00"
     },
     {
         "number": 23,
@@ -1561,7 +1561,7 @@
         "bike_stands": 26,
         "available_bike_stands": 25,
         "available_bikes": 1,
-        "last_update": "2024-11-27T10:53:23+00:00"
+        "last_update": "2024-11-27T12:59:01+00:00"
     },
     {
         "number": 358,
@@ -1576,9 +1576,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 10,
-        "available_bikes": 2,
-        "last_update": "2024-11-27T10:58:04+00:00"
+        "available_bike_stands": 7,
+        "available_bikes": 5,
+        "last_update": "2024-11-27T12:55:37+00:00"
     },
     {
         "number": 397,
@@ -1593,9 +1593,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 4,
-        "available_bikes": 8,
-        "last_update": "2024-11-27T10:56:27+00:00"
+        "available_bike_stands": 2,
+        "available_bikes": 10,
+        "last_update": "2024-11-27T12:58:32+00:00"
     },
     {
         "number": 197,
@@ -1612,7 +1612,7 @@
         "bike_stands": 20,
         "available_bike_stands": 20,
         "available_bikes": 0,
-        "last_update": "2024-11-27T10:52:00+00:00"
+        "last_update": "2024-11-27T12:54:22+00:00"
     },
     {
         "number": 336,
@@ -1629,24 +1629,7 @@
         "bike_stands": 13,
         "available_bike_stands": 12,
         "available_bikes": 1,
-        "last_update": "2024-11-27T10:56:02+00:00"
-    },
-    {
-        "number": 131,
-        "name": "00131 - ROUTE DE BLAGNAC - BERNIES",
-        "address": "15 RUE PAUL BERNIES",
-        "position": {
-            "lon": 1.414669,
-            "lat": 43.611584
-        },
-        "banking": "True",
-        "bonus": "False",
-        "status": "OPEN",
-        "contract_name": "toulouse",
-        "bike_stands": 19,
-        "available_bike_stands": 8,
-        "available_bikes": 10,
-        "last_update": "2024-11-27T10:59:44+00:00"
+        "last_update": "2024-11-27T12:57:20+00:00"
     },
     {
         "number": 183,
@@ -1661,9 +1644,26 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 14,
-        "available_bikes": 4,
-        "last_update": "2024-11-27T10:53:09+00:00"
+        "available_bike_stands": 17,
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:57:16+00:00"
+    },
+    {
+        "number": 131,
+        "name": "00131 - ROUTE DE BLAGNAC - BERNIES",
+        "address": "15 RUE PAUL BERNIES",
+        "position": {
+            "lon": 1.414669,
+            "lat": 43.611584
+        },
+        "banking": "True",
+        "bonus": "False",
+        "status": "OPEN",
+        "contract_name": "toulouse",
+        "bike_stands": 19,
+        "available_bike_stands": 0,
+        "available_bikes": 18,
+        "last_update": "2024-11-27T12:57:21+00:00"
     },
     {
         "number": 388,
@@ -1678,9 +1678,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 9,
-        "available_bikes": 4,
-        "last_update": "2024-11-27T10:55:36+00:00"
+        "available_bike_stands": 10,
+        "available_bikes": 2,
+        "last_update": "2024-11-27T12:56:24+00:00"
     },
     {
         "number": 37,
@@ -1695,9 +1695,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 17,
-        "available_bikes": 1,
-        "last_update": "2024-11-27T10:56:37+00:00"
+        "available_bike_stands": 18,
+        "available_bikes": 0,
+        "last_update": "2024-11-27T12:57:53+00:00"
     },
     {
         "number": 7,
@@ -1712,9 +1712,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 25,
-        "available_bike_stands": 8,
-        "available_bikes": 15,
-        "last_update": "2024-11-27T10:58:14+00:00"
+        "available_bike_stands": 11,
+        "available_bikes": 12,
+        "last_update": "2024-11-27T12:59:04+00:00"
     },
     {
         "number": 255,
@@ -1729,26 +1729,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 16,
-        "available_bike_stands": 15,
+        "available_bike_stands": 16,
         "available_bikes": 0,
-        "last_update": "2024-11-27T10:53:40+00:00"
-    },
-    {
-        "number": 304,
-        "name": "00304 - CARTOUCHERIE TRAMWAY",
-        "address": "Place de la Charte des Libertes (le long du tram)",
-        "position": {
-            "lon": 1.408133,
-            "lat": 43.602797
-        },
-        "banking": "False",
-        "bonus": "False",
-        "status": "OPEN",
-        "contract_name": "toulouse",
-        "bike_stands": 13,
-        "available_bike_stands": 1,
-        "available_bikes": 11,
-        "last_update": "2024-11-27T10:58:43+00:00"
+        "last_update": "2024-11-27T12:54:47+00:00"
     },
     {
         "number": 273,
@@ -1763,9 +1746,26 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 17,
-        "available_bikes": 0,
-        "last_update": "2024-11-27T10:52:05+00:00"
+        "available_bike_stands": 11,
+        "available_bikes": 5,
+        "last_update": "2024-11-27T12:54:17+00:00"
+    },
+    {
+        "number": 304,
+        "name": "00304 - CARTOUCHERIE TRAMWAY",
+        "address": "Place de la Charte des Libertes (le long du tram)",
+        "position": {
+            "lon": 1.408133,
+            "lat": 43.602797
+        },
+        "banking": "False",
+        "bonus": "False",
+        "status": "OPEN",
+        "contract_name": "toulouse",
+        "bike_stands": 13,
+        "available_bike_stands": 7,
+        "available_bikes": 3,
+        "last_update": "2024-11-27T12:58:51+00:00"
     },
     {
         "number": 297,
@@ -1782,7 +1782,7 @@
         "bike_stands": 13,
         "available_bike_stands": 12,
         "available_bikes": 1,
-        "last_update": "2024-11-27T10:54:53+00:00"
+        "last_update": "2024-11-27T12:55:56+00:00"
     },
     {
         "number": 234,
@@ -1797,9 +1797,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 15,
-        "available_bike_stands": 12,
-        "available_bikes": 3,
-        "last_update": "2024-11-27T10:51:47+00:00"
+        "available_bike_stands": 8,
+        "available_bikes": 7,
+        "last_update": "2024-11-27T12:57:38+00:00"
     },
     {
         "number": 21,
@@ -1814,9 +1814,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 25,
-        "available_bike_stands": 19,
-        "available_bikes": 4,
-        "last_update": "2024-11-27T10:53:19+00:00"
+        "available_bike_stands": 15,
+        "available_bikes": 8,
+        "last_update": "2024-11-27T12:55:47+00:00"
     },
     {
         "number": 396,
@@ -1831,9 +1831,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 1,
-        "available_bikes": 12,
-        "last_update": "2024-11-27T10:53:54+00:00"
+        "available_bike_stands": 2,
+        "available_bikes": 11,
+        "last_update": "2024-11-27T12:54:46+00:00"
     },
     {
         "number": 175,
@@ -1848,9 +1848,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 30,
-        "available_bike_stands": 22,
-        "available_bikes": 6,
-        "last_update": "2024-11-27T10:58:16+00:00"
+        "available_bike_stands": 25,
+        "available_bikes": 4,
+        "last_update": "2024-11-27T12:57:51+00:00"
     },
     {
         "number": 266,
@@ -1865,26 +1865,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 19,
-        "available_bikes": 1,
-        "last_update": "2024-11-27T10:59:28+00:00"
-    },
-    {
-        "number": 166,
-        "name": "00166 - RANGUEIL - M\u00c9TRO",
-        "address": "23 RUE GUYOU",
-        "position": {
-            "lon": 1.462367,
-            "lat": 43.57421
-        },
-        "banking": "False",
-        "bonus": "False",
-        "status": "OPEN",
-        "contract_name": "toulouse",
-        "bike_stands": 20,
-        "available_bike_stands": 13,
-        "available_bikes": 7,
-        "last_update": "2024-11-27T10:59:46+00:00"
+        "available_bike_stands": 17,
+        "available_bikes": 3,
+        "last_update": "2024-11-27T12:59:01+00:00"
     },
     {
         "number": 370,
@@ -1899,9 +1882,26 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 4,
+        "available_bike_stands": 3,
         "available_bikes": 6,
-        "last_update": "2024-11-27T10:59:59+00:00"
+        "last_update": "2024-11-27T12:58:32+00:00"
+    },
+    {
+        "number": 166,
+        "name": "00166 - RANGUEIL - M\u00c9TRO",
+        "address": "23 RUE GUYOU",
+        "position": {
+            "lon": 1.462367,
+            "lat": 43.57421
+        },
+        "banking": "False",
+        "bonus": "False",
+        "status": "OPEN",
+        "contract_name": "toulouse",
+        "bike_stands": 20,
+        "available_bike_stands": 16,
+        "available_bikes": 2,
+        "last_update": "2024-11-27T12:58:22+00:00"
     },
     {
         "number": 135,
@@ -1916,9 +1916,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 14,
-        "available_bikes": 4,
-        "last_update": "2024-11-27T10:55:13+00:00"
+        "available_bike_stands": 15,
+        "available_bikes": 3,
+        "last_update": "2024-11-27T12:56:47+00:00"
     },
     {
         "number": 24,
@@ -1933,9 +1933,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 22,
-        "available_bike_stands": 15,
-        "available_bikes": 7,
-        "last_update": "2024-11-27T10:52:22+00:00"
+        "available_bike_stands": 17,
+        "available_bikes": 5,
+        "last_update": "2024-11-27T12:57:36+00:00"
     },
     {
         "number": 196,
@@ -1950,9 +1950,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 16,
-        "available_bikes": 3,
-        "last_update": "2024-11-27T11:00:01+00:00"
+        "available_bike_stands": 19,
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:56:26+00:00"
     },
     {
         "number": 233,
@@ -1967,9 +1967,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 8,
-        "available_bikes": 8,
-        "last_update": "2024-11-27T10:59:18+00:00"
+        "available_bike_stands": 5,
+        "available_bikes": 13,
+        "last_update": "2024-11-27T12:57:14+00:00"
     },
     {
         "number": 1031,
@@ -1984,9 +1984,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 42,
-        "available_bike_stands": 33,
-        "available_bikes": 4,
-        "last_update": "2024-11-27T10:57:40+00:00"
+        "available_bike_stands": 31,
+        "available_bikes": 7,
+        "last_update": "2024-11-27T12:57:14+00:00"
     },
     {
         "number": 186,
@@ -2001,9 +2001,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 5,
-        "available_bikes": 9,
-        "last_update": "2024-11-27T10:57:14+00:00"
+        "available_bike_stands": 2,
+        "available_bikes": 12,
+        "last_update": "2024-11-27T12:58:58+00:00"
     },
     {
         "number": 235,
@@ -2013,14 +2013,14 @@
             "lon": 1.435519,
             "lat": 43.633454
         },
-        "banking": "True",
+        "banking": "False",
         "bonus": "False",
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 19,
-        "available_bike_stands": 12,
-        "available_bikes": 5,
-        "last_update": "2024-11-27T10:57:51+00:00"
+        "available_bike_stands": 13,
+        "available_bikes": 4,
+        "last_update": "2024-11-27T12:59:02+00:00"
     },
     {
         "number": 288,
@@ -2035,9 +2035,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 36,
-        "available_bike_stands": 22,
-        "available_bikes": 12,
-        "last_update": "2024-11-27T11:00:01+00:00"
+        "available_bike_stands": 18,
+        "available_bikes": 14,
+        "last_update": "2024-11-27T12:58:59+00:00"
     },
     {
         "number": 294,
@@ -2052,9 +2052,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 10,
-        "available_bikes": 0,
-        "last_update": "2024-11-27T10:54:48+00:00"
+        "available_bike_stands": 7,
+        "available_bikes": 2,
+        "last_update": "2024-11-27T12:58:05+00:00"
     },
     {
         "number": 252,
@@ -2070,8 +2070,8 @@
         "contract_name": "toulouse",
         "bike_stands": 18,
         "available_bike_stands": 9,
-        "available_bikes": 8,
-        "last_update": "2024-11-27T10:57:53+00:00"
+        "available_bikes": 9,
+        "last_update": "2024-11-27T12:54:33+00:00"
     },
     {
         "number": 244,
@@ -2086,9 +2086,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 9,
-        "available_bikes": 5,
-        "last_update": "2024-11-27T10:59:07+00:00"
+        "available_bike_stands": 7,
+        "available_bikes": 9,
+        "last_update": "2024-11-27T12:57:13+00:00"
     },
     {
         "number": 172,
@@ -2103,9 +2103,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 17,
-        "available_bikes": 3,
-        "last_update": "2024-11-27T10:59:18+00:00"
+        "available_bike_stands": 13,
+        "available_bikes": 7,
+        "last_update": "2024-11-27T12:54:31+00:00"
     },
     {
         "number": 341,
@@ -2120,26 +2120,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 11,
-        "available_bikes": 2,
-        "last_update": "2024-11-27T10:59:32+00:00"
-    },
-    {
-        "number": 90,
-        "name": "00090 - LASCROSSES - ARNAUD BERNARD",
-        "address": "3B BD LASCROSSES",
-        "position": {
-            "lon": 1.438093,
-            "lat": 43.611271
-        },
-        "banking": "False",
-        "bonus": "False",
-        "status": "OPEN",
-        "contract_name": "toulouse",
-        "bike_stands": 25,
-        "available_bike_stands": 23,
-        "available_bikes": 2,
-        "last_update": "2024-11-27T10:59:32+00:00"
+        "available_bike_stands": 9,
+        "available_bikes": 4,
+        "last_update": "2024-11-27T12:53:06+00:00"
     },
     {
         "number": 362,
@@ -2156,7 +2139,24 @@
         "bike_stands": 13,
         "available_bike_stands": 10,
         "available_bikes": 2,
-        "last_update": "2024-11-27T10:59:24+00:00"
+        "last_update": "2024-11-27T12:53:00+00:00"
+    },
+    {
+        "number": 90,
+        "name": "00090 - LASCROSSES - ARNAUD BERNARD",
+        "address": "3B BD LASCROSSES",
+        "position": {
+            "lon": 1.438093,
+            "lat": 43.611271
+        },
+        "banking": "False",
+        "bonus": "False",
+        "status": "OPEN",
+        "contract_name": "toulouse",
+        "bike_stands": 25,
+        "available_bike_stands": 21,
+        "available_bikes": 4,
+        "last_update": "2024-11-27T12:58:00+00:00"
     },
     {
         "number": 141,
@@ -2171,9 +2171,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 13,
-        "available_bikes": 5,
-        "last_update": "2024-11-27T10:59:38+00:00"
+        "available_bike_stands": 18,
+        "available_bikes": 0,
+        "last_update": "2024-11-27T12:54:09+00:00"
     },
     {
         "number": 281,
@@ -2188,9 +2188,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 14,
-        "available_bikes": 2,
-        "last_update": "2024-11-27T10:55:02+00:00"
+        "available_bike_stands": 13,
+        "available_bikes": 3,
+        "last_update": "2024-11-27T12:52:37+00:00"
     },
     {
         "number": 228,
@@ -2205,9 +2205,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 6,
-        "available_bikes": 9,
-        "last_update": "2024-11-27T10:59:02+00:00"
+        "available_bike_stands": 5,
+        "available_bikes": 11,
+        "last_update": "2024-11-27T12:58:21+00:00"
     },
     {
         "number": 108,
@@ -2222,9 +2222,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 12,
-        "available_bikes": 8,
-        "last_update": "2024-11-27T10:56:49+00:00"
+        "available_bike_stands": 14,
+        "available_bikes": 6,
+        "last_update": "2024-11-27T12:58:04+00:00"
     },
     {
         "number": 109,
@@ -2239,9 +2239,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 25,
-        "available_bike_stands": 22,
-        "available_bikes": 3,
-        "last_update": "2024-11-27T11:00:02+00:00"
+        "available_bike_stands": 13,
+        "available_bikes": 12,
+        "last_update": "2024-11-27T12:55:11+00:00"
     },
     {
         "number": 202,
@@ -2256,9 +2256,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 17,
-        "available_bike_stands": 15,
-        "available_bikes": 2,
-        "last_update": "2024-11-27T10:59:14+00:00"
+        "available_bike_stands": 16,
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:57:27+00:00"
     },
     {
         "number": 102,
@@ -2273,9 +2273,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 19,
-        "available_bike_stands": 15,
-        "available_bikes": 2,
-        "last_update": "2024-11-27T10:58:09+00:00"
+        "available_bike_stands": 17,
+        "available_bikes": 0,
+        "last_update": "2024-11-27T12:57:42+00:00"
     },
     {
         "number": 262,
@@ -2290,9 +2290,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 12,
-        "available_bikes": 5,
-        "last_update": "2024-11-27T10:55:52+00:00"
+        "available_bike_stands": 13,
+        "available_bikes": 4,
+        "last_update": "2024-11-27T12:56:55+00:00"
     },
     {
         "number": 399,
@@ -2307,9 +2307,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 8,
-        "available_bikes": 4,
-        "last_update": "2024-11-27T10:58:15+00:00"
+        "available_bike_stands": 7,
+        "available_bikes": 5,
+        "last_update": "2024-11-27T12:51:47+00:00"
     },
     {
         "number": 184,
@@ -2324,9 +2324,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 15,
-        "available_bikes": 5,
-        "last_update": "2024-11-27T10:56:09+00:00"
+        "available_bike_stands": 16,
+        "available_bikes": 4,
+        "last_update": "2024-11-27T12:55:36+00:00"
     },
     {
         "number": 271,
@@ -2341,9 +2341,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 3,
-        "available_bikes": 17,
-        "last_update": "2024-11-27T10:56:18+00:00"
+        "available_bike_stands": 8,
+        "available_bikes": 11,
+        "last_update": "2024-11-27T12:57:58+00:00"
     },
     {
         "number": 33,
@@ -2358,9 +2358,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 15,
-        "available_bike_stands": 1,
-        "available_bikes": 13,
-        "last_update": "2024-11-27T10:58:09+00:00"
+        "available_bike_stands": 14,
+        "available_bikes": 0,
+        "last_update": "2024-11-27T12:55:57+00:00"
     },
     {
         "number": 161,
@@ -2375,9 +2375,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 15,
-        "available_bike_stands": 14,
-        "available_bikes": 1,
-        "last_update": "2024-11-27T10:50:05+00:00"
+        "available_bike_stands": 15,
+        "available_bikes": 0,
+        "last_update": "2024-11-27T12:51:13+00:00"
     },
     {
         "number": 391,
@@ -2392,9 +2392,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 2,
-        "available_bikes": 10,
-        "last_update": "2024-11-27T10:57:32+00:00"
+        "available_bike_stands": 4,
+        "available_bikes": 8,
+        "last_update": "2024-11-27T12:56:15+00:00"
     },
     {
         "number": 268,
@@ -2409,9 +2409,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 22,
-        "available_bike_stands": 1,
-        "available_bikes": 19,
-        "last_update": "2024-11-27T10:58:19+00:00"
+        "available_bike_stands": 4,
+        "available_bikes": 16,
+        "last_update": "2024-11-27T12:55:08+00:00"
     },
     {
         "number": 82,
@@ -2426,9 +2426,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 21,
-        "available_bike_stands": 21,
-        "available_bikes": 0,
-        "last_update": "2024-11-27T10:59:43+00:00"
+        "available_bike_stands": 11,
+        "available_bikes": 10,
+        "last_update": "2024-11-27T12:54:59+00:00"
     },
     {
         "number": 173,
@@ -2443,9 +2443,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 19,
-        "available_bike_stands": 14,
-        "available_bikes": 4,
-        "last_update": "2024-11-27T10:56:53+00:00"
+        "available_bike_stands": 13,
+        "available_bikes": 5,
+        "last_update": "2024-11-27T12:52:58+00:00"
     },
     {
         "number": 85,
@@ -2460,26 +2460,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 22,
-        "available_bike_stands": 1,
-        "available_bikes": 20,
-        "last_update": "2024-11-27T10:59:55+00:00"
-    },
-    {
-        "number": 376,
-        "name": "00376 - EISENHOWER - LESTANG",
-        "address": "Avenue du g\u00e9n\u00e9ral Eisenhower, face au coll\u00e8ge Saint Simon",
-        "position": {
-            "lon": 1.3944267,
-            "lat": 43.5599624
-        },
-        "banking": "False",
-        "bonus": "False",
-        "status": "OPEN",
-        "contract_name": "toulouse",
-        "bike_stands": 13,
-        "available_bike_stands": 4,
-        "available_bikes": 9,
-        "last_update": "2024-11-27T10:58:43+00:00"
+        "available_bike_stands": 9,
+        "available_bikes": 11,
+        "last_update": "2024-11-27T12:58:41+00:00"
     },
     {
         "number": 331,
@@ -2494,9 +2477,26 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 12,
+        "available_bike_stands": 11,
         "available_bikes": 1,
-        "last_update": "2024-11-27T10:50:58+00:00"
+        "last_update": "2024-11-27T12:57:35+00:00"
+    },
+    {
+        "number": 376,
+        "name": "00376 - EISENHOWER - LESTANG",
+        "address": "Avenue du g\u00e9n\u00e9ral Eisenhower, face au coll\u00e8ge Saint Simon",
+        "position": {
+            "lon": 1.3944267,
+            "lat": 43.5599624
+        },
+        "banking": "False",
+        "bonus": "False",
+        "status": "OPEN",
+        "contract_name": "toulouse",
+        "bike_stands": 13,
+        "available_bike_stands": 5,
+        "available_bikes": 8,
+        "last_update": "2024-11-27T12:58:04+00:00"
     },
     {
         "number": 213,
@@ -2511,9 +2511,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 17,
-        "available_bike_stands": 11,
-        "available_bikes": 6,
-        "last_update": "2024-11-27T10:57:20+00:00"
+        "available_bike_stands": 10,
+        "available_bikes": 7,
+        "last_update": "2024-11-27T12:55:01+00:00"
     },
     {
         "number": 126,
@@ -2528,9 +2528,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 22,
-        "available_bike_stands": 17,
-        "available_bikes": 4,
-        "last_update": "2024-11-27T10:58:11+00:00"
+        "available_bike_stands": 18,
+        "available_bikes": 3,
+        "last_update": "2024-11-27T12:57:31+00:00"
     },
     {
         "number": 143,
@@ -2545,9 +2545,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 17,
-        "available_bikes": 1,
-        "last_update": "2024-11-27T10:53:20+00:00"
+        "available_bike_stands": 15,
+        "available_bikes": 3,
+        "last_update": "2024-11-27T12:54:51+00:00"
     },
     {
         "number": 389,
@@ -2564,7 +2564,7 @@
         "bike_stands": 13,
         "available_bike_stands": 12,
         "available_bikes": 1,
-        "last_update": "2024-11-27T10:51:01+00:00"
+        "last_update": "2024-11-27T12:52:05+00:00"
     },
     {
         "number": 106,
@@ -2579,26 +2579,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 21,
-        "available_bike_stands": 20,
-        "available_bikes": 0,
-        "last_update": "2024-11-27T10:56:13+00:00"
-    },
-    {
-        "number": 254,
-        "name": "00254 - VESTREPAIN - LOT",
-        "address": "RUE DU LOT / 100M AVANT LA RUE VESTREPAIN",
-        "position": {
-            "lon": 1.407055,
-            "lat": 43.583264
-        },
-        "banking": "False",
-        "bonus": "False",
-        "status": "OPEN",
-        "contract_name": "toulouse",
-        "bike_stands": 18,
-        "available_bike_stands": 14,
+        "available_bike_stands": 19,
         "available_bikes": 1,
-        "last_update": "2024-11-27T10:58:26+00:00"
+        "last_update": "2024-11-27T12:58:56+00:00"
     },
     {
         "number": 30,
@@ -2613,9 +2596,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 25,
-        "available_bike_stands": 0,
-        "available_bikes": 22,
-        "last_update": "2024-11-27T10:58:47+00:00"
+        "available_bike_stands": 8,
+        "available_bikes": 12,
+        "last_update": "2024-11-27T12:58:45+00:00"
     },
     {
         "number": 97,
@@ -2630,9 +2613,26 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 21,
-        "available_bike_stands": 20,
-        "available_bikes": 1,
-        "last_update": "2024-11-27T10:59:56+00:00"
+        "available_bike_stands": 21,
+        "available_bikes": 0,
+        "last_update": "2024-11-27T12:55:32+00:00"
+    },
+    {
+        "number": 254,
+        "name": "00254 - VESTREPAIN - LOT",
+        "address": "RUE DU LOT / 100M AVANT LA RUE VESTREPAIN",
+        "position": {
+            "lon": 1.407055,
+            "lat": 43.583264
+        },
+        "banking": "False",
+        "bonus": "False",
+        "status": "OPEN",
+        "contract_name": "toulouse",
+        "bike_stands": 18,
+        "available_bike_stands": 9,
+        "available_bikes": 5,
+        "last_update": "2024-11-27T12:58:36+00:00"
     },
     {
         "number": 359,
@@ -2647,9 +2647,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 9,
-        "available_bikes": 2,
-        "last_update": "2024-11-27T10:58:55+00:00"
+        "available_bike_stands": 11,
+        "available_bikes": 0,
+        "last_update": "2024-11-27T12:54:55+00:00"
     },
     {
         "number": 170,
@@ -2664,26 +2664,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 17,
-        "available_bike_stands": 10,
-        "available_bikes": 7,
-        "last_update": "2024-11-27T10:58:57+00:00"
-    },
-    {
-        "number": 62,
-        "name": "00062 - JAURES - BONREPOS",
-        "address": "81 ALLEE JEAN JAURES",
-        "position": {
-            "lon": 1.453549,
-            "lat": 43.609216
-        },
-        "banking": "False",
-        "bonus": "False",
-        "status": "OPEN",
-        "contract_name": "toulouse",
-        "bike_stands": 24,
-        "available_bike_stands": 22,
-        "available_bikes": 0,
-        "last_update": "2024-11-27T10:50:12+00:00"
+        "available_bike_stands": 13,
+        "available_bikes": 4,
+        "last_update": "2024-11-27T12:50:10+00:00"
     },
     {
         "number": 191,
@@ -2698,9 +2681,26 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 10,
-        "available_bikes": 7,
-        "last_update": "2024-11-27T10:59:37+00:00"
+        "available_bike_stands": 11,
+        "available_bikes": 6,
+        "last_update": "2024-11-27T12:57:09+00:00"
+    },
+    {
+        "number": 62,
+        "name": "00062 - JAURES - BONREPOS",
+        "address": "81 ALLEE JEAN JAURES",
+        "position": {
+            "lon": 1.453549,
+            "lat": 43.609216
+        },
+        "banking": "False",
+        "bonus": "False",
+        "status": "OPEN",
+        "contract_name": "toulouse",
+        "bike_stands": 24,
+        "available_bike_stands": 19,
+        "available_bikes": 3,
+        "last_update": "2024-11-27T12:58:55+00:00"
     },
     {
         "number": 123,
@@ -2715,9 +2715,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 23,
-        "available_bike_stands": 13,
-        "available_bikes": 8,
-        "last_update": "2024-11-27T10:59:51+00:00"
+        "available_bike_stands": 19,
+        "available_bikes": 2,
+        "last_update": "2024-11-27T12:58:51+00:00"
     },
     {
         "number": 52,
@@ -2732,9 +2732,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 21,
-        "available_bike_stands": 10,
-        "available_bikes": 11,
-        "last_update": "2024-11-27T10:57:18+00:00"
+        "available_bike_stands": 7,
+        "available_bikes": 14,
+        "last_update": "2024-11-27T12:57:07+00:00"
     },
     {
         "number": 6,
@@ -2749,9 +2749,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 0,
-        "available_bikes": 17,
-        "last_update": "2024-11-27T10:59:20+00:00"
+        "available_bike_stands": 11,
+        "available_bikes": 6,
+        "last_update": "2024-11-27T12:58:43+00:00"
     },
     {
         "number": 104,
@@ -2766,9 +2766,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 8,
-        "available_bikes": 10,
-        "last_update": "2024-11-27T10:58:43+00:00"
+        "available_bike_stands": 14,
+        "available_bikes": 4,
+        "last_update": "2024-11-27T12:53:55+00:00"
     },
     {
         "number": 245,
@@ -2783,9 +2783,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 19,
-        "available_bike_stands": 7,
-        "available_bikes": 1,
-        "last_update": "2024-11-27T10:58:52+00:00"
+        "available_bike_stands": 2,
+        "available_bikes": 16,
+        "last_update": "2024-11-27T12:58:42+00:00"
     },
     {
         "number": 49,
@@ -2800,9 +2800,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 24,
-        "available_bike_stands": 6,
-        "available_bikes": 16,
-        "last_update": "2024-11-27T10:58:11+00:00"
+        "available_bike_stands": 8,
+        "available_bikes": 14,
+        "last_update": "2024-11-27T12:57:18+00:00"
     },
     {
         "number": 260,
@@ -2819,7 +2819,7 @@
         "bike_stands": 18,
         "available_bike_stands": 10,
         "available_bikes": 7,
-        "last_update": "2024-11-27T10:59:41+00:00"
+        "last_update": "2024-11-27T12:51:51+00:00"
     },
     {
         "number": 124,
@@ -2834,9 +2834,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 17,
-        "available_bikes": 0,
-        "last_update": "2024-11-27T10:53:41+00:00"
+        "available_bike_stands": 12,
+        "available_bikes": 5,
+        "last_update": "2024-11-27T12:57:24+00:00"
     },
     {
         "number": 207,
@@ -2851,9 +2851,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 17,
-        "available_bike_stands": 17,
-        "available_bikes": 0,
-        "last_update": "2024-11-27T10:56:26+00:00"
+        "available_bike_stands": 16,
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:57:32+00:00"
     },
     {
         "number": 11,
@@ -2868,9 +2868,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 23,
-        "available_bike_stands": 0,
-        "available_bikes": 23,
-        "last_update": "2024-11-27T10:59:49+00:00"
+        "available_bike_stands": 22,
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:58:53+00:00"
     },
     {
         "number": 168,
@@ -2887,7 +2887,7 @@
         "bike_stands": 20,
         "available_bike_stands": 19,
         "available_bikes": 1,
-        "last_update": "2024-11-27T10:58:45+00:00"
+        "last_update": "2024-11-27T12:55:19+00:00"
     },
     {
         "number": 319,
@@ -2904,7 +2904,7 @@
         "bike_stands": 13,
         "available_bike_stands": 11,
         "available_bikes": 1,
-        "last_update": "2024-11-27T10:56:55+00:00"
+        "last_update": "2024-11-27T12:58:09+00:00"
     },
     {
         "number": 394,
@@ -2919,9 +2919,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 6,
-        "available_bikes": 5,
-        "last_update": "2024-11-27T10:51:54+00:00"
+        "available_bike_stands": 7,
+        "available_bikes": 4,
+        "last_update": "2024-11-27T12:55:37+00:00"
     },
     {
         "number": 150,
@@ -2936,9 +2936,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 16,
-        "available_bikes": 0,
-        "last_update": "2024-11-27T10:50:12+00:00"
+        "available_bike_stands": 7,
+        "available_bikes": 9,
+        "last_update": "2024-11-27T12:51:35+00:00"
     },
     {
         "number": 323,
@@ -2953,9 +2953,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 7,
-        "available_bikes": 4,
-        "last_update": "2024-11-27T10:52:36+00:00"
+        "available_bike_stands": 3,
+        "available_bikes": 8,
+        "last_update": "2024-11-27T12:53:57+00:00"
     },
     {
         "number": 179,
@@ -2970,9 +2970,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 17,
-        "available_bike_stands": 7,
-        "available_bikes": 9,
-        "last_update": "2024-11-27T10:59:05+00:00"
+        "available_bike_stands": 15,
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:50:51+00:00"
     },
     {
         "number": 204,
@@ -2987,9 +2987,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 7,
-        "available_bikes": 8,
-        "last_update": "2024-11-27T10:56:56+00:00"
+        "available_bike_stands": 16,
+        "available_bikes": 0,
+        "last_update": "2024-11-27T12:58:52+00:00"
     },
     {
         "number": 120,
@@ -3004,9 +3004,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 16,
-        "available_bikes": 1,
-        "last_update": "2024-11-27T10:53:30+00:00"
+        "available_bike_stands": 3,
+        "available_bikes": 14,
+        "last_update": "2024-11-27T12:53:25+00:00"
     },
     {
         "number": 327,
@@ -3021,9 +3021,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 13,
-        "available_bikes": 0,
-        "last_update": "2024-11-27T10:57:00+00:00"
+        "available_bike_stands": 12,
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:58:10+00:00"
     },
     {
         "number": 312,
@@ -3040,7 +3040,7 @@
         "bike_stands": 13,
         "available_bike_stands": 1,
         "available_bikes": 12,
-        "last_update": "2024-11-27T10:57:10+00:00"
+        "last_update": "2024-11-27T12:56:27+00:00"
     },
     {
         "number": 217,
@@ -3055,9 +3055,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 14,
-        "available_bikes": 4,
-        "last_update": "2024-11-27T10:54:08+00:00"
+        "available_bike_stands": 18,
+        "available_bikes": 0,
+        "last_update": "2024-11-27T12:55:29+00:00"
     },
     {
         "number": 70,
@@ -3072,9 +3072,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 13,
-        "available_bikes": 5,
-        "last_update": "2024-11-27T10:55:16+00:00"
+        "available_bike_stands": 15,
+        "available_bikes": 3,
+        "last_update": "2024-11-27T12:57:39+00:00"
     },
     {
         "number": 112,
@@ -3089,9 +3089,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 17,
-        "available_bikes": 3,
-        "last_update": "2024-11-27T10:53:23+00:00"
+        "available_bike_stands": 9,
+        "available_bikes": 10,
+        "last_update": "2024-11-27T12:56:54+00:00"
     },
     {
         "number": 193,
@@ -3106,9 +3106,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 18,
-        "available_bikes": 1,
-        "last_update": "2024-11-27T10:53:05+00:00"
+        "available_bike_stands": 15,
+        "available_bikes": 4,
+        "last_update": "2024-11-27T12:54:29+00:00"
     },
     {
         "number": 15,
@@ -3123,9 +3123,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 18,
-        "available_bikes": 2,
-        "last_update": "2024-11-27T10:57:37+00:00"
+        "available_bike_stands": 17,
+        "available_bikes": 3,
+        "last_update": "2024-11-27T12:56:35+00:00"
     },
     {
         "number": 76,
@@ -3140,9 +3140,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 16,
-        "available_bike_stands": 10,
-        "available_bikes": 5,
-        "last_update": "2024-11-27T10:57:35+00:00"
+        "available_bike_stands": 11,
+        "available_bikes": 4,
+        "last_update": "2024-11-27T12:58:14+00:00"
     },
     {
         "number": 89,
@@ -3157,9 +3157,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 22,
-        "available_bike_stands": 9,
-        "available_bikes": 11,
-        "last_update": "2024-11-27T10:59:48+00:00"
+        "available_bike_stands": 16,
+        "available_bikes": 4,
+        "last_update": "2024-11-27T12:57:46+00:00"
     },
     {
         "number": 366,
@@ -3174,9 +3174,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 2,
-        "available_bikes": 11,
-        "last_update": "2024-11-27T10:54:39+00:00"
+        "available_bike_stands": 3,
+        "available_bikes": 10,
+        "last_update": "2024-11-27T12:58:26+00:00"
     },
     {
         "number": 190,
@@ -3193,7 +3193,7 @@
         "bike_stands": 20,
         "available_bike_stands": 15,
         "available_bikes": 3,
-        "last_update": "2024-11-27T10:59:58+00:00"
+        "last_update": "2024-11-27T12:53:05+00:00"
     },
     {
         "number": 241,
@@ -3208,9 +3208,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 10,
-        "available_bikes": 7,
-        "last_update": "2024-11-27T10:59:50+00:00"
+        "available_bike_stands": 16,
+        "available_bikes": 2,
+        "last_update": "2024-11-27T12:54:37+00:00"
     },
     {
         "number": 274,
@@ -3225,9 +3225,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 3,
-        "available_bikes": 15,
-        "last_update": "2024-11-27T10:58:01+00:00"
+        "available_bike_stands": 1,
+        "available_bikes": 17,
+        "last_update": "2024-11-27T12:57:35+00:00"
     },
     {
         "number": 8,
@@ -3243,8 +3243,8 @@
         "contract_name": "toulouse",
         "bike_stands": 25,
         "available_bike_stands": 6,
-        "available_bikes": 18,
-        "last_update": "2024-11-27T10:59:01+00:00"
+        "available_bikes": 17,
+        "last_update": "2024-11-27T12:56:53+00:00"
     },
     {
         "number": 180,
@@ -3259,9 +3259,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 10,
-        "available_bikes": 7,
-        "last_update": "2024-11-27T10:59:03+00:00"
+        "available_bike_stands": 5,
+        "available_bikes": 13,
+        "last_update": "2024-11-27T12:54:16+00:00"
     },
     {
         "number": 257,
@@ -3276,9 +3276,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 16,
-        "available_bike_stands": 16,
-        "available_bikes": 0,
-        "last_update": "2024-11-27T10:55:02+00:00"
+        "available_bike_stands": 14,
+        "available_bikes": 2,
+        "last_update": "2024-11-27T12:55:55+00:00"
     },
     {
         "number": 9,
@@ -3293,26 +3293,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 17,
-        "available_bikes": 1,
-        "last_update": "2024-11-27T10:57:13+00:00"
-    },
-    {
-        "number": 332,
-        "name": "00332 - PLACE ROSINE BET",
-        "address": "1, place Rosine Bet",
-        "position": {
-            "lon": 1.467356,
-            "lat": 43.623677
-        },
-        "banking": "False",
-        "bonus": "False",
-        "status": "OPEN",
-        "contract_name": "toulouse",
-        "bike_stands": 13,
-        "available_bike_stands": 3,
-        "available_bikes": 8,
-        "last_update": "2024-11-27T10:52:10+00:00"
+        "available_bike_stands": 15,
+        "available_bikes": 3,
+        "last_update": "2024-11-27T12:58:37+00:00"
     },
     {
         "number": 214,
@@ -3327,9 +3310,26 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 17,
-        "available_bike_stands": 17,
-        "available_bikes": 0,
-        "last_update": "2024-11-27T10:54:30+00:00"
+        "available_bike_stands": 15,
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:57:06+00:00"
+    },
+    {
+        "number": 332,
+        "name": "00332 - PLACE ROSINE BET",
+        "address": "1, place Rosine Bet",
+        "position": {
+            "lon": 1.467356,
+            "lat": 43.623677
+        },
+        "banking": "False",
+        "bonus": "False",
+        "status": "OPEN",
+        "contract_name": "toulouse",
+        "bike_stands": 13,
+        "available_bike_stands": 4,
+        "available_bikes": 7,
+        "last_update": "2024-11-27T12:53:19+00:00"
     },
     {
         "number": 277,
@@ -3344,9 +3344,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 12,
-        "available_bikes": 6,
-        "last_update": "2024-11-27T10:56:42+00:00"
+        "available_bike_stands": 13,
+        "available_bikes": 5,
+        "last_update": "2024-11-27T12:57:53+00:00"
     },
     {
         "number": 347,
@@ -3361,9 +3361,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 9,
-        "available_bikes": 3,
-        "last_update": "2024-11-27T10:55:30+00:00"
+        "available_bike_stands": 11,
+        "available_bikes": 2,
+        "last_update": "2024-11-27T12:56:51+00:00"
     },
     {
         "number": 199,
@@ -3378,9 +3378,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 22,
-        "available_bike_stands": 17,
-        "available_bikes": 3,
-        "last_update": "2024-11-27T10:59:53+00:00"
+        "available_bike_stands": 20,
+        "available_bikes": 2,
+        "last_update": "2024-11-27T12:54:26+00:00"
     },
     {
         "number": 10,
@@ -3395,9 +3395,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 44,
-        "available_bike_stands": 19,
-        "available_bikes": 23,
-        "last_update": "2024-11-27T10:59:07+00:00"
+        "available_bike_stands": 26,
+        "available_bikes": 14,
+        "last_update": "2024-11-27T12:58:49+00:00"
     },
     {
         "number": 330,
@@ -3412,26 +3412,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 13,
-        "available_bikes": 0,
-        "last_update": "2024-11-27T10:50:41+00:00"
-    },
-    {
-        "number": 291,
-        "name": "00291 - \u00ceLE DU RAMIER TRAMWAY",
-        "address": "Carrefour pont Saint Michel  /  avenue du Grand Ramier, face Th\u00e9\u00e2tre de verdure",
-        "position": {
-            "lon": 1.439829,
-            "lat": 43.592077
-        },
-        "banking": "False",
-        "bonus": "False",
-        "status": "OPEN",
-        "contract_name": "toulouse",
-        "bike_stands": 13,
-        "available_bike_stands": 2,
-        "available_bikes": 9,
-        "last_update": "2024-11-27T10:58:45+00:00"
+        "available_bike_stands": 11,
+        "available_bikes": 2,
+        "last_update": "2024-11-27T12:51:49+00:00"
     },
     {
         "number": 35,
@@ -3446,9 +3429,26 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 25,
-        "available_bike_stands": 23,
-        "available_bikes": 2,
-        "last_update": "2024-11-27T11:00:00+00:00"
+        "available_bike_stands": 20,
+        "available_bikes": 5,
+        "last_update": "2024-11-27T12:57:13+00:00"
+    },
+    {
+        "number": 291,
+        "name": "00291 - \u00ceLE DU RAMIER TRAMWAY",
+        "address": "Carrefour pont Saint Michel  /  avenue du Grand Ramier, face Th\u00e9\u00e2tre de verdure",
+        "position": {
+            "lon": 1.439829,
+            "lat": 43.592077
+        },
+        "banking": "False",
+        "bonus": "False",
+        "status": "OPEN",
+        "contract_name": "toulouse",
+        "bike_stands": 13,
+        "available_bike_stands": 7,
+        "available_bikes": 4,
+        "last_update": "2024-11-27T12:49:40+00:00"
     },
     {
         "number": 250,
@@ -3463,9 +3463,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 16,
-        "available_bikes": 2,
-        "last_update": "2024-11-27T10:58:09+00:00"
+        "available_bike_stands": 17,
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:51:42+00:00"
     },
     {
         "number": 19,
@@ -3480,9 +3480,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 24,
-        "available_bike_stands": 19,
-        "available_bikes": 4,
-        "last_update": "2024-11-27T10:59:56+00:00"
+        "available_bike_stands": 17,
+        "available_bikes": 6,
+        "last_update": "2024-11-27T12:51:31+00:00"
     },
     {
         "number": 164,
@@ -3497,26 +3497,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 17,
-        "available_bikes": 2,
-        "last_update": "2024-11-27T10:59:57+00:00"
-    },
-    {
-        "number": 13,
-        "name": "00013 - LOIS - ESQUILE",
-        "address": "1 RUE DE L ESQUILE",
-        "position": {
-            "lon": 1.44135,
-            "lat": 43.606146
-        },
-        "banking": "False",
-        "bonus": "False",
-        "status": "OPEN",
-        "contract_name": "toulouse",
-        "bike_stands": 15,
-        "available_bike_stands": 1,
-        "available_bikes": 13,
-        "last_update": "2024-11-27T10:59:54+00:00"
+        "available_bike_stands": 13,
+        "available_bikes": 6,
+        "last_update": "2024-11-27T12:54:07+00:00"
     },
     {
         "number": 45,
@@ -3531,26 +3514,26 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 19,
-        "available_bike_stands": 17,
-        "available_bikes": 1,
-        "last_update": "2024-11-27T10:59:56+00:00"
+        "available_bike_stands": 16,
+        "available_bikes": 2,
+        "last_update": "2024-11-27T12:57:40+00:00"
     },
     {
-        "number": 287,
-        "name": "00287 - STADE TOULOUSAIN",
-        "address": "114 RUE DES TROENES / ANGLE STADE ERNEST WALLON",
+        "number": 13,
+        "name": "00013 - LOIS - ESQUILE",
+        "address": "1 RUE DE L ESQUILE",
         "position": {
-            "lon": 1.415125,
-            "lat": 43.620607
+            "lon": 1.44135,
+            "lat": 43.606146
         },
-        "banking": "True",
+        "banking": "False",
         "bonus": "False",
         "status": "OPEN",
         "contract_name": "toulouse",
-        "bike_stands": 30,
-        "available_bike_stands": 18,
-        "available_bikes": 11,
-        "last_update": "2024-11-27T10:58:53+00:00"
+        "bike_stands": 15,
+        "available_bike_stands": 10,
+        "available_bikes": 4,
+        "last_update": "2024-11-27T12:53:39+00:00"
     },
     {
         "number": 83,
@@ -3565,9 +3548,26 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 17,
-        "available_bike_stands": 10,
-        "available_bikes": 6,
-        "last_update": "2024-11-27T10:59:18+00:00"
+        "available_bike_stands": 9,
+        "available_bikes": 7,
+        "last_update": "2024-11-27T12:57:50+00:00"
+    },
+    {
+        "number": 287,
+        "name": "00287 - STADE TOULOUSAIN",
+        "address": "114 RUE DES TROENES / ANGLE STADE ERNEST WALLON",
+        "position": {
+            "lon": 1.415125,
+            "lat": 43.620607
+        },
+        "banking": "True",
+        "bonus": "False",
+        "status": "OPEN",
+        "contract_name": "toulouse",
+        "bike_stands": 30,
+        "available_bike_stands": 15,
+        "available_bikes": 14,
+        "last_update": "2024-11-27T12:49:20+00:00"
     },
     {
         "number": 383,
@@ -3582,9 +3582,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 10,
-        "available_bikes": 2,
-        "last_update": "2024-11-27T10:52:21+00:00"
+        "available_bike_stands": 7,
+        "available_bikes": 5,
+        "last_update": "2024-11-27T12:53:54+00:00"
     },
     {
         "number": 47,
@@ -3599,9 +3599,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 30,
-        "available_bike_stands": 23,
-        "available_bikes": 5,
-        "last_update": "2024-11-27T10:58:05+00:00"
+        "available_bike_stands": 24,
+        "available_bikes": 4,
+        "last_update": "2024-11-27T12:59:03+00:00"
     },
     {
         "number": 162,
@@ -3616,9 +3616,26 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 17,
-        "available_bike_stands": 14,
-        "available_bikes": 0,
-        "last_update": "2024-11-27T10:51:52+00:00"
+        "available_bike_stands": 5,
+        "available_bikes": 9,
+        "last_update": "2024-11-27T12:53:17+00:00"
+    },
+    {
+        "number": 328,
+        "name": "00328 - NICOL - VASSEUR",
+        "address": "2, rue Vasseur",
+        "position": {
+            "lon": 1.469891,
+            "lat": 43.633437
+        },
+        "banking": "False",
+        "bonus": "False",
+        "status": "OPEN",
+        "contract_name": "toulouse",
+        "bike_stands": 13,
+        "available_bike_stands": 11,
+        "available_bikes": 2,
+        "last_update": "2024-11-27T12:58:39+00:00"
     },
     {
         "number": 284,
@@ -3635,24 +3652,7 @@
         "bike_stands": 15,
         "available_bike_stands": 6,
         "available_bikes": 9,
-        "last_update": "2024-11-27T10:53:55+00:00"
-    },
-    {
-        "number": 328,
-        "name": "00328 - NICOL - VASSEUR",
-        "address": "2, rue Vasseur",
-        "position": {
-            "lon": 1.469891,
-            "lat": 43.633437
-        },
-        "banking": "False",
-        "bonus": "False",
-        "status": "OPEN",
-        "contract_name": "toulouse",
-        "bike_stands": 13,
-        "available_bike_stands": 13,
-        "available_bikes": 0,
-        "last_update": "2024-11-27T10:57:53+00:00"
+        "last_update": "2024-11-27T12:55:18+00:00"
     },
     {
         "number": 31,
@@ -3667,9 +3667,26 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 0,
-        "available_bikes": 16,
-        "last_update": "2024-11-27T10:58:43+00:00"
+        "available_bike_stands": 15,
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:57:49+00:00"
+    },
+    {
+        "number": 231,
+        "name": "00231 - NARBONNE - DURAND",
+        "address": "FACE 215 RTE DE NARBONNE ANGLE ALL EMILE DURAND",
+        "position": {
+            "lon": 1.46541,
+            "lat": 43.557264
+        },
+        "banking": "False",
+        "bonus": "False",
+        "status": "OPEN",
+        "contract_name": "toulouse",
+        "bike_stands": 20,
+        "available_bike_stands": 17,
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:55:37+00:00"
     },
     {
         "number": 342,
@@ -3686,24 +3703,7 @@
         "bike_stands": 13,
         "available_bike_stands": 9,
         "available_bikes": 3,
-        "last_update": "2024-11-27T10:56:58+00:00"
-    },
-    {
-        "number": 231,
-        "name": "00231 - NARBONNE - DURAND",
-        "address": "FACE 215 RTE DE NARBONNE ANGLE ALL EMILE DURAND",
-        "position": {
-            "lon": 1.46541,
-            "lat": 43.557264
-        },
-        "banking": "False",
-        "bonus": "False",
-        "status": "OPEN",
-        "contract_name": "toulouse",
-        "bike_stands": 20,
-        "available_bike_stands": 14,
-        "available_bikes": 4,
-        "last_update": "2024-11-27T10:55:35+00:00"
+        "last_update": "2024-11-27T12:58:54+00:00"
     },
     {
         "number": 44,
@@ -3718,9 +3718,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 22,
-        "available_bike_stands": 21,
-        "available_bikes": 0,
-        "last_update": "2024-11-27T10:53:33+00:00"
+        "available_bike_stands": 19,
+        "available_bikes": 2,
+        "last_update": "2024-11-27T12:54:52+00:00"
     },
     {
         "number": 158,
@@ -3735,9 +3735,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 15,
-        "available_bikes": 5,
-        "last_update": "2024-11-27T10:57:09+00:00"
+        "available_bike_stands": 16,
+        "available_bikes": 4,
+        "last_update": "2024-11-27T12:58:14+00:00"
     },
     {
         "number": 299,
@@ -3752,9 +3752,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 11,
-        "available_bikes": 2,
-        "last_update": "2024-11-27T10:58:34+00:00"
+        "available_bike_stands": 9,
+        "available_bikes": 4,
+        "last_update": "2024-11-27T12:49:42+00:00"
     },
     {
         "number": 216,
@@ -3769,9 +3769,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 17,
-        "available_bike_stands": 16,
-        "available_bikes": 1,
-        "last_update": "2024-11-27T10:54:59+00:00"
+        "available_bike_stands": 15,
+        "available_bikes": 2,
+        "last_update": "2024-11-27T12:59:03+00:00"
     },
     {
         "number": 309,
@@ -3786,9 +3786,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 3,
-        "available_bikes": 9,
-        "last_update": "2024-11-27T10:58:43+00:00"
+        "available_bike_stands": 4,
+        "available_bikes": 8,
+        "last_update": "2024-11-27T12:50:54+00:00"
     },
     {
         "number": 324,
@@ -3803,9 +3803,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 3,
-        "available_bikes": 8,
-        "last_update": "2024-11-27T10:57:07+00:00"
+        "available_bike_stands": 5,
+        "available_bikes": 6,
+        "last_update": "2024-11-27T12:55:05+00:00"
     },
     {
         "number": 353,
@@ -3820,26 +3820,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 5,
-        "available_bikes": 4,
-        "last_update": "2024-11-27T10:58:52+00:00"
-    },
-    {
-        "number": 398,
-        "name": "00398 - MARTRE - CAULET",
-        "address": "6, rue de Caulet - Carrefour rue de Caulet / rue Marius Terc\u00e9",
-        "position": {
-            "lon": 1.355664,
-            "lat": 43.606204
-        },
-        "banking": "False",
-        "bonus": "False",
-        "status": "OPEN",
-        "contract_name": "toulouse",
-        "bike_stands": 13,
-        "available_bike_stands": 10,
+        "available_bike_stands": 7,
         "available_bikes": 2,
-        "last_update": "2024-11-27T10:59:23+00:00"
+        "last_update": "2024-11-27T12:53:52+00:00"
     },
     {
         "number": 98,
@@ -3854,9 +3837,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 21,
-        "available_bike_stands": 18,
-        "available_bikes": 2,
-        "last_update": "2024-11-27T10:58:44+00:00"
+        "available_bike_stands": 15,
+        "available_bikes": 5,
+        "last_update": "2024-11-27T12:58:27+00:00"
     },
     {
         "number": 201,
@@ -3873,7 +3856,24 @@
         "bike_stands": 18,
         "available_bike_stands": 14,
         "available_bikes": 3,
-        "last_update": "2024-11-27T10:57:02+00:00"
+        "last_update": "2024-11-27T12:58:46+00:00"
+    },
+    {
+        "number": 398,
+        "name": "00398 - MARTRE - CAULET",
+        "address": "6, rue de Caulet - Carrefour rue de Caulet / rue Marius Terc\u00e9",
+        "position": {
+            "lon": 1.355664,
+            "lat": 43.606204
+        },
+        "banking": "False",
+        "bonus": "False",
+        "status": "OPEN",
+        "contract_name": "toulouse",
+        "bike_stands": 13,
+        "available_bike_stands": 8,
+        "available_bikes": 5,
+        "last_update": "2024-11-27T12:58:44+00:00"
     },
     {
         "number": 249,
@@ -3888,26 +3888,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 16,
-        "available_bikes": 1,
-        "last_update": "2024-11-27T10:56:46+00:00"
-    },
-    {
-        "number": 247,
-        "name": "00247 - RTE DE LAUNAGUET - AUDIBERT",
-        "address": "FACE 112 RTE DE LAUNAGUET",
-        "position": {
-            "lon": 1.438984,
-            "lat": 43.636446
-        },
-        "banking": "False",
-        "bonus": "False",
-        "status": "OPEN",
-        "contract_name": "toulouse",
-        "bike_stands": 17,
-        "available_bike_stands": 8,
-        "available_bikes": 8,
-        "last_update": "2024-11-27T10:56:42+00:00"
+        "available_bike_stands": 15,
+        "available_bikes": 2,
+        "last_update": "2024-11-27T12:57:33+00:00"
     },
     {
         "number": 169,
@@ -3923,8 +3906,25 @@
         "contract_name": "toulouse",
         "bike_stands": 17,
         "available_bike_stands": 12,
-        "available_bikes": 1,
-        "last_update": "2024-11-27T10:59:17+00:00"
+        "available_bikes": 2,
+        "last_update": "2024-11-27T12:57:24+00:00"
+    },
+    {
+        "number": 247,
+        "name": "00247 - RTE DE LAUNAGUET - AUDIBERT",
+        "address": "FACE 112 RTE DE LAUNAGUET",
+        "position": {
+            "lon": 1.438984,
+            "lat": 43.636446
+        },
+        "banking": "False",
+        "bonus": "False",
+        "status": "OPEN",
+        "contract_name": "toulouse",
+        "bike_stands": 17,
+        "available_bike_stands": 5,
+        "available_bikes": 11,
+        "last_update": "2024-11-27T12:57:58+00:00"
     },
     {
         "number": 134,
@@ -3939,9 +3939,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 19,
-        "available_bike_stands": 15,
-        "available_bikes": 2,
-        "last_update": "2024-11-27T10:58:04+00:00"
+        "available_bike_stands": 12,
+        "available_bikes": 6,
+        "last_update": "2024-11-27T12:56:11+00:00"
     },
     {
         "number": 39,
@@ -3956,9 +3956,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 19,
-        "available_bike_stands": 18,
-        "available_bikes": 1,
-        "last_update": "2024-11-27T10:55:27+00:00"
+        "available_bike_stands": 16,
+        "available_bikes": 3,
+        "last_update": "2024-11-27T12:58:15+00:00"
     },
     {
         "number": 258,
@@ -3973,9 +3973,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 14,
-        "available_bikes": 4,
-        "last_update": "2024-11-27T10:56:11+00:00"
+        "available_bike_stands": 12,
+        "available_bikes": 6,
+        "last_update": "2024-11-27T12:57:22+00:00"
     },
     {
         "number": 306,
@@ -3990,9 +3990,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 3,
-        "available_bikes": 9,
-        "last_update": "2024-11-27T10:55:05+00:00"
+        "available_bike_stands": 12,
+        "available_bikes": 0,
+        "last_update": "2024-11-27T12:56:07+00:00"
     },
     {
         "number": 146,
@@ -4009,7 +4009,7 @@
         "bike_stands": 20,
         "available_bike_stands": 17,
         "available_bikes": 3,
-        "last_update": "2024-11-27T10:56:17+00:00"
+        "last_update": "2024-11-27T12:57:39+00:00"
     },
     {
         "number": 253,
@@ -4024,9 +4024,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 14,
-        "available_bikes": 5,
-        "last_update": "2024-11-27T10:59:32+00:00"
+        "available_bike_stands": 19,
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:52:25+00:00"
     },
     {
         "number": 395,
@@ -4041,9 +4041,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 10,
-        "available_bikes": 2,
-        "last_update": "2024-11-27T10:54:07+00:00"
+        "available_bike_stands": 6,
+        "available_bikes": 6,
+        "last_update": "2024-11-27T12:55:26+00:00"
     },
     {
         "number": 100,
@@ -4059,8 +4059,8 @@
         "contract_name": "toulouse",
         "bike_stands": 20,
         "available_bike_stands": 19,
-        "available_bikes": 1,
-        "last_update": "2024-11-27T11:00:03+00:00"
+        "available_bikes": 0,
+        "last_update": "2024-11-27T12:52:22+00:00"
     },
     {
         "number": 215,
@@ -4075,9 +4075,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 10,
-        "available_bikes": 9,
-        "last_update": "2024-11-27T10:55:11+00:00"
+        "available_bike_stands": 14,
+        "available_bikes": 5,
+        "last_update": "2024-11-27T12:58:02+00:00"
     },
     {
         "number": 377,
@@ -4092,26 +4092,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 9,
-        "available_bikes": 4,
-        "last_update": "2024-11-27T10:55:48+00:00"
-    },
-    {
-        "number": 54,
-        "name": "00054 - CHAINE - TIERCERETTES",
-        "address": "10 RUE DE LA CHAINE",
-        "position": {
-            "lon": 1.439461,
-            "lat": 43.608674
-        },
-        "banking": "False",
-        "bonus": "False",
-        "status": "OPEN",
-        "contract_name": "toulouse",
-        "bike_stands": 17,
-        "available_bike_stands": 3,
-        "available_bikes": 12,
-        "last_update": "2024-11-27T10:56:45+00:00"
+        "available_bike_stands": 4,
+        "available_bikes": 9,
+        "last_update": "2024-11-27T12:58:00+00:00"
     },
     {
         "number": 369,
@@ -4128,7 +4111,24 @@
         "bike_stands": 13,
         "available_bike_stands": 0,
         "available_bikes": 13,
-        "last_update": "2024-11-27T10:57:55+00:00"
+        "last_update": "2024-11-27T12:58:34+00:00"
+    },
+    {
+        "number": 54,
+        "name": "00054 - CHAINE - TIERCERETTES",
+        "address": "10 RUE DE LA CHAINE",
+        "position": {
+            "lon": 1.439461,
+            "lat": 43.608674
+        },
+        "banking": "False",
+        "bonus": "False",
+        "status": "OPEN",
+        "contract_name": "toulouse",
+        "bike_stands": 17,
+        "available_bike_stands": 10,
+        "available_bikes": 5,
+        "last_update": "2024-11-27T12:55:07+00:00"
     },
     {
         "number": 301,
@@ -4143,9 +4143,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 6,
-        "available_bikes": 1,
-        "last_update": "2024-11-27T10:50:41+00:00"
+        "available_bike_stands": 5,
+        "available_bikes": 4,
+        "last_update": "2024-11-27T12:54:04+00:00"
     },
     {
         "number": 238,
@@ -4160,9 +4160,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 17,
-        "available_bike_stands": 17,
-        "available_bikes": 0,
-        "last_update": "2024-11-27T10:58:40+00:00"
+        "available_bike_stands": 14,
+        "available_bikes": 2,
+        "last_update": "2024-11-27T12:59:02+00:00"
     },
     {
         "number": 56,
@@ -4177,9 +4177,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 15,
-        "available_bike_stands": 2,
-        "available_bikes": 9,
-        "last_update": "2024-11-27T11:00:00+00:00"
+        "available_bike_stands": 12,
+        "available_bikes": 0,
+        "last_update": "2024-11-27T12:56:36+00:00"
     },
     {
         "number": 159,
@@ -4196,7 +4196,7 @@
         "bike_stands": 20,
         "available_bike_stands": 16,
         "available_bikes": 4,
-        "last_update": "2024-11-27T10:57:16+00:00"
+        "last_update": "2024-11-27T12:58:15+00:00"
     },
     {
         "number": 80,
@@ -4211,9 +4211,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 22,
-        "available_bike_stands": 18,
-        "available_bikes": 4,
-        "last_update": "2024-11-27T10:53:28+00:00"
+        "available_bike_stands": 10,
+        "available_bikes": 11,
+        "last_update": "2024-11-27T12:58:45+00:00"
     },
     {
         "number": 114,
@@ -4228,9 +4228,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 19,
-        "available_bikes": 0,
-        "last_update": "2024-11-27T10:52:40+00:00"
+        "available_bike_stands": 18,
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:57:04+00:00"
     },
     {
         "number": 2,
@@ -4245,26 +4245,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 24,
-        "available_bike_stands": 0,
-        "available_bikes": 24,
-        "last_update": "2024-11-27T10:59:03+00:00"
-    },
-    {
-        "number": 223,
-        "name": "00223 - BELIN - ROCHE",
-        "address": "7 AV EDOUARD BELIN ANGLE AV ROCHE RD-PT GUY DU MERLE",
-        "position": {
-            "lon": 1.478297,
-            "lat": 43.565079
-        },
-        "banking": "True",
-        "bonus": "False",
-        "status": "OPEN",
-        "contract_name": "toulouse",
-        "bike_stands": 22,
-        "available_bike_stands": 8,
-        "available_bikes": 13,
-        "last_update": "2024-11-27T10:58:04+00:00"
+        "available_bike_stands": 4,
+        "available_bikes": 20,
+        "last_update": "2024-11-27T12:59:00+00:00"
     },
     {
         "number": 151,
@@ -4279,9 +4262,26 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 24,
-        "available_bike_stands": 22,
-        "available_bikes": 2,
-        "last_update": "2024-11-27T10:58:13+00:00"
+        "available_bike_stands": 23,
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:52:42+00:00"
+    },
+    {
+        "number": 223,
+        "name": "00223 - BELIN - ROCHE",
+        "address": "7 AV EDOUARD BELIN ANGLE AV ROCHE RD-PT GUY DU MERLE",
+        "position": {
+            "lon": 1.478297,
+            "lat": 43.565079
+        },
+        "banking": "True",
+        "bonus": "False",
+        "status": "OPEN",
+        "contract_name": "toulouse",
+        "bike_stands": 22,
+        "available_bike_stands": 9,
+        "available_bikes": 12,
+        "last_update": "2024-11-27T12:56:55+00:00"
     },
     {
         "number": 321,
@@ -4296,9 +4296,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 8,
-        "available_bikes": 1,
-        "last_update": "2024-11-27T10:59:06+00:00"
+        "available_bike_stands": 10,
+        "available_bikes": 0,
+        "last_update": "2024-11-27T12:56:49+00:00"
     },
     {
         "number": 1032,
@@ -4313,9 +4313,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 21,
-        "available_bike_stands": 4,
-        "available_bikes": 8,
-        "last_update": "2024-11-27T10:59:56+00:00"
+        "available_bike_stands": 5,
+        "available_bikes": 3,
+        "last_update": "2024-11-27T12:58:13+00:00"
     },
     {
         "number": 285,
@@ -4330,9 +4330,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 0,
-        "available_bikes": 18,
-        "last_update": "2024-11-27T10:55:12+00:00"
+        "available_bike_stands": 1,
+        "available_bikes": 17,
+        "last_update": "2024-11-27T12:56:30+00:00"
     },
     {
         "number": 58,
@@ -4347,9 +4347,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 25,
-        "available_bike_stands": 18,
-        "available_bikes": 7,
-        "last_update": "2024-11-27T10:59:33+00:00"
+        "available_bike_stands": 22,
+        "available_bikes": 3,
+        "last_update": "2024-11-27T12:58:26+00:00"
     },
     {
         "number": 222,
@@ -4364,9 +4364,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 19,
-        "available_bike_stands": 6,
-        "available_bikes": 13,
-        "last_update": "2024-11-27T10:59:51+00:00"
+        "available_bike_stands": 1,
+        "available_bikes": 18,
+        "last_update": "2024-11-27T12:57:37+00:00"
     },
     {
         "number": 313,
@@ -4381,9 +4381,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 13,
-        "available_bikes": 0,
-        "last_update": "2024-11-27T10:55:01+00:00"
+        "available_bike_stands": 11,
+        "available_bikes": 2,
+        "last_update": "2024-11-27T12:55:04+00:00"
     },
     {
         "number": 38,
@@ -4398,26 +4398,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 31,
-        "available_bike_stands": 24,
-        "available_bikes": 6,
-        "last_update": "2024-11-27T10:57:45+00:00"
-    },
-    {
-        "number": 171,
-        "name": "00171 - ALBI - PELET",
-        "address": "191 RTE D'ALBI",
-        "position": {
-            "lon": 1.466458,
-            "lat": 43.641034
-        },
-        "banking": "False",
-        "bonus": "False",
-        "status": "OPEN",
-        "contract_name": "toulouse",
-        "bike_stands": 17,
-        "available_bike_stands": 10,
-        "available_bikes": 7,
-        "last_update": "2024-11-27T10:59:30+00:00"
+        "available_bike_stands": 27,
+        "available_bikes": 2,
+        "last_update": "2024-11-27T12:57:13+00:00"
     },
     {
         "number": 272,
@@ -4432,9 +4415,26 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 17,
-        "available_bike_stands": 16,
-        "available_bikes": 1,
-        "last_update": "2024-11-27T10:51:27+00:00"
+        "available_bike_stands": 15,
+        "available_bikes": 2,
+        "last_update": "2024-11-27T12:52:49+00:00"
+    },
+    {
+        "number": 171,
+        "name": "00171 - ALBI - PELET",
+        "address": "191 RTE D'ALBI",
+        "position": {
+            "lon": 1.466458,
+            "lat": 43.641034
+        },
+        "banking": "False",
+        "bonus": "False",
+        "status": "OPEN",
+        "contract_name": "toulouse",
+        "bike_stands": 17,
+        "available_bike_stands": 13,
+        "available_bikes": 4,
+        "last_update": "2024-11-27T12:51:47+00:00"
     },
     {
         "number": 361,
@@ -4449,9 +4449,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 11,
-        "available_bikes": 2,
-        "last_update": "2024-11-27T10:59:38+00:00"
+        "available_bike_stands": 12,
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:50:31+00:00"
     },
     {
         "number": 140,
@@ -4466,9 +4466,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 29,
-        "available_bike_stands": 23,
-        "available_bikes": 4,
-        "last_update": "2024-11-27T10:59:31+00:00"
+        "available_bike_stands": 27,
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:58:57+00:00"
     },
     {
         "number": 138,
@@ -4483,9 +4483,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 4,
-        "available_bikes": 15,
-        "last_update": "2024-11-27T10:58:06+00:00"
+        "available_bike_stands": 7,
+        "available_bikes": 12,
+        "last_update": "2024-11-27T12:57:56+00:00"
     },
     {
         "number": 194,
@@ -4500,9 +4500,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 15,
-        "available_bikes": 4,
-        "last_update": "2024-11-27T10:52:15+00:00"
+        "available_bike_stands": 18,
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:58:11+00:00"
     },
     {
         "number": 344,
@@ -4517,9 +4517,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 8,
-        "available_bikes": 3,
-        "last_update": "2024-11-27T10:59:35+00:00"
+        "available_bike_stands": 7,
+        "available_bikes": 4,
+        "last_update": "2024-11-27T12:57:44+00:00"
     },
     {
         "number": 290,
@@ -4534,9 +4534,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 10,
-        "available_bikes": 1,
-        "last_update": "2024-11-27T10:59:43+00:00"
+        "available_bike_stands": 8,
+        "available_bikes": 4,
+        "last_update": "2024-11-27T12:57:19+00:00"
     },
     {
         "number": 263,
@@ -4551,9 +4551,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 1,
-        "available_bikes": 16,
-        "last_update": "2024-11-27T10:58:57+00:00"
+        "available_bike_stands": 10,
+        "available_bikes": 8,
+        "last_update": "2024-11-27T12:58:11+00:00"
     },
     {
         "number": 16,
@@ -4568,9 +4568,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 21,
-        "available_bike_stands": 4,
-        "available_bikes": 17,
-        "last_update": "2024-11-27T11:00:03+00:00"
+        "available_bike_stands": 13,
+        "available_bikes": 8,
+        "last_update": "2024-11-27T12:57:36+00:00"
     },
     {
         "number": 94,
@@ -4587,7 +4587,7 @@
         "bike_stands": 25,
         "available_bike_stands": 22,
         "available_bikes": 3,
-        "last_update": "2024-11-27T10:53:52+00:00"
+        "last_update": "2024-11-27T12:55:30+00:00"
     },
     {
         "number": 176,
@@ -4602,9 +4602,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 18,
-        "available_bikes": 0,
-        "last_update": "2024-11-27T10:53:59+00:00"
+        "available_bike_stands": 16,
+        "available_bikes": 2,
+        "last_update": "2024-11-27T12:54:58+00:00"
     },
     {
         "number": 142,
@@ -4621,7 +4621,7 @@
         "bike_stands": 20,
         "available_bike_stands": 17,
         "available_bikes": 3,
-        "last_update": "2024-11-27T10:56:53+00:00"
+        "last_update": "2024-11-27T12:58:45+00:00"
     },
     {
         "number": 127,
@@ -4636,9 +4636,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 15,
-        "available_bike_stands": 13,
-        "available_bikes": 2,
-        "last_update": "2024-11-27T10:59:00+00:00"
+        "available_bike_stands": 14,
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:50:07+00:00"
     },
     {
         "number": 279,
@@ -4653,9 +4653,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 7,
-        "available_bikes": 11,
-        "last_update": "2024-11-27T10:53:33+00:00"
+        "available_bike_stands": 4,
+        "available_bikes": 14,
+        "last_update": "2024-11-27T12:54:31+00:00"
     },
     {
         "number": 28,
@@ -4670,26 +4670,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 22,
-        "available_bike_stands": 1,
-        "available_bikes": 20,
-        "last_update": "2024-11-27T10:57:46+00:00"
-    },
-    {
-        "number": 302,
-        "name": "00302 - JARDIN DU BARRY",
-        "address": "Carrefour rue du Docteur Suzanne Noel / Voie du TOEC, face jardins du Barry",
-        "position": {
-            "lon": 1.403879,
-            "lat": 43.601379
-        },
-        "banking": "False",
-        "bonus": "False",
-        "status": "OPEN",
-        "contract_name": "toulouse",
-        "bike_stands": 13,
-        "available_bike_stands": 2,
-        "available_bikes": 9,
-        "last_update": "2024-11-27T10:54:09+00:00"
+        "available_bike_stands": 4,
+        "available_bikes": 16,
+        "last_update": "2024-11-27T12:59:01+00:00"
     },
     {
         "number": 286,
@@ -4704,9 +4687,26 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 11,
-        "available_bikes": 1,
-        "last_update": "2024-11-27T10:58:15+00:00"
+        "available_bike_stands": 12,
+        "available_bikes": 0,
+        "last_update": "2024-11-27T12:57:30+00:00"
+    },
+    {
+        "number": 302,
+        "name": "00302 - JARDIN DU BARRY",
+        "address": "Carrefour rue du Docteur Suzanne Noel / Voie du TOEC, face jardins du Barry",
+        "position": {
+            "lon": 1.403879,
+            "lat": 43.601379
+        },
+        "banking": "False",
+        "bonus": "False",
+        "status": "OPEN",
+        "contract_name": "toulouse",
+        "bike_stands": 13,
+        "available_bike_stands": 1,
+        "available_bikes": 9,
+        "last_update": "2024-11-27T12:55:47+00:00"
     },
     {
         "number": 320,
@@ -4721,9 +4721,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 12,
-        "available_bikes": 1,
-        "last_update": "2024-11-27T10:59:23+00:00"
+        "available_bike_stands": 9,
+        "available_bikes": 4,
+        "last_update": "2024-11-27T12:58:36+00:00"
     },
     {
         "number": 333,
@@ -4738,26 +4738,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 7,
-        "available_bikes": 4,
-        "last_update": "2024-11-27T10:56:59+00:00"
-    },
-    {
-        "number": 198,
-        "name": "00198 - DELTOUR - LAFILAIRE",
-        "address": "FACE 25 CHEMIN LAFILAIRE",
-        "position": {
-            "lon": 1.473375,
-            "lat": 43.596193
-        },
-        "banking": "False",
-        "bonus": "False",
-        "status": "OPEN",
-        "contract_name": "toulouse",
-        "bike_stands": 20,
-        "available_bike_stands": 12,
-        "available_bikes": 3,
-        "last_update": "2024-11-27T10:59:23+00:00"
+        "available_bike_stands": 5,
+        "available_bikes": 6,
+        "last_update": "2024-11-27T12:51:58+00:00"
     },
     {
         "number": 293,
@@ -4773,8 +4756,8 @@
         "contract_name": "toulouse",
         "bike_stands": 13,
         "available_bike_stands": 12,
-        "available_bikes": 1,
-        "last_update": "2024-11-27T10:57:09+00:00"
+        "available_bikes": 0,
+        "last_update": "2024-11-27T12:54:53+00:00"
     },
     {
         "number": 206,
@@ -4789,9 +4772,26 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 12,
-        "available_bikes": 6,
-        "last_update": "2024-11-27T10:56:35+00:00"
+        "available_bike_stands": 17,
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:58:04+00:00"
+    },
+    {
+        "number": 198,
+        "name": "00198 - DELTOUR - LAFILAIRE",
+        "address": "FACE 25 CHEMIN LAFILAIRE",
+        "position": {
+            "lon": 1.473375,
+            "lat": 43.596193
+        },
+        "banking": "False",
+        "bonus": "False",
+        "status": "OPEN",
+        "contract_name": "toulouse",
+        "bike_stands": 20,
+        "available_bike_stands": 16,
+        "available_bikes": 0,
+        "last_update": "2024-11-27T12:58:54+00:00"
     },
     {
         "number": 88,
@@ -4806,9 +4806,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 25,
-        "available_bike_stands": 6,
-        "available_bikes": 18,
-        "last_update": "2024-11-27T10:59:58+00:00"
+        "available_bike_stands": 3,
+        "available_bikes": 21,
+        "last_update": "2024-11-27T12:58:45+00:00"
     },
     {
         "number": 300,
@@ -4823,9 +4823,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 7,
-        "available_bikes": 4,
-        "last_update": "2024-11-27T10:58:02+00:00"
+        "available_bike_stands": 5,
+        "available_bikes": 6,
+        "last_update": "2024-11-27T12:58:58+00:00"
     },
     {
         "number": 72,
@@ -4840,9 +4840,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 16,
-        "available_bikes": 1,
-        "last_update": "2024-11-27T10:52:01+00:00"
+        "available_bike_stands": 15,
+        "available_bikes": 2,
+        "last_update": "2024-11-27T12:53:16+00:00"
     },
     {
         "number": 261,
@@ -4857,9 +4857,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 6,
-        "available_bikes": 10,
-        "last_update": "2024-11-27T10:55:45+00:00"
+        "available_bike_stands": 9,
+        "available_bikes": 7,
+        "last_update": "2024-11-27T12:52:13+00:00"
     },
     {
         "number": 27,
@@ -4874,9 +4874,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 22,
-        "available_bike_stands": 19,
-        "available_bikes": 2,
-        "last_update": "2024-11-27T10:54:50+00:00"
+        "available_bike_stands": 17,
+        "available_bikes": 4,
+        "last_update": "2024-11-27T12:55:44+00:00"
     },
     {
         "number": 78,
@@ -4891,9 +4891,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 17,
-        "available_bike_stands": 4,
-        "available_bikes": 13,
-        "last_update": "2024-11-27T11:00:00+00:00"
+        "available_bike_stands": 6,
+        "available_bikes": 11,
+        "last_update": "2024-11-27T12:57:57+00:00"
     },
     {
         "number": 91,
@@ -4908,9 +4908,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 21,
-        "available_bike_stands": 21,
-        "available_bikes": 0,
-        "last_update": "2024-11-27T10:58:36+00:00"
+        "available_bike_stands": 17,
+        "available_bikes": 2,
+        "last_update": "2024-11-27T12:56:54+00:00"
     },
     {
         "number": 310,
@@ -4925,9 +4925,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 1,
+        "available_bike_stands": 0,
         "available_bikes": 11,
-        "last_update": "2024-11-27T10:59:16+00:00"
+        "last_update": "2024-11-27T12:50:45+00:00"
     },
     {
         "number": 26,
@@ -4942,9 +4942,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 22,
-        "available_bike_stands": 13,
-        "available_bikes": 7,
-        "last_update": "2024-11-27T10:55:52+00:00"
+        "available_bike_stands": 14,
+        "available_bikes": 6,
+        "last_update": "2024-11-27T12:57:34+00:00"
     },
     {
         "number": 308,
@@ -4959,9 +4959,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 10,
-        "available_bikes": 2,
-        "last_update": "2024-11-27T10:57:14+00:00"
+        "available_bike_stands": 6,
+        "available_bikes": 6,
+        "last_update": "2024-11-27T12:58:29+00:00"
     },
     {
         "number": 230,
@@ -4976,9 +4976,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 7,
-        "available_bikes": 12,
-        "last_update": "2024-11-27T10:59:43+00:00"
+        "available_bike_stands": 4,
+        "available_bikes": 15,
+        "last_update": "2024-11-27T12:58:59+00:00"
     },
     {
         "number": 122,
@@ -4993,9 +4993,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 19,
-        "available_bike_stands": 10,
-        "available_bikes": 9,
-        "last_update": "2024-11-27T10:56:37+00:00"
+        "available_bike_stands": 15,
+        "available_bikes": 4,
+        "last_update": "2024-11-27T12:56:20+00:00"
     },
     {
         "number": 316,
@@ -5010,9 +5010,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 4,
-        "available_bikes": 9,
-        "last_update": "2024-11-27T10:59:19+00:00"
+        "available_bike_stands": 5,
+        "available_bikes": 8,
+        "last_update": "2024-11-27T12:49:45+00:00"
     },
     {
         "number": 220,
@@ -5027,9 +5027,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 19,
-        "available_bike_stands": 2,
-        "available_bikes": 16,
-        "last_update": "2024-11-27T10:58:28+00:00"
+        "available_bike_stands": 7,
+        "available_bikes": 12,
+        "last_update": "2024-11-27T12:54:23+00:00"
     },
     {
         "number": 209,
@@ -5044,9 +5044,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 15,
-        "available_bikes": 3,
-        "last_update": "2024-11-27T10:58:33+00:00"
+        "available_bike_stands": 12,
+        "available_bikes": 6,
+        "last_update": "2024-11-27T12:58:50+00:00"
     },
     {
         "number": 219,
@@ -5061,9 +5061,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 15,
-        "available_bikes": 3,
-        "last_update": "2024-11-27T10:58:55+00:00"
+        "available_bike_stands": 9,
+        "available_bikes": 8,
+        "last_update": "2024-11-27T12:51:30+00:00"
     },
     {
         "number": 337,
@@ -5078,9 +5078,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 12,
-        "available_bikes": 0,
-        "last_update": "2024-11-27T10:57:03+00:00"
+        "available_bike_stands": 10,
+        "available_bikes": 2,
+        "last_update": "2024-11-27T12:58:20+00:00"
     },
     {
         "number": 57,
@@ -5095,9 +5095,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 15,
-        "available_bike_stands": 5,
-        "available_bikes": 10,
-        "last_update": "2024-11-27T10:57:36+00:00"
+        "available_bike_stands": 14,
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:54:07+00:00"
     },
     {
         "number": 149,
@@ -5112,9 +5112,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 22,
-        "available_bike_stands": 19,
-        "available_bikes": 2,
-        "last_update": "2024-11-27T10:56:25+00:00"
+        "available_bike_stands": 20,
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:57:57+00:00"
     },
     {
         "number": 59,
@@ -5129,9 +5129,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 13,
-        "available_bikes": 4,
-        "last_update": "2024-11-27T10:58:52+00:00"
+        "available_bike_stands": 16,
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:58:31+00:00"
     },
     {
         "number": 269,
@@ -5146,26 +5146,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 10,
-        "available_bikes": 8,
-        "last_update": "2024-11-27T10:57:12+00:00"
-    },
-    {
-        "number": 349,
-        "name": "00349 - REVEL - NOUADHIBOU",
-        "address": "100m apr\u00e8s 238, route de Revel - Carrefour rond-point route de Revel/rue Nouadhibou",
-        "position": {
-            "lon": 1.506071,
-            "lat": 43.567084
-        },
-        "banking": "False",
-        "bonus": "False",
-        "status": "OPEN",
-        "contract_name": "toulouse",
-        "bike_stands": 13,
-        "available_bike_stands": 3,
-        "available_bikes": 9,
-        "last_update": "2024-11-27T10:56:05+00:00"
+        "available_bike_stands": 12,
+        "available_bikes": 5,
+        "last_update": "2024-11-27T12:58:05+00:00"
     },
     {
         "number": 42,
@@ -5180,9 +5163,26 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 19,
-        "available_bikes": 0,
-        "last_update": "2024-11-27T10:57:18+00:00"
+        "available_bike_stands": 18,
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:56:09+00:00"
+    },
+    {
+        "number": 349,
+        "name": "00349 - REVEL - NOUADHIBOU",
+        "address": "100m apr\u00e8s 238, route de Revel - Carrefour rond-point route de Revel/rue Nouadhibou",
+        "position": {
+            "lon": 1.506071,
+            "lat": 43.567084
+        },
+        "banking": "False",
+        "bonus": "False",
+        "status": "OPEN",
+        "contract_name": "toulouse",
+        "bike_stands": 13,
+        "available_bike_stands": 0,
+        "available_bikes": 12,
+        "last_update": "2024-11-27T12:57:42+00:00"
     },
     {
         "number": 345,
@@ -5197,9 +5197,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 11,
-        "available_bikes": 1,
-        "last_update": "2024-11-27T10:54:13+00:00"
+        "available_bike_stands": 9,
+        "available_bikes": 4,
+        "last_update": "2024-11-27T12:55:39+00:00"
     },
     {
         "number": 107,
@@ -5214,26 +5214,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 27,
-        "available_bike_stands": 13,
-        "available_bikes": 12,
-        "last_update": "2024-11-27T10:57:17+00:00"
-    },
-    {
-        "number": 372,
-        "name": "00372 - REYNERIE M\u00c9TRO",
-        "address": "Angle rue Andr\u00e9 Maginot / Place Andr\u00e9 Abbal",
-        "position": {
-            "lon": 1.402857,
-            "lat": 43.571497
-        },
-        "banking": "False",
-        "bonus": "False",
-        "status": "OPEN",
-        "contract_name": "toulouse",
-        "bike_stands": 13,
-        "available_bike_stands": 4,
-        "available_bikes": 5,
-        "last_update": "2024-11-27T10:59:21+00:00"
+        "available_bike_stands": 19,
+        "available_bikes": 6,
+        "last_update": "2024-11-27T12:59:01+00:00"
     },
     {
         "number": 335,
@@ -5248,9 +5231,26 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 8,
-        "available_bikes": 0,
-        "last_update": "2024-11-27T10:56:04+00:00"
+        "available_bike_stands": 6,
+        "available_bikes": 4,
+        "last_update": "2024-11-27T12:56:38+00:00"
+    },
+    {
+        "number": 372,
+        "name": "00372 - REYNERIE M\u00c9TRO",
+        "address": "Angle rue Andr\u00e9 Maginot / Place Andr\u00e9 Abbal",
+        "position": {
+            "lon": 1.402857,
+            "lat": 43.571497
+        },
+        "banking": "False",
+        "bonus": "False",
+        "status": "OPEN",
+        "contract_name": "toulouse",
+        "bike_stands": 13,
+        "available_bike_stands": 2,
+        "available_bikes": 7,
+        "last_update": "2024-11-27T12:58:58+00:00"
     },
     {
         "number": 95,
@@ -5265,9 +5265,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 22,
-        "available_bike_stands": 20,
-        "available_bikes": 1,
-        "last_update": "2024-11-27T10:55:28+00:00"
+        "available_bike_stands": 19,
+        "available_bikes": 2,
+        "last_update": "2024-11-27T12:56:55+00:00"
     },
     {
         "number": 167,
@@ -5283,8 +5283,8 @@
         "contract_name": "toulouse",
         "bike_stands": 18,
         "available_bike_stands": 12,
-        "available_bikes": 5,
-        "last_update": "2024-11-27T10:55:44+00:00"
+        "available_bikes": 6,
+        "last_update": "2024-11-27T12:57:50+00:00"
     },
     {
         "number": 267,
@@ -5299,9 +5299,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 16,
-        "available_bike_stands": 12,
-        "available_bikes": 2,
-        "last_update": "2024-11-27T10:54:53+00:00"
+        "available_bike_stands": 9,
+        "available_bikes": 6,
+        "last_update": "2024-11-27T12:57:23+00:00"
     },
     {
         "number": 113,
@@ -5317,25 +5317,8 @@
         "contract_name": "toulouse",
         "bike_stands": 20,
         "available_bike_stands": 19,
-        "available_bikes": 1,
-        "last_update": "2024-11-27T10:57:14+00:00"
-    },
-    {
-        "number": 325,
-        "name": "000325 - PLACE ROGER LOUPIAC",
-        "address": "Place Roger Loupiac - face 1 et 3, rue Th\u00e9r\u00e8se Avondo",
-        "position": {
-            "lon": 1.450024,
-            "lat": 43.648121
-        },
-        "banking": "False",
-        "bonus": "False",
-        "status": "OPEN",
-        "contract_name": "toulouse",
-        "bike_stands": 13,
-        "available_bike_stands": 4,
-        "available_bikes": 9,
-        "last_update": "2024-11-27T10:54:36+00:00"
+        "available_bikes": 0,
+        "last_update": "2024-11-27T12:58:57+00:00"
     },
     {
         "number": 317,
@@ -5350,9 +5333,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 5,
-        "available_bikes": 8,
-        "last_update": "2024-11-27T10:57:22+00:00"
+        "available_bike_stands": 7,
+        "available_bikes": 6,
+        "last_update": "2024-11-27T12:58:17+00:00"
     },
     {
         "number": 133,
@@ -5367,9 +5350,26 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 22,
-        "available_bike_stands": 17,
-        "available_bikes": 2,
-        "last_update": "2024-11-27T10:59:17+00:00"
+        "available_bike_stands": 19,
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:57:50+00:00"
+    },
+    {
+        "number": 325,
+        "name": "000325 - PLACE ROGER LOUPIAC",
+        "address": "Place Roger Loupiac - face 1 et 3, rue Th\u00e9r\u00e8se Avondo",
+        "position": {
+            "lon": 1.450024,
+            "lat": 43.648121
+        },
+        "banking": "False",
+        "bonus": "False",
+        "status": "OPEN",
+        "contract_name": "toulouse",
+        "bike_stands": 13,
+        "available_bike_stands": 2,
+        "available_bikes": 11,
+        "last_update": "2024-11-27T12:56:01+00:00"
     },
     {
         "number": 148,
@@ -5384,9 +5384,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 19,
-        "available_bike_stands": 14,
-        "available_bikes": 0,
-        "last_update": "2024-11-27T10:56:34+00:00"
+        "available_bike_stands": 12,
+        "available_bikes": 2,
+        "last_update": "2024-11-27T12:59:02+00:00"
     },
     {
         "number": 92,
@@ -5401,26 +5401,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 15,
-        "available_bike_stands": 11,
-        "available_bikes": 4,
-        "last_update": "2024-11-27T10:53:29+00:00"
-    },
-    {
-        "number": 357,
-        "name": "00357 - BELIN - TARFAYA",
-        "address": "23, avenue Edouard Belin",
-        "position": {
-            "lon": 1.48431,
-            "lat": 43.562329
-        },
-        "banking": "False",
-        "bonus": "False",
-        "status": "OPEN",
-        "contract_name": "toulouse",
-        "bike_stands": 13,
-        "available_bike_stands": 8,
-        "available_bikes": 4,
-        "last_update": "2024-11-27T10:58:56+00:00"
+        "available_bike_stands": 13,
+        "available_bikes": 2,
+        "last_update": "2024-11-27T12:57:13+00:00"
     },
     {
         "number": 283,
@@ -5435,9 +5418,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 17,
-        "available_bikes": 3,
-        "last_update": "2024-11-27T10:59:39+00:00"
+        "available_bike_stands": 14,
+        "available_bikes": 6,
+        "last_update": "2024-11-27T12:55:26+00:00"
     },
     {
         "number": 34,
@@ -5452,9 +5435,26 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 22,
-        "available_bike_stands": 20,
+        "available_bike_stands": 17,
+        "available_bikes": 5,
+        "last_update": "2024-11-27T12:56:52+00:00"
+    },
+    {
+        "number": 357,
+        "name": "00357 - BELIN - TARFAYA",
+        "address": "23, avenue Edouard Belin",
+        "position": {
+            "lon": 1.48431,
+            "lat": 43.562329
+        },
+        "banking": "False",
+        "bonus": "False",
+        "status": "OPEN",
+        "contract_name": "toulouse",
+        "bike_stands": 13,
+        "available_bike_stands": 10,
         "available_bikes": 2,
-        "last_update": "2024-11-27T10:55:49+00:00"
+        "last_update": "2024-11-27T12:57:00+00:00"
     },
     {
         "number": 240,
@@ -5469,9 +5469,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 9,
-        "available_bikes": 9,
-        "last_update": "2024-11-27T10:59:37+00:00"
+        "available_bike_stands": 1,
+        "available_bikes": 17,
+        "last_update": "2024-11-27T12:51:00+00:00"
     },
     {
         "number": 275,
@@ -5486,9 +5486,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 17,
-        "available_bike_stands": 13,
-        "available_bikes": 1,
-        "last_update": "2024-11-27T10:57:10+00:00"
+        "available_bike_stands": 11,
+        "available_bikes": 3,
+        "last_update": "2024-11-27T12:58:21+00:00"
     },
     {
         "number": 4,
@@ -5503,26 +5503,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 12,
-        "available_bikes": 7,
-        "last_update": "2024-11-27T10:58:04+00:00"
-    },
-    {
-        "number": 136,
-        "name": "00136 - FONTAINES - MILHES",
-        "address": "FACE 175 RUE DES FONTAINES",
-        "position": {
-            "lon": 1.414772,
-            "lat": 43.60202
-        },
-        "banking": "False",
-        "bonus": "False",
-        "status": "OPEN",
-        "contract_name": "toulouse",
-        "bike_stands": 15,
         "available_bike_stands": 11,
-        "available_bikes": 1,
-        "last_update": "2024-11-27T10:54:22+00:00"
+        "available_bikes": 7,
+        "last_update": "2024-11-27T12:56:42+00:00"
     },
     {
         "number": 314,
@@ -5539,7 +5522,7 @@
         "bike_stands": 13,
         "available_bike_stands": 8,
         "available_bikes": 5,
-        "last_update": "2024-11-27T10:58:32+00:00"
+        "last_update": "2024-11-27T12:55:30+00:00"
     },
     {
         "number": 18,
@@ -5554,9 +5537,26 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 24,
-        "available_bike_stands": 17,
-        "available_bikes": 5,
-        "last_update": "2024-11-27T10:58:29+00:00"
+        "available_bike_stands": 21,
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:57:12+00:00"
+    },
+    {
+        "number": 136,
+        "name": "00136 - FONTAINES - MILHES",
+        "address": "FACE 175 RUE DES FONTAINES",
+        "position": {
+            "lon": 1.414772,
+            "lat": 43.60202
+        },
+        "banking": "False",
+        "bonus": "False",
+        "status": "OPEN",
+        "contract_name": "toulouse",
+        "bike_stands": 15,
+        "available_bike_stands": 6,
+        "available_bikes": 7,
+        "last_update": "2024-11-27T12:55:59+00:00"
     },
     {
         "number": 117,
@@ -5571,26 +5571,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 9,
-        "available_bikes": 11,
-        "last_update": "2024-11-27T10:58:52+00:00"
-    },
-    {
-        "number": 237,
-        "name": "00237 - BELIN - CNES",
-        "address": "16 BIS AV EDOUARD BELIN FACE CNRS",
-        "position": {
-            "lon": 1.480912,
-            "lat": 43.562273
-        },
-        "banking": "False",
-        "bonus": "False",
-        "status": "OPEN",
-        "contract_name": "toulouse",
-        "bike_stands": 20,
-        "available_bike_stands": 10,
-        "available_bikes": 9,
-        "last_update": "2024-11-27T10:55:59+00:00"
+        "available_bike_stands": 14,
+        "available_bikes": 6,
+        "last_update": "2024-11-27T12:57:42+00:00"
     },
     {
         "number": 119,
@@ -5605,9 +5588,26 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 24,
-        "available_bike_stands": 20,
-        "available_bikes": 4,
-        "last_update": "2024-11-27T10:59:50+00:00"
+        "available_bike_stands": 23,
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:55:22+00:00"
+    },
+    {
+        "number": 237,
+        "name": "00237 - BELIN - CNES",
+        "address": "16 BIS AV EDOUARD BELIN FACE CNRS",
+        "position": {
+            "lon": 1.480912,
+            "lat": 43.562273
+        },
+        "banking": "False",
+        "bonus": "False",
+        "status": "OPEN",
+        "contract_name": "toulouse",
+        "bike_stands": 20,
+        "available_bike_stands": 12,
+        "available_bikes": 8,
+        "last_update": "2024-11-27T12:57:13+00:00"
     },
     {
         "number": 351,
@@ -5622,9 +5622,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 8,
-        "available_bikes": 4,
-        "last_update": "2024-11-27T10:51:36+00:00"
+        "available_bike_stands": 6,
+        "available_bikes": 6,
+        "last_update": "2024-11-27T12:57:23+00:00"
     },
     {
         "number": 182,
@@ -5639,9 +5639,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 13,
-        "available_bikes": 7,
-        "last_update": "2024-11-27T10:59:03+00:00"
+        "available_bike_stands": 14,
+        "available_bikes": 6,
+        "last_update": "2024-11-27T12:56:48+00:00"
     },
     {
         "number": 160,
@@ -5656,9 +5656,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 17,
-        "available_bike_stands": 14,
-        "available_bikes": 3,
-        "last_update": "2024-11-27T10:59:20+00:00"
+        "available_bike_stands": 10,
+        "available_bikes": 6,
+        "last_update": "2024-11-27T12:50:43+00:00"
     },
     {
         "number": 61,
@@ -5673,9 +5673,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 40,
-        "available_bike_stands": 36,
-        "available_bikes": 2,
-        "last_update": "2024-11-27T10:59:39+00:00"
+        "available_bike_stands": 32,
+        "available_bikes": 5,
+        "last_update": "2024-11-27T12:58:24+00:00"
     },
     {
         "number": 282,
@@ -5690,9 +5690,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 13,
-        "available_bikes": 3,
-        "last_update": "2024-11-27T10:57:06+00:00"
+        "available_bike_stands": 9,
+        "available_bikes": 7,
+        "last_update": "2024-11-27T12:54:47+00:00"
     },
     {
         "number": 211,
@@ -5707,9 +5707,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 10,
-        "available_bikes": 8,
-        "last_update": "2024-11-27T10:50:48+00:00"
+        "available_bike_stands": 8,
+        "available_bikes": 9,
+        "last_update": "2024-11-27T12:52:18+00:00"
     },
     {
         "number": 130,
@@ -5724,9 +5724,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 15,
-        "available_bike_stands": 10,
-        "available_bikes": 1,
-        "last_update": "2024-11-27T10:57:52+00:00"
+        "available_bike_stands": 1,
+        "available_bikes": 12,
+        "last_update": "2024-11-27T12:58:16+00:00"
     },
     {
         "number": 360,
@@ -5741,9 +5741,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 9,
-        "available_bikes": 4,
-        "last_update": "2024-11-27T10:58:08+00:00"
+        "available_bike_stands": 12,
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:49:02+00:00"
     },
     {
         "number": 278,
@@ -5758,9 +5758,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 4,
-        "available_bikes": 13,
-        "last_update": "2024-11-27T10:57:17+00:00"
+        "available_bike_stands": 0,
+        "available_bikes": 17,
+        "last_update": "2024-11-27T12:58:37+00:00"
     },
     {
         "number": 378,
@@ -5777,7 +5777,7 @@
         "bike_stands": 13,
         "available_bike_stands": 12,
         "available_bikes": 1,
-        "last_update": "2024-11-27T10:59:36+00:00"
+        "last_update": "2024-11-27T12:55:22+00:00"
     },
     {
         "number": 17,
@@ -5787,14 +5787,14 @@
             "lon": 1.44769,
             "lat": 43.606499
         },
-        "banking": "True",
+        "banking": "False",
         "bonus": "False",
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 23,
-        "available_bike_stands": 18,
-        "available_bikes": 4,
-        "last_update": "2024-11-27T10:55:17+00:00"
+        "available_bike_stands": 19,
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:59:04+00:00"
     },
     {
         "number": 251,
@@ -5811,7 +5811,7 @@
         "bike_stands": 14,
         "available_bike_stands": 9,
         "available_bikes": 5,
-        "last_update": "2024-11-27T10:59:11+00:00"
+        "last_update": "2024-11-27T12:52:49+00:00"
     },
     {
         "number": 165,
@@ -5826,26 +5826,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 15,
-        "available_bike_stands": 13,
-        "available_bikes": 2,
-        "last_update": "2024-11-27T10:59:27+00:00"
-    },
-    {
-        "number": 226,
-        "name": "00226 - CASSELARDIT - FONTAINES",
-        "address": "FACE 287 RUE DES FONTAINES ANGLE AV DE CASSELARDIT",
-        "position": {
-            "lon": 1.407267,
-            "lat": 43.604159
-        },
-        "banking": "False",
-        "bonus": "False",
-        "status": "OPEN",
-        "contract_name": "toulouse",
-        "bike_stands": 17,
-        "available_bike_stands": 8,
-        "available_bikes": 7,
-        "last_update": "2024-11-27T10:55:55+00:00"
+        "available_bike_stands": 12,
+        "available_bikes": 3,
+        "last_update": "2024-11-27T12:53:25+00:00"
     },
     {
         "number": 270,
@@ -5862,7 +5845,24 @@
         "bike_stands": 16,
         "available_bike_stands": 10,
         "available_bikes": 4,
-        "last_update": "2024-11-27T10:59:38+00:00"
+        "last_update": "2024-11-27T12:50:55+00:00"
+    },
+    {
+        "number": 226,
+        "name": "00226 - CASSELARDIT - FONTAINES",
+        "address": "FACE 287 RUE DES FONTAINES ANGLE AV DE CASSELARDIT",
+        "position": {
+            "lon": 1.407267,
+            "lat": 43.604159
+        },
+        "banking": "False",
+        "bonus": "False",
+        "status": "OPEN",
+        "contract_name": "toulouse",
+        "bike_stands": 17,
+        "available_bike_stands": 2,
+        "available_bikes": 13,
+        "last_update": "2024-11-27T12:58:05+00:00"
     },
     {
         "number": 326,
@@ -5879,7 +5879,7 @@
         "bike_stands": 13,
         "available_bike_stands": 4,
         "available_bikes": 9,
-        "last_update": "2024-11-27T10:58:45+00:00"
+        "last_update": "2024-11-27T12:55:22+00:00"
     },
     {
         "number": 218,
@@ -5894,9 +5894,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 15,
-        "available_bikes": 3,
-        "last_update": "2024-11-27T10:57:44+00:00"
+        "available_bike_stands": 16,
+        "available_bikes": 2,
+        "last_update": "2024-11-27T12:58:19+00:00"
     },
     {
         "number": 387,
@@ -5913,7 +5913,7 @@
         "bike_stands": 13,
         "available_bike_stands": 4,
         "available_bikes": 6,
-        "last_update": "2024-11-27T10:58:35+00:00"
+        "last_update": "2024-11-27T12:58:20+00:00"
     },
     {
         "number": 185,
@@ -5928,9 +5928,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 15,
-        "available_bike_stands": 13,
-        "available_bikes": 2,
-        "last_update": "2024-11-27T10:53:28+00:00"
+        "available_bike_stands": 14,
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:54:21+00:00"
     },
     {
         "number": 374,
@@ -5945,26 +5945,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 1,
-        "available_bikes": 12,
-        "last_update": "2024-11-27T10:58:06+00:00"
-    },
-    {
-        "number": 382,
-        "name": "00382 - LIFFARD - SAINT SIMON",
-        "address": "Face 66, chemin de Liffard",
-        "position": {
-            "lon": 1.375571,
-            "lat": 43.564413
-        },
-        "banking": "False",
-        "bonus": "False",
-        "status": "OPEN",
-        "contract_name": "toulouse",
-        "bike_stands": 13,
-        "available_bike_stands": 11,
-        "available_bikes": 2,
-        "last_update": "2024-11-27T11:00:04+00:00"
+        "available_bike_stands": 8,
+        "available_bikes": 4,
+        "last_update": "2024-11-27T12:56:20+00:00"
     },
     {
         "number": 110,
@@ -5979,9 +5962,26 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 16,
-        "available_bikes": 2,
-        "last_update": "2024-11-27T10:57:12+00:00"
+        "available_bike_stands": 15,
+        "available_bikes": 3,
+        "last_update": "2024-11-27T12:57:18+00:00"
+    },
+    {
+        "number": 382,
+        "name": "00382 - LIFFARD - SAINT SIMON",
+        "address": "Face 66, chemin de Liffard",
+        "position": {
+            "lon": 1.375571,
+            "lat": 43.564413
+        },
+        "banking": "False",
+        "bonus": "False",
+        "status": "OPEN",
+        "contract_name": "toulouse",
+        "bike_stands": 13,
+        "available_bike_stands": 10,
+        "available_bikes": 3,
+        "last_update": "2024-11-27T12:50:50+00:00"
     },
     {
         "number": 296,
@@ -5996,9 +5996,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 3,
-        "available_bikes": 10,
-        "last_update": "2024-11-27T10:56:54+00:00"
+        "available_bike_stands": 11,
+        "available_bikes": 2,
+        "last_update": "2024-11-27T12:58:20+00:00"
     },
     {
         "number": 246,
@@ -6013,26 +6013,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 19,
-        "available_bikes": 1,
-        "last_update": "2024-11-27T10:59:51+00:00"
-    },
-    {
-        "number": 163,
-        "name": "00163 - BEDOUCE - MARNE",
-        "address": "115 AV ALBERT BEDOUCE",
-        "position": {
-            "lon": 1.462341,
-            "lat": 43.581506
-        },
-        "banking": "False",
-        "bonus": "False",
-        "status": "OPEN",
-        "contract_name": "toulouse",
-        "bike_stands": 20,
-        "available_bike_stands": 18,
-        "available_bikes": 1,
-        "last_update": "2024-11-27T10:59:40+00:00"
+        "available_bike_stands": 14,
+        "available_bikes": 6,
+        "last_update": "2024-11-27T12:56:54+00:00"
     },
     {
         "number": 145,
@@ -6047,26 +6030,26 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 11,
-        "available_bikes": 5,
-        "last_update": "2024-11-27T10:56:32+00:00"
+        "available_bike_stands": 5,
+        "available_bikes": 11,
+        "last_update": "2024-11-27T12:57:38+00:00"
     },
     {
-        "number": 99,
-        "name": "00099 - METZ - REMPART ST-\u00c9TIENNE",
-        "address": "7 RUE DU REMPART ST ETIENNE",
+        "number": 163,
+        "name": "00163 - BEDOUCE - MARNE",
+        "address": "115 AV ALBERT BEDOUCE",
         "position": {
-            "lon": 1.45065484986121,
-            "lat": 43.6008250248339
+            "lon": 1.462341,
+            "lat": 43.581506
         },
         "banking": "False",
         "bonus": "False",
         "status": "OPEN",
         "contract_name": "toulouse",
-        "bike_stands": 16,
-        "available_bike_stands": 14,
-        "available_bikes": 2,
-        "last_update": "2024-11-27T10:59:12+00:00"
+        "bike_stands": 20,
+        "available_bike_stands": 13,
+        "available_bikes": 6,
+        "last_update": "2024-11-27T12:58:56+00:00"
     },
     {
         "number": 32,
@@ -6081,9 +6064,26 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 12,
-        "available_bike_stands": 5,
-        "available_bikes": 7,
-        "last_update": "2024-11-27T10:59:44+00:00"
+        "available_bike_stands": 11,
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:58:33+00:00"
+    },
+    {
+        "number": 99,
+        "name": "00099 - METZ - REMPART ST-\u00c9TIENNE",
+        "address": "7 RUE DU REMPART ST ETIENNE",
+        "position": {
+            "lon": 1.45065484986121,
+            "lat": 43.6008250248339
+        },
+        "banking": "False",
+        "bonus": "False",
+        "status": "OPEN",
+        "contract_name": "toulouse",
+        "bike_stands": 16,
+        "available_bike_stands": 11,
+        "available_bikes": 5,
+        "last_update": "2024-11-27T12:58:38+00:00"
     },
     {
         "number": 352,
@@ -6100,7 +6100,7 @@
         "bike_stands": 13,
         "available_bike_stands": 7,
         "available_bikes": 4,
-        "last_update": "2024-11-27T10:52:42+00:00"
+        "last_update": "2024-11-27T12:54:05+00:00"
     },
     {
         "number": 5,
@@ -6115,9 +6115,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 19,
-        "available_bike_stands": 17,
-        "available_bikes": 2,
-        "last_update": "2024-11-27T10:58:10+00:00"
+        "available_bike_stands": 8,
+        "available_bikes": 11,
+        "last_update": "2024-11-27T12:58:56+00:00"
     },
     {
         "number": 289,
@@ -6132,9 +6132,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 10,
-        "available_bikes": 3,
-        "last_update": "2024-11-27T10:58:17+00:00"
+        "available_bike_stands": 8,
+        "available_bikes": 5,
+        "last_update": "2024-11-27T12:57:17+00:00"
     },
     {
         "number": 205,
@@ -6149,9 +6149,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 16,
-        "available_bikes": 2,
-        "last_update": "2024-11-27T10:53:39+00:00"
+        "available_bike_stands": 18,
+        "available_bikes": 0,
+        "last_update": "2024-11-27T12:55:47+00:00"
     },
     {
         "number": 265,
@@ -6166,9 +6166,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 9,
-        "available_bikes": 9,
-        "last_update": "2024-11-27T10:59:58+00:00"
+        "available_bike_stands": 6,
+        "available_bikes": 12,
+        "last_update": "2024-11-27T12:56:50+00:00"
     },
     {
         "number": 73,
@@ -6183,9 +6183,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 16,
-        "available_bike_stands": 9,
-        "available_bikes": 7,
-        "last_update": "2024-11-27T10:53:01+00:00"
+        "available_bike_stands": 13,
+        "available_bikes": 3,
+        "last_update": "2024-11-27T12:55:27+00:00"
     },
     {
         "number": 86,
@@ -6200,26 +6200,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 14,
-        "available_bikes": 4,
-        "last_update": "2024-11-27T10:57:45+00:00"
-    },
-    {
-        "number": 66,
-        "name": "00066 - JARDIN ROYAL",
-        "address": "RUE DU 8 MAI 1945 / FACE JARDIN ROYAL",
-        "position": {
-            "lon": 1.45104,
-            "lat": 43.596419
-        },
-        "banking": "False",
-        "bonus": "False",
-        "status": "OPEN",
-        "contract_name": "toulouse",
-        "bike_stands": 23,
-        "available_bike_stands": 22,
-        "available_bikes": 0,
-        "last_update": "2024-11-27T10:54:46+00:00"
+        "available_bike_stands": 16,
+        "available_bikes": 2,
+        "last_update": "2024-11-27T12:58:48+00:00"
     },
     {
         "number": 125,
@@ -6234,9 +6217,26 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 25,
-        "available_bike_stands": 23,
+        "available_bike_stands": 21,
+        "available_bikes": 3,
+        "last_update": "2024-11-27T12:56:13+00:00"
+    },
+    {
+        "number": 66,
+        "name": "00066 - JARDIN ROYAL",
+        "address": "RUE DU 8 MAI 1945 / FACE JARDIN ROYAL",
+        "position": {
+            "lon": 1.45104,
+            "lat": 43.596419
+        },
+        "banking": "False",
+        "bonus": "False",
+        "status": "OPEN",
+        "contract_name": "toulouse",
+        "bike_stands": 23,
+        "available_bike_stands": 20,
         "available_bikes": 2,
-        "last_update": "2024-11-27T10:58:37+00:00"
+        "last_update": "2024-11-27T12:55:52+00:00"
     },
     {
         "number": 14,
@@ -6251,9 +6251,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 17,
-        "available_bike_stands": 3,
-        "available_bikes": 13,
-        "last_update": "2024-11-27T10:57:19+00:00"
+        "available_bike_stands": 6,
+        "available_bikes": 10,
+        "last_update": "2024-11-27T12:58:43+00:00"
     },
     {
         "number": 177,
@@ -6268,9 +6268,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 15,
-        "available_bikes": 4,
-        "last_update": "2024-11-27T10:55:32+00:00"
+        "available_bike_stands": 19,
+        "available_bikes": 0,
+        "last_update": "2024-11-27T12:56:34+00:00"
     },
     {
         "number": 155,
@@ -6285,9 +6285,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 16,
-        "available_bikes": 3,
-        "last_update": "2024-11-27T10:56:34+00:00"
+        "available_bike_stands": 15,
+        "available_bikes": 4,
+        "last_update": "2024-11-27T12:55:31+00:00"
     },
     {
         "number": 256,
@@ -6302,9 +6302,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 18,
-        "available_bikes": 0,
-        "last_update": "2024-11-27T10:57:52+00:00"
+        "available_bike_stands": 13,
+        "available_bikes": 4,
+        "last_update": "2024-11-27T12:58:07+00:00"
     },
     {
         "number": 69,
@@ -6319,9 +6319,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 16,
-        "available_bikes": 2,
-        "last_update": "2024-11-27T10:59:20+00:00"
+        "available_bike_stands": 17,
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:58:29+00:00"
     },
     {
         "number": 189,
@@ -6336,9 +6336,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 19,
-        "available_bike_stands": 17,
-        "available_bikes": 1,
-        "last_update": "2024-11-27T10:57:45+00:00"
+        "available_bike_stands": 18,
+        "available_bikes": 0,
+        "last_update": "2024-11-27T12:58:38+00:00"
     },
     {
         "number": 364,
@@ -6353,9 +6353,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 1,
+        "available_bike_stands": 0,
         "available_bikes": 11,
-        "last_update": "2024-11-27T10:54:00+00:00"
+        "last_update": "2024-11-27T12:56:07+00:00"
     },
     {
         "number": 350,
@@ -6370,9 +6370,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 6,
-        "available_bikes": 3,
-        "last_update": "2024-11-27T10:59:55+00:00"
+        "available_bike_stands": 8,
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:52:30+00:00"
     },
     {
         "number": 12,
@@ -6387,9 +6387,26 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 11,
-        "available_bike_stands": 6,
-        "available_bikes": 4,
-        "last_update": "2024-11-27T10:58:34+00:00"
+        "available_bike_stands": 9,
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:57:37+00:00"
+    },
+    {
+        "number": 20,
+        "name": "00020 - CARNOT - TROIS JOURNEES",
+        "address": "69 BD LAZARE CARNOT",
+        "position": {
+            "lon": 1.449586,
+            "lat": 43.604677
+        },
+        "banking": "False",
+        "bonus": "False",
+        "status": "OPEN",
+        "contract_name": "toulouse",
+        "bike_stands": 26,
+        "available_bike_stands": 26,
+        "available_bikes": 0,
+        "last_update": "2024-11-27T12:57:45+00:00"
     },
     {
         "number": 43,
@@ -6405,25 +6422,8 @@
         "contract_name": "toulouse",
         "bike_stands": 22,
         "available_bike_stands": 19,
-        "available_bikes": 2,
-        "last_update": "2024-11-27T10:58:13+00:00"
-    },
-    {
-        "number": 20,
-        "name": "00020 - CARNOT - TROIS JOURNEES",
-        "address": "69 BD LAZARE CARNOT",
-        "position": {
-            "lon": 1.449586,
-            "lat": 43.604677
-        },
-        "banking": "False",
-        "bonus": "False",
-        "status": "OPEN",
-        "contract_name": "toulouse",
-        "bike_stands": 26,
-        "available_bike_stands": 18,
-        "available_bikes": 8,
-        "last_update": "2024-11-27T10:58:44+00:00"
+        "available_bikes": 1,
+        "last_update": "2024-11-27T12:58:37+00:00"
     },
     {
         "number": 232,
@@ -6438,9 +6438,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 15,
-        "available_bike_stands": 9,
-        "available_bikes": 6,
-        "last_update": "2024-11-27T10:53:10+00:00"
+        "available_bike_stands": 15,
+        "available_bikes": 0,
+        "last_update": "2024-11-27T12:52:57+00:00"
     },
     {
         "number": 307,
@@ -6455,9 +6455,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 8,
-        "available_bikes": 5,
-        "last_update": "2024-11-27T10:59:09+00:00"
+        "available_bike_stands": 11,
+        "available_bikes": 2,
+        "last_update": "2024-11-27T12:58:33+00:00"
     },
     {
         "number": 46,
@@ -6472,9 +6472,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 8,
-        "available_bikes": 12,
-        "last_update": "2024-11-27T10:59:18+00:00"
+        "available_bike_stands": 16,
+        "available_bikes": 4,
+        "last_update": "2024-11-27T12:58:47+00:00"
     },
     {
         "number": 203,
@@ -6489,9 +6489,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 20,
-        "available_bike_stands": 18,
-        "available_bikes": 1,
-        "last_update": "2024-11-27T10:54:47+00:00"
+        "available_bike_stands": 13,
+        "available_bikes": 7,
+        "last_update": "2024-11-27T12:54:45+00:00"
     },
     {
         "number": 311,
@@ -6506,9 +6506,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 13,
-        "available_bike_stands": 0,
-        "available_bikes": 9,
-        "last_update": "2024-11-27T10:59:59+00:00"
+        "available_bike_stands": 3,
+        "available_bikes": 8,
+        "last_update": "2024-11-27T12:51:54+00:00"
     },
     {
         "number": 132,
@@ -6523,9 +6523,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 19,
-        "available_bike_stands": 18,
-        "available_bikes": 0,
-        "last_update": "2024-11-27T10:52:16+00:00"
+        "available_bike_stands": 15,
+        "available_bikes": 3,
+        "last_update": "2024-11-27T12:54:38+00:00"
     },
     {
         "number": 63,
@@ -6540,9 +6540,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 22,
-        "available_bike_stands": 21,
-        "available_bikes": 1,
-        "last_update": "2024-11-27T10:58:48+00:00"
+        "available_bike_stands": 20,
+        "available_bikes": 2,
+        "last_update": "2024-11-27T12:56:18+00:00"
     },
     {
         "number": 181,
@@ -6559,7 +6559,7 @@
         "bike_stands": 17,
         "available_bike_stands": 15,
         "available_bikes": 2,
-        "last_update": "2024-11-27T10:50:08+00:00"
+        "last_update": "2024-11-27T12:51:12+00:00"
     },
     {
         "number": 50,
@@ -6574,9 +6574,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 23,
-        "available_bike_stands": 20,
-        "available_bikes": 3,
-        "last_update": "2024-11-27T10:59:27+00:00"
+        "available_bike_stands": 19,
+        "available_bikes": 4,
+        "last_update": "2024-11-27T12:51:17+00:00"
     },
     {
         "number": 264,
@@ -6591,9 +6591,9 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 18,
-        "available_bike_stands": 8,
-        "available_bikes": 10,
-        "last_update": "2024-11-27T10:52:16+00:00"
+        "available_bike_stands": 7,
+        "available_bikes": 11,
+        "last_update": "2024-11-27T12:55:28+00:00"
     },
     {
         "number": 157,
@@ -6608,8 +6608,8 @@
         "status": "OPEN",
         "contract_name": "toulouse",
         "bike_stands": 19,
-        "available_bike_stands": 13,
-        "available_bikes": 4,
-        "last_update": "2024-11-27T10:58:07+00:00"
+        "available_bike_stands": 12,
+        "available_bikes": 5,
+        "last_update": "2024-11-27T12:55:45+00:00"
     }
 ]

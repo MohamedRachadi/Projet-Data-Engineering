@@ -403,3 +403,20 @@ def update_consolidate_station():
         )
         WHERE lower(CITY_NAME) IN ('nantes', 'toulouse');
     """)
+
+def update_consolidate_city():
+    con = duckdb.connect(database="data/duckdb/mobility_analysis.duckdb", read_only=False)
+    con.execute("""
+        UPDATE CONSOLIDATE_CITY
+        SET ID = (
+            SELECT COMMUNES.id
+            FROM CONSOLIDATE_COMMUNES AS COMMUNES
+            WHERE lower(COMMUNES.name) = lower(CONSOLIDATE_CITY.name)
+            AND COMMUNES.CREATED_DATE = (
+                SELECT MAX(CREATED_DATE)
+                FROM CONSOLIDATE_COMMUNES
+                WHERE lower(name) = lower(CONSOLIDATE_CITY.name)
+            )
+        )
+        WHERE lower(NAME) = 'toulouse';  
+    """)

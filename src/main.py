@@ -17,7 +17,8 @@ from data_consolidation import (
     consolidate_toulouse_station_data,
     consolidate_communes_data,
     update_consolidate_station,
-    toulouse_consolidate_city_data
+    toulouse_consolidate_city_data,
+    update_consolidate_city
 
 )
 from data_ingestion import (
@@ -53,6 +54,7 @@ def main():
     consolidate_toulouse_station_data()
     consolidate_communes_data()
     update_consolidate_station()
+    update_consolidate_city()
     print("Consolidation data ended.")
 
     # data agregation
