@@ -1,10 +1,13 @@
-# Sujet de travaux pratiques "Introduction à la data ingénierie"
+# Projet Data Engineering : Pipeline de données des stations de vélos
 
-Le but de ce projet est de créer un pipeline ETL d'ingestion, de transformation et de stockage de données pour mettre en pratique les connaissances acquises lors du cours d'introduction à la data ingénierie. Ce sujet présenté propose d'utiliser les données d'utilisation des bornes de vélos open-sources et "temps réel" des bornes de vélos dans les grandes villes de France.
+Ce projet traite des données en temps réel des stations de vélos à Paris, Nantes et Toulouse. Il consolide, transforme et agrège ces données pour une utilisation analytique. Le workflow comprend l'ingestion de données JSON, leur consolidation dans un format structuré, et leur agrégation pour un reporting final.
 
-Le sujet propose une base qui est un pipeline ETL complet qui couvre la récupération, le stockage et la transformation des données open sources de la ville de Paris.
+## Objectifs principaux
 
-Le but du sujet de travaux pratiques est d'ajouter à ce pipeline des données provenant d'autres grandes villes de France. Ces données sont disponibles pour les villes de Nantes, de Toulouse ou encore de Strasbourg. Il faudra aussi enrichir ces données avec les données descriptives des villes de France, via une API de l'État français open-source.
+- Récupérer les données des stations de vélos à Nantes et Toulouse via des APIs.
+- Normaliser les données des deux villes pour garantir une structure uniforme.
+- Analyser les données consolidées pour obtenir des insights exploitables.
+- Assurer la maintenabilité et l’évolutivité du pipeline.
 
 ## Explication du code existant
 
@@ -17,6 +20,10 @@ Le projet est découpé en 3 parties :
 3. Un fichier python pour agréger les données et créer une modélisation de type dimensionnelle
 
 ### Ingestion des données
+
+Ces fonctions sont des points clés de la phase d'ingestion des données dans le projet. Elles récupèrent les données en temps réel via des API publiques pour alimenter le pipeline d'analyse.
+
+### code existant de Paris
 
 ```python
 def get_paris_realtime_bicycle_data():
@@ -33,6 +40,61 @@ def serialize_data(raw_json: str, file_name: str):
 ```
 
 Ces fonctions python sont assez simples. Elles récupèrent les données sur une API open-source, et les stockent dans un fichier json localement. Ces fonctions sont dans le fichier python `data_ingestion.py`.
+
+### code ajouté de Nantes et Toulouse
+
+```python
+
+def get_nantes_realtime_bicycle_data():
+    url = "https://data.nantesmetropole.fr/api/explore/v2.1/catalog/datasets/244400404_stations-velos-libre-service-nantes-metropole-disponibilites/exports/json"
+    response = requests.request("GET", url)
+    if response.status_code == 200:
+        serialize_data(response.text, "nantes_realtime_bicycle_data.json")
+    else:
+        print(f"Failed to fetch data for Nantes. Status code: {response.status_code}")
+
+def get_toulouse_realtime_bicycle_data():
+    url = "https://data.toulouse-metropole.fr/api/explore/v2.1/catalog/datasets/api-velo-toulouse-temps-reel/exports/json"
+    response = requests.request("GET", url)
+    if response.status_code == 200:
+        serialize_data(response.text, "toulouse_realtime_bicycle_data.json")
+    else:
+        print(f"Failed to fetch data for Toulouse. Status code: {response.status_code}")
+
+def get_communes_realtime_data():
+    url = "https://geo.api.gouv.fr/communes"
+    response = requests.get(url)
+    if response.status_code == 200:
+        json_data = json.dumps(response.json(), ensure_ascii=False, indent=4)
+        serialize_data(json_data, "communes_realtime_data.json")
+    else:
+        print(f"Failed to fetch data for Communes. Status code: {response.status_code}")
+
+```
+
+- La fonction '**get_nantes_realtime_bicycle_data**' se concentre sur la récupération des données des stations de vélos en libre-service pour la métropole de Nantes, incluant des informations telles que l'état des stations, la disponibilité des vélos et leur capacité. De manière similaire, la fonction '**get_toulouse_realtime_bicycle_data**' permet d'obtenir des données actualisées sur les stations de vélos pour la métropole de Toulouse, fournissant des informations structurées pour un traitement ultérieur.
+
+- la fonction '**get_communes_realtime_data**' enrichit le pipeline en récupérant des informations détaillées sur les communes françaises, comme leurs noms, codes postaux et populations, afin de compléter les données des villes pour les analyses. Ensemble, ces fonctions assurent la collecte de données à jour, sauvegardées localement sous forme de fichiers JSON pour être consolidées et analysées dans les étapes suivantes du pipeline.
+
+### Création de la table consolidate_communes
+
+```sql
+CREATE TABLE IF NOT EXISTS CONSOLIDATE_COMMUNES(
+    id VARCHAR NOT NULL,
+    name VARCHAR ,
+    department_code VARCHAR,
+    region_code VARCHAR,
+    postal_codes VARCHAR,
+    population INTEGER,
+    CREATED_DATE VARCHAR,
+    PRIMARY KEY (id, CREATED_DATE)
+);
+```
+
+La table '**CONSOLIDATE_COMMUNES**' a été créée pour centraliser les données des communes françaises issues de l'API des communes françaises, assurant ainsi une meilleure performance, indépendance et traçabilité. Elle permet d'éviter les appels répétés à l'API, réduisant les temps de traitement tout en offrant la flexibilité de croiser ces informations avec d'autres tables. 
+
+
+
 
 ### Consolidation des données
 
@@ -52,63 +114,36 @@ def create_consolidate_tables():
 
 Une fois les tables créées, on peut lancer les autres fonctions de consolidation. Elles fonctionnent toutes de la même manière :
 
-```python
-def consolidate_station_data():
-    con = duckdb.connect(database = "data/duckdb/mobility_analysis.duckdb", read_only = False)
-    data = {}
-    # Consolidation logic for Paris Bicycle data
-    with open(f"data/raw_data/{today_date}/paris_realtime_bicycle_data.json") as fd:
-        data = json.load(fd)
-    paris_raw_data_df = pd.json_normalize(data)
-    paris_raw_data_df["id"] = paris_raw_data_df["stationcode"].apply(lambda x: f"{PARIS_CITY_CODE}-{x}")
-    paris_raw_data_df["address"] = None
-    paris_raw_data_df["created_date"] = date.today()
-    paris_station_data_df = paris_raw_data_df[[
-        "id",
-        "stationcode",
-        "name",
-        "nom_arrondissement_communes",
-        "code_insee_commune",
-        "address",
-        "coordonnees_geo.lon",
-        "coordonnees_geo.lat",
-        "is_installed",
-        "created_date",
-        "capacity"
-    ]]
-    paris_station_data_df.rename(columns={
-        "stationcode": "code",
-        "name": "name",
-        "coordonnees_geo.lon": "longitude",
-        "coordonnees_geo.lat": "latitude",
-        "is_installed": "status",
-        "nom_arrondissement_communes": "city_name",
-        "code_insee_commune": "city_code"
-    }, inplace=True)
-    con.execute("INSERT OR REPLACE INTO CONSOLIDATE_STATION SELECT * FROM paris_station_data_df;")
-```
+1. Consolidation des données de Nantes
 
-Explication de cette fonction :
+- '**nantes_consolidate_city_data**' : Cette fonction prépare les données pour la ville de Nantes, en spécifiant un city_code fixe qu'on récupère après automatiquement à partir de la table consolidate_communes quand a créé et remplit à partir des données de l'API des communes françaises, le nom de la ville ("Nantes") et en ajoutant une colonne pour la date de création (created_date). Les données sont ensuite insérées dans la table CONSOLIDATE_CITY.
 
-- On commence par créer une connexion à la base duckdb (`read_only = False`) car on va insérer les données dans la base.
+- '**consolidate_nantes_station_data**' : Cette fonction traite les données des stations de vélos de Nantes. Elle extrait les informations des données brutes JSON, ajoute un identifiant (id), un code pour la ville (city_code) et normalise les colonnes. Les données sont ensuite insérées dans la table CONSOLIDATE_STATION après transformation et standardisation.
 
-- On charge les données depuis les fichiers JSON locaux que l'on a ingérés dans l'étape précédente dans un dataframe Pandas.
+- '**nantes_consolidate_station_statement_data**' : Cette fonction s'occupe des données de disponibilité des stations de Nantes. Elle extrait les informations sur le nombre de vélos et de bornes disponibles, ainsi que la date de mise à jour, et les insère dans la table CONSOLIDATE_STATION_STATEMENT.
 
-- On travaille notre dataframe pour :
-  - renommer les colonnes
-  - supprimer les colonnes inutiles
-  - ajouter des colonnes qui sont attendues par la table `CONSOLIDATE_STATION` dans notre base de données (ici `id`, `address`, `created_date`)
+2. Consolidation des données de Toulouse
 
-- On insère les données dans la base directement depuis le dataframe (fonctionnalité de duckdb, voir la documentation).
+- '**toulouse_consolidate_city_data**' : Similaire à Nantes, cette fonction initialise les données pour la ville de Toulouse avec un city_code fixe (mise à jour de cet attribut avec des données de la table consolidate_commune) et insère les informations de la ville dans CONSOLIDATE_CITY.
 
-**ATTENTION** : Lors de l'insertion de données dans une table duckdb avec une requête SQL `INSERT OR REPLACE INTO CONSOLIDATE_STATION SELECT * FROM paris_station_data_df;`, il faut s'assurer que :
+- '**consolidate_toulouse_station_data**' : Cette fonction traite les données des stations de vélos de Toulouse, en suivant les mêmes étapes que pour Nantes : extraction, normalisation et insertion dans la table CONSOLIDATE_STATION.
 
-- votre dataframe contient le même nombre de colonnes que la table dans la base de données
-- les colonnes dans votre dataframe et dans la table doivent être dans le même ordre
+- '**toulouse_consolidate_station_statement_data**' : Cette fonction extrait les informations des stations de vélos en libre-service pour Toulouse, notamment la disponibilité des vélos et des bornes, puis les insère dans CONSOLIDATE_STATION_STATEMENT.
 
-**ATTENTION 2** : Les données sont historisées dans les tables de consolidation (d'où la présence des colonnes `created_date` et `id` ou `station_id`). C'est uniquement un choix de conception. Vous pouvez changer ce comportement et supprimer / recharger les données à chaque fois.
 
-Les autres fonctions de consolidation sont similaires.
+3. Consolidation des communes
+
+- '**consolidate_communes_data**' : Cette fonction extrait les données des communes françaises à partir d'une API externe. Elle normalise les colonnes, ajoute une date de création (created_date) et les insère dans la table CONSOLIDATE_COMMUNES. Cette table est essentielle pour enrichir les informations sur les villes avec des données telles que le code postal et la population.
+
+4. Mise à jour des tables consolidées
+
+- '**update_consolidate_station**' : Cette fonction met à jour le champ CITY_CODE dans la table CONSOLIDATE_STATION en utilisant les données de la table CONSOLIDATE_COMMUNES, en comparant les noms de villes. Elle garantit que chaque station a un code ville valide basé sur les informations des communes.
+
+- '**update_consolidate_city**' permet de mettre à jour le champ ID dans la table CONSOLIDATE_CITY en se basant sur les données disponibles dans la table CONSOLIDATE_COMMUNES. L'objectif est d'assurer que l'ID de chaque ville dans CONSOLIDATE_CITY corresponde au code postal (ou identifiant unique) de la ville, tel qu'il est défini dans CONSOLIDATE_COMMUNES. 
+
+
+
+
 
 ### Agrégation des données
 
@@ -118,7 +153,12 @@ Dans le fichier `data_agregation.py` on trouve une fonction qui permet de créer
 
 - Une table de faits : `fact_station_statement` qui représente les relevés de disponibilité des vélos dans les stations.
 
-Vous ne devriez pas avoir à modifier les schémas des tables, mais vous pouvez le faire si vous voyez une optimisation ou si le schéma est contraignant pour vous pour la réalisation de ce TP.
+- La fonction `agregate_dim_city` permet d'enrichir les données des villes en consolidant les informations issues des tables `CONSOLIDATE_CITY` et `CONSOLIDATE_COMMUNES`. En reliant les deux tables par leur ID, elle extrait le nombre d'habitants depuis la table des communes et l'intègre à la table `DIM_CITY`. 
+
+- La fonction `aggregate_dim_commune` joue un rôle clé dans l'enrichissement des données géographiques consolidées. Elle insère ou met à jour la table `DIM_COMMUNE`(qu'on a créé) en sélectionnant les informations les plus récentes depuis la table `CONSOLIDATE_COMMUNES`. Cela garantit que les colonnes telles que l'identifiant, le nom, le code départemental, le code régional, les codes postaux, la population et la date de création reflètent les données les plus à jour. 
+
+
+
 
 ```python
 def create_agregate_tables():
@@ -150,26 +190,14 @@ Cette requête SQL réalise une jointure entre la table `CONSOLIDATE_STATION` et
 
 Le fichier `main.py` contient le code principal du processus et exécute séquentiellement les différentes fonctions expliquées plus haut. L'ordre des fonctions de consolidation et d'agrégation n'est pas important.
 
-### En résumé
 
-Voici un aperçu du processus final :
-
-![Process final](images/image.png)
-
-Même si les différents jobs sont présentés parallèlement ici, ils sont en vérité exécutés séquentiellement (voir le fichier `main.py`) car :
-
-- On ne peut pas faire de l'orchestration facilement dans les environnements locaux de Polytech
-
-- Ce n'est pas possible d'avoir des connexions concurrentes sur un cluster Duckdb en lecture / écriture.
-
-Cependant, ce pipeline ETL permet in fine de réaliser des analyses simples des données des stations de vélo en libre service en région parisienne.
 
 ### Comment faire fonctionner ce projet?
 
 Pour faire fonctionner ce sujet, c'est assez simple:
 
 ```bash 
-git clone https://github.com/kevinl75/polytech-de-101-2024-tp-subject.git
+git clone https://github.com/MohamedRachadi/Projet-Data-Engineering.git
 
 cd polytech-de-101-2024-tp-subject
 
@@ -182,33 +210,8 @@ pip install -r requirements.txt
 python src/main.py
 ```
 
-## Sujet du TP
 
-Le but de ce TP est d'enrichir ce pipeline avec des données provenant d'autres villes. Les sources de données disponibles sont :
-
-- [Open data Nantes](https://data.nantesmetropole.fr/explore/dataset/244400404_stations-velos-libre-service-nantes-metropole-disponibilites/api/)
-
-- [Open data Toulouse](https://data.toulouse-metropole.fr/explore/dataset/api-velo-toulouse-temps-reel/api/)
-
-**L'ajout d'une seule source de données est suffisant.**
-
-Aussi, il faut remplacer la source de données des tables `CONSOLIDATE_CITY` et `DIM_CITY` par les données provenant de l'API suivante :
-
-- [Open data communes](https://geo.api.gouv.fr/communes)
-
-Une fois l'acquisition de ces nouvelles données réalisée, il faut enrichir le pipeline avec les étapes suivantes :
-
-- ajouter les données de la nouvelle ville dans la consolidation des tables `CONSOLIDATE_STATION` et `CONSOLIDATE_STATION_STATEMENT`
-
-- remplacer la consolidation de `CONSOLIDATE_CITY` et l'adapter pour utiliser les données des communes récupérées plus haut
-
-- adapter si besoin les processus d'agrégation des tables `DIM_STATION` et `FACT_STATION_STATEMENT` et `DIM_CITY`
-
-Au final, le pipeline ETL manager devrait ressembler à ce qui suit :
-
-![Process final](images/image_2.png)
-
-Au final, vous devriez être capable de réaliser les requêtes SQL suivantes sur votre base de données DuckDB :
+Les résultats finaux après lancement des requetes:
 
 ```sql
 -- Nb d'emplacements disponibles de vélos dans une ville
@@ -229,19 +232,4 @@ FROM DIM_STATION ds JOIN (
     GROUP BY station_id
 ) AS tmp ON ds.id = tmp.station_id;
 ```
-
-Le sujet devra être rendu sous la forme d'un repository GitHub. Le projet peut être fait seul ou en duo.
-
-### Barème utilisé pour la notation finale :
-
-- Les ingestions fonctionnent correctement et produisent des fichiers json localement (5 points)
-
-- La consolidation actuelle est correctement enrichie avec les nouvelles données (5 points)
-
-- L'agrégation des données est correctement réalisée et les requêtes SQL ci-dessus fonctionnent correctement (5 points)
-
-- Le projet est correctement documenté (installation, exécution, explication de la logique du pipeline) (5 points)
-
-- 2 points bonus pour la clarté générale du code (commentaires, noms de variables, etc.)
-
-- 2 points bonus si d'autres sources de données sont ajoutées pour enrichir l'analyse finale. Attention, le projet doit fonctionner correctement.
+![Résultat final](images/result.png)
